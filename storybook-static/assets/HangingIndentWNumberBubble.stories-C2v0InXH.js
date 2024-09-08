@@ -1,0 +1,8 @@
+const m=({numberColor:n="#ffffff",bubbleBackgroundColor:o="#804c8a",bubbleSize:e="1.4em",strongText:s="Read the answers.",additionalText:u="Then write a question with why for each answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mi faucibus, commodo felis non, imperdiet arcu. Ut ullamcorper lacus enim, vitae feugiat massa volutpat ullamcorper. Fusce eros ante, efficitur sed enim id, congue tincidunt ipsum."})=>{const c=`text-indent:0; margin-right: .5em; color: ${n}; background-color: ${o};  width: ${e}; height: ${e}; line-height: ${e}; border-radius: 50%; text-align: center; display: inline-block;`;return`
+    <p style="text-indent:calc(-${e} - .5em); margin-left: calc(${e} + .5em);"><span style="${c}">
+    <strong>2</strong></span><strong>${s}</strong>${u}</span>
+    </p>
+  `},d={title:"Our World/Number Bubble with Hanging Indent Paragraph",tags:["autodocs"],parameters:{layout:"centered"}},l=n=>m(n),t=l.bind({});t.args={numberColor:"#ffffff",bubbleBackgroundColor:"#804c8a",bubbleSize:"1.4em",strongText:"Read the answers.",additionalText:"Then write a question with why for each answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mi faucibus, commodo felis non, imperdiet arcu. Ut ullamcorper lacus enim, vitae feugiat massa volutpat ullamcorper. Fusce eros ante, efficitur sed enim id, congue tincidunt ipsum."};var r,a,i;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:`args => {
+  // Generate HTML string from component
+  return HangingIndentWNumberBubble(args);
+}`,...(i=(a=t.parameters)==null?void 0:a.docs)==null?void 0:i.source}}};const g=["Default"];export{t as Default,g as __namedExportsOrder,d as default};
