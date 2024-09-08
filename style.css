@@ -99,6 +99,10 @@ button:focus-visible {
   padding: 3em;
 }
 
+.body {
+  background-color: #f9f9f9 !important;
+}
+
 .prismjs div.language-html:first-child {
   text-wrap: wrap !important;
 }
