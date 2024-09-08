@@ -14,5 +14,8 @@ const config = {
     name: "@storybook/html-vite",
     options: {},
   },
+  features: {
+    buildStoriesJson: true
+  },
 };
 export default config;
