@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5F616A25-7F2F-4822-9BF3-7DAF9964E443@1x</title>
+    <g id="Library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DP---Icons" transform="translate(-920.000000, -3306.000000)">
+            <g id="Group" transform="translate(920.000000, 3306.000000)">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <g id="icon/24x24/warning" transform="translate(1.000000, 2.000000)" fill="#404040">
+                    <path d="M11,3.99 L18.53,17 L3.47,17 L11,3.99 M11,0 L0,19 L22,19 L11,0 Z M12,14 L10,14 L10,16 L12,16 L12,14 Z M12,8 L10,8 L10,12 L12,12 L12,8 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(-1,0,0,1,24,0)">
+    <g transform="translate(-1103,-3306)">
+      <g transform="translate(1103,3306)">
+        <polygon points="24,0 24,24 0,24 0,0 " />
+        <path d="m 16.59,12 1.41,1.41 -6,6 -6,-6 L 7.41,12 12,16.58 Z m 0,-7 1.41,1.41 -6,6 -6,-6 L 7.41,5 12,9.58 Z" fill="currentColor" transform="rotate(-90,12,12.205)" />
+      </g>
+    </g>
+  </g>
+</svg>

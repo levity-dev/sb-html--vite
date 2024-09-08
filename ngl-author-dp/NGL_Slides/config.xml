@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <comment>NGL Primary</comment>
+  <entry key="preview_width">1000</entry>
+  <entry key="preview_height">690</entry>
+
+  <entry key="lo_options_from_dp">Header Theme,Text Size,Custom Text Size,Center Align Content,Center Alignment Width %,Flexible Layout %,Set Custom Space Between Content Boxes {vh},Add extra space between rubric and content {vh},Add or reduce FIB line heights by %,Show/Hide Speaking Recorder,Rich Text Editor WYSIWYG Controls,Show Content in Table,# of Columns,# of Rows,Column Widths %,Set custom margin % between columns</entry>
+  <entry key="lo_options_from_dp.header_theme.values">Outcomes Pre-Int,Outcomes Beginner,Voices Beginner,Voices Intermediate,Voices Pre-Intermediate,Voices Elementary,Voices Advanced,Voices Intermediate Plus,Voices Upper Intermediate,Our World Level 3,Our World Level 4,Our World Level 6,Impact Level 3,Pathways LS Level 1,Pathways LS Level 2,Pathways LS Level 4,Trailblazers Level 3</entry>
+  <entry key="lo_options_from_dp.header_theme.type">dropdown</entry>
+  <entry key="lo_options_from_dp.text_size.values">Small,Medium,Large,Extra Large,Custom</entry>
+  <entry key="lo_options_from_dp.text_size.type">dropdown</entry>
+  <entry key="lo_options_from_dp.flexible_layout_%.type">input</entry>
+  <entry key="lo_options_from_dp.show/hide_speaking_recorder.values">Show,Hide</entry>
+  <entry key="lo_options_from_dp.show/hide_speaking_recorder.type">dropdown</entry>
+  <entry key="lo_options_from_dp.center_align_content.values">On - based on content width,On - based on rubric width,On - based on input width %,Off</entry>
+  <entry key="lo_options_from_dp.center_align_content.type">dropdown</entry>
+  <entry key="lo_options_from_dp.center_alignment_width_%.type">input</entry>
+  <entry key="lo_options_from_dp.rich_text_editor_wysiwyg_controls.values">Hidden,Shown</entry>
+  <entry key="lo_options_from_dp.rich_text_editor_wysiwyg_controls.type">dropdown</entry>
+  <entry key="lo_options_from_dp.custom_text_size.type">input</entry>
+  <entry key="lo_options_from_dp.add_or_reduce_fib_line_heights_by_%.type">input</entry>
+  <entry key="lo_options_from_dp.set_custom_space_between_content_boxes_{vh}.type">input</entry>
+  <entry key="lo_options_from_dp.add_extra_space_between_rubric_and_content_{vh}.type">input</entry>
+
+  <entry key="lo_options_from_dp.show_content_in_table.values">On - ordered by column,On - ordered by row</entry>
+  <entry key="lo_options_from_dp.show_content_in_table.type">dropdown</entry>
+  <entry key="lo_options_from_dp.#_of_columns.type">input</entry>
+  <entry key="lo_options_from_dp.#_of_rows.type">input</entry>
+  <entry key="lo_options_from_dp.column_widths_%.type">input</entry>
+  <entry key="lo_options_from_dp.set_custom_margin_%_between_columns.type">input</entry>
+
+  
+  <entry key="ckeditor_css_path">css/ckeditor.css</entry>
+  <entry key="format_tags">p;h1;h2</entry>
+  <entry key="font_names">Open Sans Regular; Oswald</entry>
+  <entry key="edit_font_size">true</entry>
+  <entry key="edit_font_color">true</entry>
+  <entry key="edit_BGColor">true</entry>
+  <entry key="stylesheetparser">true</entry>
+  <entry key="table_classes">None;Default;instructional-content;word-box-7030-layout;Voices-skill-box;word-box-one-column;instructional-content-nested-table;multi-enumeration-table</entry>
+
+
+    
+  <entry key="disabled:layout.layout_04B_supplementTop">templates/layout_04B_supplementTop.png</entry>
+  <entry key="disabled:layout.layout_04B_toggleableMedia">templates/layout_04B_toggleableMedia.png</entry>
+
+  
+  <entry key="text_templates">true</entry>  
+
+  
+  <entry key="engine_dependency">buckminster-46.0.0-beta.4.0</entry>
+
+  
+  <entry key="engine_bootstrap_path">engineBootstrap</entry>
+
+  
+  
+
+  
+  <entry key="responsive_supplements">true</entry>
+
+  
+  <entry key="customization">false</entry>
+
+  
+  
+  <entry key="substyles" />
+
+  
+  <entry key="divclass" />
+
+  
+  <entry key="layout.layout_07A">templates/layout_07A.png</entry><entry key="layout.layout_08A">templates/layout_08A.png</entry><entry key="layout.layout_05A">templates/layout_05A.png</entry><entry key="layout.layout_06A">templates/layout_06A.png</entry><entry key="layout.layout_03A">templates/layout_03A.png</entry><entry key="layout.layout_04B">templates/layout_04B.png</entry><entry key="layout.layout_04A">templates/layout_04A.png</entry><entry key="layout.layout_05B">templates/layout_05B.png</entry><entry key="layout.layout_01A">templates/layout_01A.png</entry><entry key="layout.layout_02B">templates/layout_02B.png</entry><entry key="layout.layout_03C">templates/layout_03C.png</entry><entry key="layout.layout_02A">templates/layout_02A.png</entry><entry key="layout.layout_03B">templates/layout_03B.png</entry><entry key="layout.default">templates/layout_01A.png</entry><entry key="layout.layout_01M">templates/layout_01M.png</entry></properties>

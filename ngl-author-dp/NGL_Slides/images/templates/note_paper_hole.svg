@@ -1,0 +1,17 @@
+<svg width="26" height="50" viewbox="0 7 26 26" xmlns="http://www.w3.org/2000/svg">
+  <filter id="a" x="-50%" y="-50%" width="200%" height="200%">
+    <feComponentTransfer in="SourceAlpha">
+      <feFuncA type="table" tableValues="1 0"/>
+    </feComponentTransfer>
+    <feGaussianBlur stdDeviation="2"/>
+    <feOffset dy="2" result="offsetblur"/>
+    <feFlood flood-color="#000" result="color"/>
+    <feComposite in2="offsetblur" operator="in"/>
+    <feComposite in2="SourceAlpha" operator="in"/>
+    <feMerge>
+      <feMergeNode in="SourceGraphic"/>
+      <feMergeNode/>
+    </feMerge>
+  </filter>
+  <circle cx="13" cy="13" r="13" fill="#f9f9f9" filter="url(#a)"/>
+</svg>

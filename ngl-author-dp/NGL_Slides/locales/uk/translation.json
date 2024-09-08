@@ -1,0 +1,1771 @@
+{
+  "contentElements": {
+    "mediaPlayer": {
+      "button": {
+        "playbackSpeed1": {
+          "label": "0,5",
+          "description": "0,5"
+        },
+        "playbackSpeed2": {
+          "label": "0,75",
+          "description": "0,75"
+        },
+        "playbackSpeed3": {
+          "label": "Звичайна",
+          "description": "Звичайна"
+        },
+        "playbackSpeed4": {
+          "label": "1,25",
+          "description": "1,25"
+        },
+        "playbackSpeed5": {
+          "label": "1,5",
+          "description": "1,5"
+        },
+        "playbackSpeed6": {
+          "label": "2",
+          "description": "2"
+        },
+        "play": {
+          "label": "",
+          "description": "Відтворити {{title}}"
+        },
+        "pause": {
+          "label": "",
+          "description": "Призупинити"
+        },
+        "volume": {
+          "label": "",
+          "description": "Налаштувати гучність"
+        },
+        "mute": {
+          "label": "",
+          "description": "Вимкнути звук"
+        },
+        "speed": {
+          "label": "",
+          "description": "Швидкість відтворення"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "Показати розшифровку"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "Сховати розшифровку"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "Показати субтитри"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "Сховати субтитри"
+        },
+        "quality": {
+          "label": "",
+          "description": "Якість"
+        },
+        "qualityAuto": {
+          "label": "Авто",
+          "description": "Авто"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "Увімкнути повноекранний режим"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "Вийти з повноекранного режиму"
+        },
+        "playbackSpeed": {
+          "label": "Стандартна"
+        },
+        "stop": {
+          "label": "",
+          "description": "Зупинити"
+        },
+        "speedTurnOn": {
+          "label": "",
+          "description": "Зменшити швидкість відтворення"
+        },
+        "speedTurnOff": {
+          "label": "",
+          "description": "Нормальна швидкість відтворення"
+        },
+        "playbackTitle": "Швидкість"
+      },
+      "volumeStair": {
+        "prefix": "Гучність ",
+        "suffix": ""
+      },
+      "audio": {
+        "description": "Аудіо: {{title}}"
+      },
+      "video": {
+        "description": "Відео: {{title}}"
+      },
+      "volume": {
+        "description": "Поточна гучність"
+      },
+      "progress": {
+        "label": "Прогрес медіа",
+        "value": "{{current}} з {{total}}"
+      },
+      "subtitles": "Субтитри"
+    },
+    "icTextCorrectionDialog": {
+      "titlePrefix": "Замінити: ",
+      "placeholder": "Написати правильні слова",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        },
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Застосувати",
+          "description": "Застосувати зміни"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "Колір маркера"
+        }
+      },
+      "toolbar": "Панель інструментів розмалювання"
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "Мова",
+          "description": "Перемикач мови"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "Показати всі",
+          "description": ""
+        }
+      }
+    }
+  },
+  "body": {
+    "timer": {
+      "days": "день",
+      "days_plural": "дн.",
+      "hours": "година",
+      "hours_plural": "годин",
+      "label": "Часу лишилося:",
+      "negative": "-",
+      "minutes": "хвилина",
+      "minutes_plural": "хвилини",
+      "seconds": "секунда",
+      "seconds_plural": "секунди",
+      "extra": "додатково",
+      "extra_plural": "додатково",
+      "left": "лишилося",
+      "left_plural": "лишилося"
+    },
+    "error": {
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      },
+      "code_LO_OFFLINE": "Ви в автономному режимі. Перевірте підключення та повторіть спробу.",
+      "title": "Помилка",
+      "code_LO_START": "Під час завантаження раніше збережених даних сталася помилка. Закрийте та повторіть спробу.",
+      "code_LO_CLOSE": "Помилка під час закриття навчального об’єкта.",
+      "code_LO_SUBMIT": "Помилка під час надсилання навчального об’єкта.",
+      "code_LO_SUBMIT_NO_ATTEMPTS": "Більше немає доступних спроб. Неможливо надіслати навчальний об'єкт.",
+      "code_LO_SUBMIT_OFFLINE": "Неможливо надіслати навчальний об’єкт в автономному режимі. Перевірте підключення до Інтернету та повторіть спробу.",
+      "code_LO_SEND_SCORES": "Помилка під час надсилання оцінок із навчального об’єкта.",
+      "code_LO_SEND_SCORES_NO_ATTEMPTS": "Більше немає доступних спроб. Неможливо надіслати оцінки.",
+      "unexpected": "Сталася неочікувана помилка. Закрийте та повторіть спробу."
+    },
+    "figure": {
+      "button": {
+        "label": "Oпис",
+        "description": "Oпис"
+      }
+    },
+    "brand": "Avallain",
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Параметри",
+          "description": "Відкрити контекстне меню"
+        },
+        "toggleTurnOff": {
+          "label": "Параметри",
+          "description": "Закрити контекстне меню"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "Закрити"
+      }
+    },
+    "learningObject": {
+      "title": "Об'єкт навчання"
+    }
+  },
+  "interaction": {
+    "ppSlideshowToolbar": {
+      "seconds": " сек",
+      "button": {
+        "fullscreen": {
+          "label": "",
+          "description": "Повноекранний режим"
+        },
+        "previous": {
+          "label": "Назад",
+          "description": "Назад"
+        },
+        "next": {
+          "label": "Далі",
+          "description": "Далі"
+        },
+        "first": {
+          "label": "Перейти в початок",
+          "description": "Перейти в початок"
+        },
+        "last": {
+          "label": "Перейти в кінець",
+          "description": "Перейти в кінець"
+        },
+        "play": {
+          "label": "Відтворити",
+          "description": "Відтворити"
+        },
+        "pause": {
+          "label": "Пауза",
+          "description": "Пауза"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "Зменшити затримку"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "Збільшити затримку"
+        },
+        "shuffleOrder": {
+          "label": "Довільний порядок",
+          "description": "Довільний порядок"
+        },
+        "defaultOrder": {
+          "label": "Порядок за замовчуванням",
+          "description": "Порядок за замовчуванням"
+        },
+        "show": {
+          "label": "Показати",
+          "description": "Показати розшифрування"
+        },
+        "hide": {
+          "label": "Приховати",
+          "description": "Приховати розшифрування"
+        }
+      }
+    },
+    "shared": {
+      "answerCheckTooltipPrefix": "Ваша відповідь: ",
+      "prefilled": "Попередньо заповнена відповідь",
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span> помил."
+      },
+      "toolbar": {
+        "accessibilityToolbar": {
+          "label": "Режим дальтонізму",
+          "tooltip": "Категорії ідентифікуються за цифрою і кольором"
+        },
+        "button": {
+          "eraserOn": {
+            "label": "Ластик",
+            "description": "Ластик"
+          },
+          "eraserOff": {
+            "label": "Ластик",
+            "description": "Ластик"
+          },
+          "selected": "Вибрано",
+          "option": "Варіант"
+        },
+        "label": "Панель інструментів"
+      },
+      "card": {
+        "order": "Картка{{order}}/{{count}}:",
+        "status": {
+          "unturned": "Не перевернуто.",
+          "turned": "Перевернуто."
+        }
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "Параметри",
+          "description": "Параметри діалогового вікна"
+        },
+        "hideTurnOn": {
+          "label": "Сховати мої рядки",
+          "description": "Сховати мої рядки"
+        },
+        "hideTurnOff": {
+          "label": "Сховати мої рядки",
+          "description": "Показати мої рядки"
+        },
+        "hideAllTurnOn": {
+          "label": "Сховати всі рядки",
+          "description": "Сховати всі рядки"
+        },
+        "hideAllTurnOff": {
+          "label": "Сховати всі рядки",
+          "description": "Показати всі рядки"
+        },
+        "download": {
+          "label": "Завантажити",
+          "description": "Завантажити всі"
+        },
+        "playDialog": {
+          "label": "Діалог відтворення",
+          "description": ""
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "Текстовий ввід",
+        "label": "Проміжок {{order}}",
+        "labelGaps": "Проміжок {{order}} з {{count}} симв.",
+        "prefilled": "Попередньо заповнена відповідь: {{value}}"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "Вставити",
+          "spelling": "Орфографія: ",
+          "grammar": "Граматика: "
+        },
+        "placeholder": "Введіть те, що потрібно вставити",
+        "button": {
+          "close": {
+            "label": "Закрити",
+            "description": "Закрити це діалогове вікно"
+          },
+          "ok": {
+            "label": "Застосувати",
+            "description": "Застосувати зміни"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "Коректорські позначки",
+            "description": "Коректорські позначки"
+          },
+          "eraser": {
+            "label": "Ластик",
+            "description": "Стерти маркер"
+          },
+          "capitalize": {
+            "label": "Велика перша літера",
+            "description": "Велика перша літера"
+          },
+          "lowercase": {
+            "label": "Нижній регістр",
+            "description": "Нижній регістр"
+          },
+          "fullStop": {
+            "label": "Додати крапку",
+            "description": "Додати крапку"
+          },
+          "insert": {
+            "label": "Вставити",
+            "description": "Вставити"
+          },
+          "remove": {
+            "label": "Видалити",
+            "description": "Видалити"
+          },
+          "newParagraph": {
+            "label": "Новий абзац",
+            "description": "Новий абзац"
+          },
+          "spelling": {
+            "label": "Орфографія",
+            "description": "Орфографія"
+          },
+          "grammar": {
+            "label": "Граматика",
+            "description": "Граматика"
+          },
+          "indent": {
+            "label": "Відступ",
+            "description": "Відступ"
+          }
+        },
+        "label": "Панель інструментів перевірки"
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "correct": "Правильно",
+          "wrong": "Неправильно",
+          "missing": "Відсутньо",
+          "prefilled": "Попередньо заповнено"
+        },
+        "checkbox": "Не показувати знову",
+        "button": {
+          "close": {
+            "label": "Закрити",
+            "description": "Закрити таблицю ключів"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "Команда {{label}}",
+        "points": "бали",
+        "categories": "Категорії"
+      },
+      "gameOver": {
+        "team": "Команда {{label}}",
+        "winners": {
+          "conjunction": "та",
+          "suffix": "виграє.",
+          "suffix_plural": "виграють."
+        },
+        "greeting": "Вітаємо!"
+      },
+      "team": {
+        "team": "Команда {{label}}"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "Слухати"
+        },
+        "pause": {
+          "label": "",
+          "description": "Призупинити прослуховування"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "Зупинити прослуховування"
+        },
+        "record": {
+          "label": "Запишіть відповідь",
+          "description": "Запишіть відповідь"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "Призупинити запис"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "Зупинити запис"
+        },
+        "speak": {
+          "label": "Запишіть відповідь",
+          "description": "Запишіть відповідь"
+        },
+        "stopSpeaking": {
+          "label": "Говорити",
+          "description": "Зупинити запис"
+        },
+        "finish": {
+          "label": "",
+          "description": "Завершити запис"
+        },
+        "play": {
+          "label": "Відтворити",
+          "description": "Відтворити запис"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "Зупинити відтворення"
+        },
+        "download": {
+          "label": "",
+          "description": "Завантажити запис"
+        },
+        "retry": {
+          "label": "Повторити спробу",
+          "description": "Повторити спробу"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "Відтворити діалог",
+            "description": ""
+          },
+          "pause": {
+            "label": "Відтворити діалог",
+            "description": "Пауза"
+          },
+          "stop": {
+            "label": "",
+            "description": "Зупинити"
+          },
+          "prev": {
+            "label": "",
+            "description": "Назад"
+          },
+          "next": {
+            "label": "",
+            "description": "Далі"
+          }
+        }
+      },
+      "timelimit": "Максимальна тривалість відтворення становить {{time}} сек"
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "Ключі",
+        "subtitle_horizontal": "Зліва направо",
+        "subtitle_vertical": "Зверху вниз"
+      },
+      "cell": {
+        "description_horizontal": "Літера {{letterPosition}} слова {{wordReference}}, зліва направо",
+        "description_vertical": "Літера {{letterPosition}} слова {{wordReference}}, зверху вниз"
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "Скинути",
+          "description": "Скинути це речення"
+        }
+      },
+      "instructions": {
+        "replace": {
+          "description": "Виберіть слова для виправлення."
+        }
+      },
+      "group": "Виправлення тексту {{order}}.",
+      "modified": "Змінено",
+      "checkbox": {
+        "label": "Позначити речення {{order}}."
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "Гру закінчено!",
+        "body": "Гру закінчено.<br>Натисніть <q>Продовжити</q>, щоб продовжити.",
+        "button": {
+          "ok": {
+            "label": "Продовжити",
+            "description": "Закрити це діалогове вікно"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "Час: ",
+        "points": "Бали: "
+      },
+      "timeUp": {
+        "title": "Час вичерпано!",
+        "body": "Час вичерпано!<br>Натисніть <q>Продовжити</q>, щоб продовжити.",
+        "button": {
+          "ok": {
+            "label": "Продовжити",
+            "description": "Закрити це діалогове вікно"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "можливі відповіді"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "можливі відповіді"
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "Ваша відповідь:"
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "label": "Спроб лишилося: {{count}}",
+        "label_plural": "Спроб лишилося: {{count}}",
+        "description": "Спроб лишилося: {{count}} з {{total}}",
+        "description_plural": "Спроб лишилося: {{count}} з {{total}}"
+      }
+    },
+    "imVoiceFeedback": {
+      "low": "Пропущено",
+      "mid": "Звучить як",
+      "high": "Добре"
+    },
+    "imAutoCorrect": {
+      "description": "Знайдіть і позначте помилки в тексті"
+    },
+    "isDropdown": {
+      "combobox": {
+        "label": "Поставити {{order}}"
+      }
+    },
+    "osSequence": {
+      "instructions": {
+        "drag": {
+          "description": "Перемістіть плитки в правильному порядку за допомогою перетягування"
+        },
+        "swap": {
+          "description": "Перемістіть плитки в правильному порядку за допомогою клавіш зі стрілками"
+        }
+      },
+      "group": "Порядок {{order}}",
+      "button": {
+        "left": {
+          "description": "Перемістіть плитку ліворуч"
+        },
+        "right": {
+          "description": "Перемістити плитку праворуч"
+        },
+        "up": {
+          "description": "Перемістити плитку вгору"
+        },
+        "down": {
+          "description": "Перемістити плитку вниз"
+        },
+        "goLast": {
+          "description": "Перейти до кінця"
+        },
+        "goFirst": {
+          "description": "Перейти до початку"
+        }
+      }
+    },
+    "icVoice": {
+      "score": "Загальний бал",
+      "fluency": "Плавність",
+      "grammar": "Граматика",
+      "vocabulary": "Словниковий запас",
+      "pronunciation": "Вимова",
+      "relevance": {
+        "notRelevant": "Невідповідно!",
+        "partiallyRelevant": "Непогано!",
+        "relevant": "Гарна робота!"
+      },
+      "tabs": {
+        "feedback": "Зворотний зв'язок",
+        "transcript": "Розшифровка"
+      },
+      "transcript": {
+        "phoneme": "Фонема",
+        "score": "Оцінка",
+        "quality": {
+          "low": "Не знайдено",
+          "mid": "Звучить як {{phone}}",
+          "high": "Добре"
+        },
+        "tip": "Наведіть курсор на будь-яке слово, щоб перевірити свій рівень"
+      }
+    },
+    "linkingLines": {
+      "group": "Група {{group}} з {{count}} елементів.",
+      "enumGroup": "{{group}}",
+      "order": "{{group}}.{{order}}",
+      "prefilled": "(Заповнена відповідь, неінтерактивна)",
+      "linkedTo": "пов'язаний з"
+    },
+    "imMarking": {
+      "toolbar": "Панель інструментів позначення",
+      "instructions": {
+        "description": "Позначте слова з правильним вибором."
+      },
+      "group": "Позначення {{order}}."
+    }
+  },
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Відкрити інструменти"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Закрити інструменти"
+        },
+        "pointer": {
+          "label": "",
+          "description": "Вказівник"
+        },
+        "pen": {
+          "label": "",
+          "description": "Олівець"
+        },
+        "brush": {
+          "label": "",
+          "description": "Маркер"
+        },
+        "eraser": {
+          "label": "",
+          "description": "Ластик"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "Наліпки"
+        },
+        "undo": {
+          "label": "",
+          "description": "Скасувати"
+        },
+        "redo": {
+          "label": "",
+          "description": "Повторити"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "Сховати анотації"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "Показати анотації"
+        },
+        "richText": {
+          "label": "",
+          "description": "Повнофункціональні текстові нотатки"
+        },
+        "clearAll": {
+          "label": "",
+          "description": "Видалити всі примітки"
+        },
+        "textHighlighter": {
+          "label": "",
+          "description": "Текстовий маркер"
+        },
+        "shapes": {
+          "label": "Додати форму",
+          "description": "Форми"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Згорнути"
+        },
+        "expand": {
+          "label": "",
+          "description": "Розгорнути нотатку"
+        },
+        "delete": {
+          "label": "",
+          "description": "Видалити нотатку"
+        }
+      }
+    },
+    "timer": {
+      "title": "Таймер",
+      "minutes": "Хвилини",
+      "seconds": "Секунди",
+      "display": "Хвилини:Секунди",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити таймер"
+        },
+        "start": {
+          "label": "Запустити",
+          "description": "Запустити таймер"
+        },
+        "stop": {
+          "label": "Зупинити",
+          "description": "Зупинити таймер"
+        }
+      }
+    },
+    "richText": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Згорнути текст"
+        },
+        "delete": {
+          "label": "",
+          "description": "Видалити текст"
+        },
+        "expand": {
+          "label": "",
+          "description": "Розгорнути текст"
+        }
+      },
+      "control": {
+        "handle": {
+          "description": "Перетягніть, щоб перемістити текст"
+        }
+      }
+    },
+    "label": "Панель інструментів приміток"
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "Сторінка ",
+          "conjunction": " з ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "Поточна сторінка"
+        },
+        "screenSelection": {
+          "showScreenSelection": "Показати список сторінок",
+          "hideScreenSelection": "Сховати список сторінок"
+        }
+      },
+      "runningScore": {
+        "prefix": "Оцінка",
+        "conjunction": "/",
+        "suffix": "бали"
+      },
+      "button": {
+        "previous": {
+          "label": "Назад",
+          "description": "Назад"
+        },
+        "forward": {
+          "label": "Продовжити",
+          "description": "Продовжити"
+        },
+        "previousLO": {
+          "label": "Попередня активність",
+          "description": "Попередня активність"
+        },
+        "forwardLO": {
+          "label": "Наступна активність",
+          "description": "Наступна активність"
+        },
+        "rights": {
+          "label": "Інформація про авторські права",
+          "description": "Інформація про авторські права"
+        },
+        "signalShow": {
+          "label": "Показати неправильні слова",
+          "description": "Показати неправильні слова"
+        },
+        "signalHide": {
+          "label": "Сховати неправильні слова",
+          "description": "Сховати неправильні слова"
+        },
+        "answerNext": {
+          "label": "Наступна відповідь",
+          "description": "Наступна відповідь"
+        },
+        "answerAll": {
+          "label": "Всі відповіді",
+          "description": "Всі відповіді"
+        },
+        "solutionHint": {
+          "label": "Підказка рішення",
+          "description": "Підказка рішення"
+        },
+        "retry": {
+          "label": "Повторити спробу",
+          "description": "Повторити спробу"
+        },
+        "reveal": {
+          "label": "Показати",
+          "description": "Показати"
+        },
+        "hide": {
+          "label": "Сховати",
+          "description": "Сховати"
+        },
+        "save": {
+          "label": "Зберегти",
+          "description": "Зберегти"
+        },
+        "boxdrop": {
+          "label": "Відпустити",
+          "description": "Відпустити"
+        },
+        "boxdropPause": {
+          "label": "Призупинити",
+          "description": "Призупинити активність"
+        },
+        "boxdropResume": {
+          "label": "Продовжити",
+          "description": "Продовжити активність"
+        },
+        "quizNew": {
+          "label": "Нова гра",
+          "description": "Перезапустити гру з новими запитаннями"
+        },
+        "quizRestart": {
+          "label": "Перезапустити гру",
+          "description": "Перезапустити гру з тими ж самими запитаннями"
+        },
+        "quizSkip": {
+          "label": "Пропустити запитання",
+          "description": "Пропустити запитання та передати хід"
+        },
+        "quizBack": {
+          "label": "Назад",
+          "description": "Перейти до ігрової дошки"
+        },
+        "loNotes": {
+          "label": "Нотатки",
+          "description": "Нотатки"
+        },
+        "micSettings": {
+          "label": "Налаштування мікрофона",
+          "description": "Налаштування мікрофона"
+        },
+        "specialChars": {
+          "label": "Спеціальні символи",
+          "description": "Спеціальні символи"
+        },
+        "export": {
+          "label": "Експорт",
+          "description": "Експорт"
+        },
+        "imProofingHint": {
+          "label": "Підказка",
+          "description": "Дайте мені підказку"
+        },
+        "hints": {
+          "label": "Перша підказка",
+          "description": "Перша підказка"
+        },
+        "hintsSecond": {
+          "label": "Друга підказка"
+        },
+        "hintsThird": {
+          "label": "Третя підказка"
+        },
+        "help": {
+          "label": "Довідка",
+          "description": "Довідка"
+        },
+        "answers": {
+          "label": "Переглянути відповіді",
+          "description": "Показати відповіді"
+        },
+        "check": {
+          "label": "Перевірити відповіді",
+          "description": "Перевірити відповіді"
+        },
+        "reset": {
+          "label": "Очистити",
+          "description": "Очистити"
+        },
+        "resetAll": {
+          "label": "Очистити всі",
+          "description": "Очистити все"
+        },
+        "fullscreenTurnOn": {
+          "label": "Повноекранний режим",
+          "description": "Повноекранний режим"
+        },
+        "fullscreenTurnOff": {
+          "label": "Повноекранний режим",
+          "description": "Повноекранний режим"
+        },
+        "toc": {
+          "label": "Зміст",
+          "description": "Зміст"
+        },
+        "results": {
+          "label": "Результати",
+          "description": "Результати"
+        },
+        "sectionTimes": {
+          "label": "Витрачений час",
+          "description": "Витрачений час"
+        },
+        "sendscores": {
+          "label": "Надіслати оцінки",
+          "description": "Надіслати оцінки"
+        },
+        "exercises": {
+          "label": "Переглянути",
+          "description": "Переглянути"
+        },
+        "submit": {
+          "label": "Надіслати",
+          "description": "Надіслати"
+        },
+        "countdown": {
+          "label": "Таймер",
+          "description": "Таймер"
+        },
+        "hideContent": {
+          "label": "Сховати вмісту",
+          "description": "Сховати вміст"
+        },
+        "showContent": {
+          "label": "Показати вміст",
+          "description": "Показати вміст"
+        },
+        "hideRubric": {
+          "label": "Сховати рубрику",
+          "description": "Сховати рубрику"
+        },
+        "showRubric": {
+          "label": "Показати рубрику",
+          "description": "Показати рубрику"
+        },
+        "hideContentRubric": {
+          "label": "Сховати рубрику та вміст",
+          "description": "Сховати рубрику та вміст"
+        },
+        "showContentRubric": {
+          "label": "Показати рубрику та вміст",
+          "description": "Показати рубрику та вміст"
+        }
+      }
+    },
+    "alerts": {
+      "showNextAnswer": "Кнопка \"Наступна відповідь\" активна.",
+      "showNextButtonActive": "Кнопка \"Наступна відповідь\" активна",
+      "showAllAnswer": "Кнопка \"Всі відповіді\" активна.",
+      "reveal": "Кнопка \"Показати\" активна.",
+      "revealMore": "Кнопка \"Показати\" активна",
+      "hide": "Кнопка \"Сховати\" активна.",
+      "hidePrevious": "Кнопка \"Сховати\" активна",
+      "checkAnswer": "Кнопка \"Перевірити результати\" активна.",
+      "result": "Кнопка \"Результати\" активна.",
+      "review": "Кнопка \"Перевірити\" активна.",
+      "sendScores": "Кнопка \"Відправити бали\" активна.",
+      "previousPage": "Кнопка \"Назад\" активна.",
+      "forwardPage": "Кнопка \"Продовжити\" активна."
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "Правильна відповідь"
+    },
+    "wrong": {
+      "description": "Неправильна відповідь"
+    },
+    "revealed": {
+      "description": "Пуста відповідь"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "Ви впевнені?",
+      "results": "Який ваш результат?",
+      "feedback": "Зворотний зв'язок",
+      "score": {
+        "prefix": "Ви отримали",
+        "conjunction": "з"
+      },
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        },
+        "ok": {
+          "label": "Застосовувати",
+          "description": "Застосовувати зміни"
+        },
+        "continue": {
+          "label": "Продовжити",
+          "description": "Продовжити без змін"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "Який ваш результат?",
+      "body": "Ви отримали {{correct}} з {{total}}",
+      "automaticmarked": "Процент: {{score}}%",
+      "table": {
+        "header": {
+          "question": "Запитання",
+          "mark": "Оцінка"
+        },
+        "body": {
+          "mark": "{{correct}} з {{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "Продовжити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "Зворотний зв'язок",
+      "body": "Ви отримали {{correct}} з {{total}}",
+      "button": {
+        "tryAgain": {
+          "label": "Повторити спробу",
+          "description": "Очистити відповіді"
+        },
+        "submit": {
+          "label": "Надіслати",
+          "description": "Надіслати до журналу успішності"
+        },
+        "next": {
+          "label": "Продовжити",
+          "description": "Перейти до наступного екрана"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "Який ваш результат?",
+      "body": "Ви отримали <span class=\"checkInfo__score\">{{correct}} з {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "Зрозуміло",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "Виберіть одну або більше літер"
+    },
+    "imVoiceNoMatch": {
+      "title": "Збігів не знайдено",
+      "body": "Ваш запис \\\"{{transcript}}\\\" не збігається ні з одним текстом. Зробіть новий запис."
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "Збігів не знайдено",
+      "body": "Ваш запис \\\"{{transcript}}\\\" не збігається ні з одною з доступних відповідей. Зробіть новий запис."
+    },
+    "micNotFound": {
+      "title": "Мікрофон не знайдено",
+      "body": "Включіть мікрофон. Він потрібен для цієї активності."
+    },
+    "testRecording": {
+      "title": "Тестовий запис",
+      "body": "Ви можете перевірити мікрофон, зробивши тестовий запис нижче. Прослухайте свій запис, щоб переконатися, що мікрофон працює належним чином.",
+      "button": {
+        "record": {
+          "label": "Запис",
+          "description": "Запис тесту"
+        },
+        "stopRecording": {
+          "label": "Запис",
+          "description": "Зупинити запис"
+        },
+        "play": {
+          "label": "Відтворення",
+          "description": "Відтворити запис"
+        },
+        "stopPlay": {
+          "label": "Відтворення",
+          "description": "Зупинити відтворення"
+        }
+      },
+      "discard": "Не показувати знову."
+    },
+    "close": {
+      "title": "Ви впевнені?",
+      "body": "Ви дійсно хочете закрити цей навчальний об’єкт?",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Залишити відкритим"
+        },
+        "ok": {
+          "label": "Закрити",
+          "description": "Так, я хочу його закрити"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "Зворотний зв'язок",
+      "body": "Ця активність буде оцінена на наступній сторінці. Продовжуйте.",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "Експорт як",
+      "body": "",
+      "filename": "Ім'я файлу",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "Вибрати формат файлу",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Експорт",
+          "description": "Експорт як"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "Перша відповідь"
+    },
+    "helpText": {
+      "title": "Довідка",
+      "body": "Ви можете відредагувати цей текст у розділі Автор > Активності проєкту > Вибрати АТ > Редагувати > Текст довідки.",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "hint": {
+      "title": "Підказка",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "infoText": {
+      "title": "Інформація",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "Розшифровка"
+      }
+    },
+    "notebook": {
+      "title": "Блокнот"
+    },
+    "offlineCheck": {
+      "title": "Немає з'єднання",
+      "body": "Схоже, наразі у вас немає підключення до Інтернету.<br>Ви не можете надіслати свою роботу поки не під’єднаєтеся до Інтернету, тому перевірте з’єднання та повторіть спробу.",
+      "button": {
+        "close": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "Кількість команд",
+      "body": "Виберіть кількість команд для вікторини.",
+      "button": {
+        "ok": {
+          "label": "Почати",
+          "description": "Почати гру"
+        }
+      },
+      "teams": "Команди:"
+    },
+    "reallyReload": {
+      "title": "Ви впевнені?",
+      "body": "Ви хочете очистити свої відповіді в цій активності та почати спочатку?",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Очистити",
+          "description": "Очистити відповіді"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "Ви впевнені?",
+      "body": "Ви хочете очистити всі відповіді <strong>в усіх активностях</strong> та почати спочатку?",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Очистити всі",
+          "description": "Очистити всі відповіді"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "Ви впевнені, що хочете надіслати?",
+      "body": "Ви відповіли не на всі запитання.<br>Ви впевнені, що хочете надіслати оцінки зараз?",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Скасувати"
+        },
+        "ok": {
+          "label": "Надіслати",
+          "description": "Надіслати"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "Помилка запису",
+      "body": "Запис зупинено через технічну помилку. Повторіть спробу."
+    },
+    "recordingSaveAs": {
+      "title": "Завантажити як",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Завантажити",
+          "description": "Завантажити аудіо"
+        }
+      }
+    },
+    "rights": {
+      "title": "Інформація про авторські права",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "Ви впевнені?",
+      "body": "Ви впевнені, що хочете переглянути відповіді зараз?<br>Ви більше не матимете спроб.",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Продовжити",
+          "description": "Переглянути відповіді"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "Ви впевнені?",
+      "body": "Ви впевнені, що хочете переглянути відповіді зараз?<br>Ви отримаєте 0 балів за цю активність.",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        },
+        "ok": {
+          "label": "Продовжити",
+          "description": "Переглянути відповіді"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "Надіслати оцінки",
+      "body": "Обов'язково натисніть <q>Перевірити відповіді</q> для кожної активності.",
+      "button": {
+        "cancel": {
+          "label": "Продовжити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "Надіслати оцінки",
+      "body": "Ваші результати буде надіслано до журналу оцінок.",
+      "score": "Ви отримали {{correct}} з {{total}}."
+    },
+    "specialCharacters": {
+      "title": "Спеціальні символи",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "Закрити",
+          "description": "Закрити це діалогове вікно"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "Завершено",
+      "body": "Дуже добре! Ви виконали цю вправу."
+    },
+    "submitInfo": {
+      "title": "Надіслано",
+      "body": "<h2>Ви отримали</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "Відповіді",
+      "correct": "Правильно",
+      "score": "Оцінка",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "У вас більше немає спроб.",
+            "singular": "Поверніться та натисніть <q>Повторити спробу</q>.",
+            "plural": "Залишилося спроб: {{attemptsLeft}}. Щоб продовжити практикуватися, поверніться й натисніть <q>Повторити спробу</q>."
+          }
+        },
+        "unlimited": "Це ваша спроба номер {{attempts}}. Поверніться та натисніть <q>Повторити спробу</q>, щоб продовжити тренуватися."
+      },
+      "button": {
+        "close": {
+          "label": "Переглянути відповіді",
+          "description": "Закрийте це діалогове вікно та перегляньте відповіді"
+        }
+      },
+      "perfectScore": "Чудова робота!"
+    },
+    "tableOfContents": {
+      "title": "Вибрати активність",
+      "empty": "Немає записів для показу.",
+      "button": {
+        "cancel": {
+          "label": "Скасувати",
+          "description": "Продовжити без змін"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "Фінальне табло"
+    },
+    "teamsScoreboard": {
+      "title": "Табло"
+    },
+    "timeSpentInSections": {
+      "title": "Витрачений час",
+      "table": {
+        "header": {
+          "section": "Розділ",
+          "recommended": "Рекомендовано",
+          "spent": "Витрачений час"
+        },
+        "body": {
+          "total": "Усього"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "Час вичерпано!",
+      "body": "Ваш час вичерпано!",
+      "button": {
+        "cancel": {
+          "label": "Продовжити",
+          "description": "Закрити це діалогове вікно"
+        },
+        "submit": {
+          "label": "Надіслати",
+          "description": "Надіслати до журналу успішності"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "Не підтримується",
+      "body": "Ця активність доступна лише на підтримуваних пристроях через HTTPS."
+    },
+    "countdown": {
+      "title": "Визначте зворотний відлік",
+      "titleInProgress": "Залишилося часу",
+      "body": "Налаштуйте таймер і натисніть кнопку «Пуск», щоб запустити зворотний відлік",
+      "button": {
+        "close": {
+          "label": "Скасувати",
+          "description": "Закрити зворотний відлік"
+        },
+        "pause": {
+          "label": "Пауза",
+          "description": "Зупинити зворотний відлік"
+        },
+        "play": {
+          "label": "Відтворити",
+          "description": "Відновити зворотний відлік"
+        },
+        "reset": {
+          "label": "Скинути",
+          "description": "Скинути зворотний відлік"
+        },
+        "start": {
+          "label": "Почати",
+          "description": "Почати зворотний відлік"
+        },
+        "resume": {
+          "label": "Відновити",
+          "description": "Відновити зворотний відлік"
+        }
+      },
+      "titleEditing": "Редагувати зворотний відлік"
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "Ім'я: ",
+      "class": "Клас: ",
+      "title": "Заголовок: "
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "Ваші нотатки",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "Ви не створили жодних нотаток для цієї активності. Натисніть <q>Додати нову нотатку</q>, щоб почати.",
+        "confirmation": "Ви впевнені, що хочете стерти всі нотатки для цієї активності?",
+        "button": {
+          "new": {
+            "label": "Додати нову нотатку",
+            "description": "Створити нову нотатку"
+          },
+          "send": {
+            "label": "Надіслати всі",
+            "description": "Надіслати всі нотатки"
+          },
+          "print": {
+            "label": "Друк всіх",
+            "description": "Друк всіх нотаток"
+          },
+          "erase": {
+            "label": "Стерти всі",
+            "description": "Стерти всі нотатки"
+          },
+          "cancel": {
+            "label": "Скасувати",
+            "description": "Продовжити без змін"
+          },
+          "ok": {
+            "label": "Стерти всі",
+            "description": "Стерти всі нотатки"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "Нотатка без назви 1",
+        "lastEdited": "останнє редагування: ",
+        "undefined": "невизначено",
+        "button": {
+          "toggle": {
+            "label": "Параметри",
+            "description": ""
+          },
+          "send": {
+            "label": "Надіслати",
+            "description": "Надіслати нотатку"
+          },
+          "print": {
+            "label": "Друк",
+            "description": "Друк нотатки"
+          },
+          "erase": {
+            "label": "Стерти",
+            "description": "Стерти нотатку"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "Друк",
+        "description": "Друк цієї активності"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Ключі",
+          "description": "Відкрити панель ключів"
+        },
+        "toggleTurnOff": {
+          "label": "Ключі",
+          "description": "Закрити панель ключів"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "Максимізувати зображення"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "Мінімізувати зображення"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "",
+            "description": "Закрити це діалогове вікно"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "Експорт",
+        "description": "Нотатки щодо експорту"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "Кількість елементів"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Розгорнути"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Мінімізувати"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "Виберіть відповідь",
+      "order": "Помістіть ці відповіді в правильне положення"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "Перетягніть, щоб перемістити пул слів"
+        },
+        "dock": {
+          "label": "Пристикувати",
+          "description": "Скинути положення"
+        }
+      }
+    },
+    "carousel": {
+      "button": {
+        "next": {
+          "label": "Далі",
+          "description": "Перемістити пул праворуч"
+        },
+        "previous": {
+          "label": "Назад",
+          "description": "Перемістити пул ліворуч"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "Запитання {{-enum}}",
+    "openAlert": {
+      "question": "Ви відповідаєте на запитання {{-enum}}"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "Запитання ",
+    "question": "Запитання {{index}}",
+    "openAlert": {
+      "enumQuestion": "Ви відповідаєте на запитання ",
+      "question": "Ви відповідаєте на запитання {{index}}."
+    },
+    "heading": "Запитання"
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "символи",
+        "description": "Лічильник, який показує кількість введених символів"
+      },
+      "words": {
+        "label": "слова",
+        "description": "Лічильник, який показує кількість введених слів"
+      },
+      "minChars": {
+        "label": "символів лишилося",
+        "description": "Зменшення лічильника для демонстрації досягнення мінімальної кількості символів"
+      },
+      "minWords": {
+        "label": "слів лишилося",
+        "description": "Зменшення лічильника для демонстрації досягнення мінімальної кількості слів"
+      },
+      "maxChars": {
+        "label": "символів лишилося",
+        "description": "Зменшення лічильника для демонстрації досягнення максимальної кількості символів"
+      },
+      "maxWords": {
+        "label": "слів лишилося",
+        "description": "Зменшення лічильника для демонстрації досягнення максимальної кількості слів"
+      }
+    },
+    "input": {
+      "text": {
+        "label": "Ввід тексту {{order}}"
+      },
+      "textarea": {
+        "label": "Текстовий редактор {{order}}"
+      },
+      "richtext": {
+        "label": "Редактор форматованого тексту {{order}}"
+      }
+    },
+    "questionInput": {
+      "text": {
+        "label": "Ввід тексту {{order}} для відповіді на вибране запитання"
+      },
+      "textarea": {
+        "label": "Текстовий редактор {{order}} для відповіді на вибране запитання"
+      },
+      "richtext": {
+        "label": "Редактор форматованого тексту {{order}} для відповіді на вибране запитання"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "Тип тесту:",
+      "number": "Кількість запитань:"
+    },
+    "button": {
+      "continue": {
+        "label": "Підтвердити",
+        "description": "Почати активності"
+      }
+    }
+  }
+}

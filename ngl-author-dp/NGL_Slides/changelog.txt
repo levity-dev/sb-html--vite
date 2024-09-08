@@ -1,0 +1,612 @@
+--------------------
+CORE based: NGL Slides
+======================
+
+* ngl-slides-1.3.0 (27.08.2024)
+  - CEN-14184: [Feature] Add Oswald font family support
+  - CEN-14215: [Regression] Fix p.reading-with-line-numbers not honoring <br> when placed in tables
+  - CEN-14201: [Bugfix] Text is breaking line in dropdown option upon hover
+  - CEN-14174: [Feature] Update to DP Option names 
+  - CEN-14212: [Feature] Pathways LS Level 2 Header Image
+  - CEN-11534: [Feature] Add ability to control content blocks flow with DP options
+  - CEN-14178: [Feature] Trail Blazer Level 3 Header Image
+  - CEN-13969: [Feature] Create notebook-paper text template
+  - CEN-14145: [Bugfix] Images using min(15vw, 15vh) width value increasing beyond expected size when using Content Centering DP Options
+  - CEN-14039: [Bugfix] Ensure that punctuation doesn't break lines when Automatic enumeration is applied to Free Writing ATs on mobile devices
+  - CEN-13792: [Feature] Add a full screen button to references modals
+               [Regression] Move icons to the left, change icons 
+               [Regression] Icon alignment
+  - CEN-12314: [Feature] Remove tooltips from mobile experience
+  - CEN-13781: [Feature] Updates to text templates
+  - CEN-14045: [Bugfix] Ensure audio players are not selectable objects in Highlighting, maintain "arrow" and "pointer" click states
+  - CEN-14173: [Feature] Change behaviour of Space between content dp option
+  - CEN-14157: [Feature] Add a new header image - Pathways LS Level 4 
+  - CEN-14156: [Feature] Add a new header image - Pathways LS Level 1
+  - CEN-14042: [Feature] Add new header image - Our World Level 6
+  - CEN-13894: [Feature] Ensure text with p.reading-with-line-num Style increases in size when column is hidden
+  - CEN-14072: [Feature] Add new DP option - Space beneath rubric
+  - CEN-13992: [Feature] Change position of "Space between content" DP option, update some setting names
+  - CEN-14041: [Feature] Add a new header image - Our World Level 4
+  - CEN-13792: [Feature] Add a full screen button to references modals
+  - CEN-14040: [Feature] Add a new header image - Our World Level 3
+  - CEN-14043: [Feature] Add a new header image - Impact Level 3
+  - CEN-13718: [Regression] Ensure content items are reducing in width when "based on rubric width" is selected for Content Alignment option
+  - CEN-11275: [Feature] create a new text style to maintain line numbers
+  - CEN-12954: [Feature] Shapes default styles for shapes menu
+  - CEN-13838: [Feature] Update the order of the DP Options
+  - CEN-11383: [Feature] Made tooltip text and modal sub-menues size adjusted at high and low zoom values
+  - CEN-13435: [Feature] add new dp option (spacing between content blocks)
+  - CEN-13824: [Bugfix] Enumeration of first item mis-aligned
+  - CEN-11383: [Feature] Made tooltip text and modal sub-menues size adjusted at high and low zoom values  
+  - CEN-12317: [Regression] replace --100vh with 100dvh
+  - CEN-12954: [Feature] Shapes default styles for stroke menu
+  - CEN-13788: [Bugfix] Image captions appearing on mobile devices
+  - CEN-12258: [Bugfix] Scroll indicator appearing in top left corner of mobile devices  - CEN-11383: [Feature] Made tooltip text and modal sub-menues size adjusted at high and low zoom values  
+  - CEN-13826: [Feature] Update the display of Free Writing boxes when "Classroom View" is on
+  - CEN-13791: [Feature] Update audio icon styling in Sequencing Activities
+  - CEN-13787: [Bugfix] Fix representation of content on mobile devices in cases where interactive buttons are present
+  - CEN-13783: [Bugfix] Scroll indicator is added after Reset button click
+
+* ngl-slides-1.2.3 (30.07.2024)
+  - CEN-13737: [Feature] Ensure that images adjust properly depending on Content Alignment setting
+  - CEN-12953: [Feature] Shapes default styles for color menu
+  - CEN-13692: [Bugfix] fix order of items on mobile view  
+  - CEN-13718: [Regression] Ensure content items are reducing in width when "based on rubric width" is selected for Content Alignment option
+
+* ngl-slides-1.2.2 (24.07.2024)
+  - CEN-13617: [Regression] Fix width for tables within a table and media players
+  
+* ngl-slides-1.2.1 (24.07.2024)
+  - CEN-13693: [Bugfix] Revert ISP-23907
+
+* ngl-slides-1.2.0 (23.07.2024)
+  - CEN-13663: [Bugfix] Suppress Line Tool from annotation toolbar
+  - CEN-13648: [Bugfix] Center pools for Center Align Content DP option
+  - CEN-13617: [Feature] Change width calculation to use overall column width instead of centered container width
+  - CEN-13606: [Feature] Increase the default width of references to 70% the contentMaxWidth
+  - CEN-13648: [Bugfix] center pools for Center Align Content DP option
+  - CEN-13603: [Regression] Free Writing regressions
+  - CEN-13604: [Bugfix] Fix Sequencing activity break line with Center Align content is ON
+  - ISP-23907: [Feature] Use relative color() for changing the alpha channel for Marking and Colouring
+  - CEN-13369: [Feature] Shapes default styles for rotate handle
+  - CEN-13605: [Feature] Add new Content Alignment Width % DP option
+  - CEN-13607: [Bugfix] Items in Drag and Drop break lines/wrap when Content Alignment is set to center and user Resets LO  
+  - CEN-13609: [Feature] Add "pointer" cursor state to Audio icon transcripts
+  - CEN-12952: [Feature] make a drawnShape draggable
+  - CEN-13434: [Feature] Ensure tooltips in annotation toolbar appear layered atop tools, even when moved
+  - CEN-12951: [Feature] Shape tool resize handles
+
+* ngl-slides-1.1.0 (16.07.2024)
+  - CEN-13569: [Regression] Fix separated bottom border for Rich text editor
+  - CEN-12675: [Feature] Add a desktop-only class
+  - CEN-13558: [Feature] Update "Try Again" tooltip on Reset button to "Reset Slide"
+  - CEN-13556: [Feature] Unhide the line tool
+
+* ngl-slides-1.0.0 (11.07.2024)
+  - CEN-13493: [Bugfix] Enumeration not center when "Center Content" DP Option set to "...based on content" AND auto enumeration is ON  
+  - CEN-13489: [Bugfix] Remove padding-bottom from layout when it triggers scroll
+  - CEN-13491: [Feature] Increase the size of correctness marks
+  - CEN-13492: [Bugfix] remove negative margin form free writing boxes
+  - CEN-13013: [Feature] Ensure transcript can be resized dragging anypoint of the bottom of the dialog
+  - CEN-13451: [Feature] Highlighting validation appearing too low 
+  - CEN-13458: [Bugfix] Fix resizing blocks position
+               [Bugfix] Fix resizing blocks position for references window   
+  - CEN-13425: [Bugfix] Not include layout padding bottom in scroll indicator logic
+  - CEN-13076: [Feature] Straight Line anchors
+  - CEN-13409: [Bugfix] Hide warning notifications for CKEditor
+  - CEN-13316: [Feature] Enhance Center Alignment DP Option to Include Rubric Width Alignment  
+  - CEN-13253: [Feature] Create a dead zone for rich text notes
+  - CEN-13320: [Regression] Fix Unnecessary Line Breaks and wide right border in Vertical Drag Alignment for Sequencing ATs
+               [Bugfix] Sequencing ATs center alignment broken
+  - CEN-13288: [Feature] Include right and left gutters into right and left columns respectively
+  - CEN-13352: [Feature] Make the Background color window style similar to Font color window in Text Notes
+  - CEN-13286: [Regression] every line is breaking in highlighting AT after punctuation
+  - CEN-13295: [Bugfix] MC Single radio buttons appearing oblong in some cases
+  - CEN-13285: [Feature] change audio recorder button size
+  - CEN-13289: [Feature] add padding-bottom to columns that require scrolling
+  - CEN-12868: [Feature] styles for straight line marker menu
+  - CEN-13293: [Regression] MC Single validation and text not center-aligned upon selecting Show Next/Show All/Check Answers
+  - CEN-13294: [Regression] Remove unnecessary indentatons
+  - CEN-13284: [Regression] Sequencing lines breaking unnecessarily
+  - CEN-13290: [Bugfix] Cahange highlighting buttons height
+  - CEN-13222: [Bugfix] End periods in Sequencing activities appearing on next line
+  - CEN-13225: [Regression] Fix color palette min width
+  - CEN-13251: [Bugfix] Fix text resize button size
+  - CEN-13198: [Feature] Set a fixed border-width value for Voices-skill box and instructional-content table
+  - CEN-13252: [Feature] hide straight line tool until CEN-10211 is ready
+  - CEN-13051: [Bugfix] adjust some rich notes styles
+  - CEN-13254: [Bugfix] MC Multiple Radio buttons shifting into view after selecting Check Answers THEN Show All Answers
+  - CEN-12867: [Feature] styles for straight line form menu
+  - CEN-13224: [Bugfix] scroll bar appears for some text input boxes
+  - CEN-13223: [Bugfix] Text Correcting input dialog appearing transparent, resulting in crowding
+  - CEN-12820: [Feature] Ensure that "pools" can be "pinned" for FIB ATs
+  - CEN-13075: [Bugfix] multiple-choice-columns choices alignment
+  - CEN-13199: [Feature] add support for row-gap and column-gap CSS variables in text templates
+  - CEN-13226: [Bugfix] remove strict height from player when transcript is opened
+  - CEN-13200: [Bugfix] Checkboxes and text mis-aligned
+  - CEN-13108: [Regression] validation misaligned in MC Multiple shown in columns
+  - CEN-12866: [Feature] styles for straight line modifiers
+  - CEN-10927: [Feature] Add underline for free/rich text boxes when hide interactivity is true  
+  - CEN-13075: [Bugfix] remove margin on choices that are inside multiple-choice-columns
+  - CEN-13011: [Feature] honor Author inline styles for images
+               [Feature] honor Author inline styles for tiny audio player
+  - CEN-12866: [Feature] styles for straight line modifiers
+  - CEN-10927: [Feature] Add underline for free/rich text boxes when hide interactivity is true  - CEN-13075: [Bugfix] remove margin on choices that are inside multiple-choice-columns
+  - CEN-13115: [Regression] Add margin for the inline transcript block
+  - CEN-13112: [Feature] ensure timer sound stops after closing timer dialog
+  - CEN-13107: [Bugfix] Toggle scroll indicator visibility on columns height resize
+               [Bugfix] toggle padding firstly and then toggle scroll-indicator
+  - CEN-13075: [Feature] multiple-choice-columns text template
+  - CEN-13114: [Regression] MC Single Radio buttons shifting into view after selecting Check Answers THEN Show All Answers
+  - CEN-13022: [Bugfix] adjust scroll-indicator logic visibility
+  - CEN-13116: [Bugfix] In Sequencing, showing answers after check answers results in text appearing without a draggable border, too much height, and with unnecessary checkmarks appearing
+  - CEN-12865: [Feature] styles for annotation Line tool
+  - CEN-13019: [Bugfix] remove extra space now being applied under all audio players 
+  - CEN-13016: [Regression] Use content height variable in dropdown AT
+  - CEN-13000: [Bugfix] Free Writing drag indicator only appears after clicking into and then out of box
+  - CEN-13027: [Regression] Fix check icon size
+               [Regression] Apply new icon size
+  - CEN-13054: [Regression] Adjust choices gap
+  - CEN-13053: [Regression] Adjust table cell line-height
+  - CEN-13012: [Feature] adjust position of references modal to appear directly below header
+  - CEN-13026: [Regression]: Notes Tool remove border and styling options  
+  - CEN-13024: [Bugfix] left border of Highlighting button slightly cut off in 2-column slides
+  - CEN-13020: [Feature] adjust size of audio and recording buttons in Speaking AT
+  - CEN-12417: [Regression] Left aligned empty checked items  
+  - CEN-13022: [Regression] Adjust scroll indicator visibility condition  - CEN-13021: [Regression] Adjust the height and width of audio icon transcripts
+  - CEN-13001: [Feature] Sequencing items that have been coded to maintain position appearing center aligned, should be left aligned
+  - CEN-13014: [Regression] fix remaining space on screen when transcript window is closed after resizing
+  - CEN-13015: [Regression] Show scroll indicator after reset
+  - CEN-13010: [Regression] adjust height of highlighting validation
+  - CEN-12905: [Bugfix] remove margin-top for the first radio/checkbox button when not next to text
+  - CEN-12958: [Bugfix] Space between dropdown items in tables not the same as out of tables
+  - CEN-12948: [Regression] highlighting results in text turning white in Highlight AT
+  - CEN-12937: [Feature] increase the min-height of annotation canvas
+  - CEN-12938: [Bugfix] not hide highlights in the countdown timer
+  - CEN-12935: [Regression] Matching with Lines rows no longer aligning  
+  - CEN-10642: [Feature] Hide toolbar tools at mobile breakpoint
+  - CEN-12872: [Bugfix] adjust free writing height calculation
+  - CEN-12906: [Regression] adjust free writing boxes size
+  - CEN-12905: [Regression] space between MC Multiple items greater than expected
+  - CEN-12874: [Regression] Bullets appearing with greater indent
+  - CEN-12878: [Regression] Fixed auto width of transcript block
+  - CEN-12875: [Regression]  MC selections appearing with greater indent, adjust upon checking answers
+  - CEN-12879: [Regression] adjust tiny audio player size
+  - CEN-12899: [Regression] hide right column completely on visibility toggle
+  - CEN-12898: [Regression] hide highlight outside main areas
+  - CEN-12897: [Feature] made boxes resizable to min-width size
+  - CEN-12876: [Regression] adjust line-height for drop-down in tables
+  - CEN-12881: [Bugfix] First enumerated item is missing, present enumeration and audio icons mis-aligned
+  - CEN-12882: [Regression] reverted border bottom size
+  - CEN-12854: [REgression] fixed cursors and button selections styles for highlighting
+  - CEN-12880: [Feature] listening buttons in Speaking at appear massive in Sprint-Stage compared to Prod
+  - CEN-12883: [Regression] show right scroll indicator
+  - CEN-12877: [Regression] Space between Matching with Lines columns further than expected
+  - CEN-12743: [Regression] Transcripts are not visible for audio players at the bottom of screens
+  - CEN-12733: [Bugfix] change right scroll indicator position
+  - CEN-10835: [Bugfix] revamp validation of single-letter Highlighting AT, fix space between [*correct][**incorrect] items
+  - CEN-12766: [Regression] adjust some line-heights
+  - CEN-12731: [Feature] add autofill-example text template
+  - CEN-12261: [Feature] questions inconsistently aligned in Text Correcting activities
+  - CEN-12740: [Feature] set MC Single radio buttons are center aligned with enumeration
+  - CEN-12691: [Regression] update Type In border-width when using negative value in DP Line Height(s) setting
+  - CEN-12118: [Feature] Sequencing Show Next / Show All validation displays incorrectly
+               [Regression] Show correct validation for vertical items
+  - CEN-12569: [Bugfix] use flex instead grid for enumeration alignment
+  - CEN-12742: [Regression] Bullets getting cut off in right-column while in full screen
+  - CEN-12736: [Feature] suppress "Reset/Try Again" button when "Hide Recording" DP Option is set to Hidden
+  - CEN-12734: [Feature] Increase listening/recording button size in Speaking ATs
+  - CEN-12746: [Bugfix] hide right column on collapse
+  - CEN-12747: [Regression] Adjust margin-bottom of rubric area
+  - CEN-12741: [Regression] unable to underline/circle content in Highlighting AT
+  - CEN-12205: [Feature] add snap behavior to rich-text annotation tool
+  - CEN-12745: [Feature] prevent auto scroll into view on showAllAnswers
+  - CEN-12739: [Feature] set initial attachment dialog height to auto
+  - CEN-12674: [Bugfix] set layout padding
+  - CEN-12676: [Feature] Slides DP - increase space between words in Type In pools
+  - CEN-12676: [Feature] Slides DP - increase space between words in Type In pools
+  - CEN-12673: [Regression] Drop Down improvements
+  - CEN-12672: Update Free Writing border width
+  - CEN-12671: [Regression] Type In box changes
+  - CEN-12607: [Feature] Create Text template for Drag and Drop activities in columns
+                         Center-aligned with the draggable targets
+  - OSP-151149: overwrite Engine inline pointer-event
+  - CEN-12334: [Bugfix] rename some DP options
+  - CEN-12564: [Regression] Allow Content heights DP Option to reduce FIB elements, but not increase
+  - CEN-12567: [Regression] Ensure final Free Writing 1rem applies only to last element in tables
+  - CEN-12568: [Feature] Adjust calc() functions for Rubric margin-bottom, --_layout-padding, and drag and drop min-height
+               [Bugfix] rubric margin-bottom broken
+               [Bugfix] revert last MR and change rubric value back
+  - CEN-12566: [Regression] Ensure .mobile-only style has been added to config
+  - CEN-12269: [Feature] Show WYSIWYG options for Notes annotation tool
+  - CEN-11839: [Bugfix] apply line-height DP option to content blocks
+  - CEN-11679: [Feature] set Free Writing box width to 95% at mobile breakpoint
+               [Bugfix] broken width on mobile view
+  - CEN-12270: [Feature] add background-colour to rich-text toolbar
+  - CEN-12540: [Bugfix] align multiple answers to the first line
+               [Bugfix] align enumerations in MC activities
+  - CEN-12509: [Bugfix] Audio icon and transcript icon misaligning after applying Content Height DP Option
+
+* ngl-slides-0.18.4 (10.05.2024)
+  - CEN-12467: [Feature] Allow for text styling (bold, italic, etc.) on Text Correcting AT
+  - CEN-12510: [Bugfix] Increase size of MC Multiple boxes
+  - CEN-12436: [Regression] Remove content height DP option from clamp functions
+  - CEN-12464: [Feature] add margin-bottom to last free writing box in last content block
+  - CEN-12483: [Bugfix] swap Custom Text Size with Flexible Layout
+  - CEN-11657: [Feature] Stacked Free Writing text boxes result in loss of clarity between distinct items on tablet
+  - CEN-12432: [Feature] change position of audio icon transcript
+  - CEN-12466: [Regression] Reference window resizes after Resetting slides
+               [Bugfix] attachment dialog resize after clicking reset button
+  - CEN-12465: [Regression] use different event to show scroll-indicator
+               [Regression] Scroll indicator does not always load upon first opening activity
+
+* ngl-slides-0.18.3 (06.05.2024)
+  - CEN-11971: [Bugfix] make draggable placeholder size the same as droppables
+  - CEN-12436: [Bugfix] Dropdown items resizing with custom line height
+  - CEN-12316: [Feature] Ensure that audio icon transcript window does not resize when the text size is changed
+  - CEN-12272: [Feature] audio icon transcript improvements
+  - CEN-12420: [Bugfix] Fix audio recorder icon size
+  - CEN-12437: [Regression] Content "jumps" when using Center align DP Option
+  - CEN-12419: [Regression] show full audio inline transcript
+  - CEN-12119: [Bugfix] Enumeration and text appear misaligned in Drop Down ATs placed in tables
+
+* ngl-slides-0.18.2 (02.05.2024)
+  - CEN-12263: [Feature] Listening and recording icons appearing misaligned for #recording# buttons
+  - CEN-11818: [Feature] Fix width of audio player for mobile breakpoint
+  - CEN-12417: [Feature] Ensure that validated sequencing items remains left-aligned, rather than center aligning
+  - CEN-12412: [Regression] Reduce height of Drag and Drop targets
+  - CEN-12312: [Feature] Adjust space between Text Resize buttons
+  - CEN-12373: [Regression] Margin-bottom for pools no longer being applied correctly
+  - CEN-12335: [Regression] size of arrow in Full Screen button for images appearing large
+  - CEN-12327: [Regression] Fix dropdown height on big sreen devices
+  - CEN-12315: [Feature] show scroll indicator independently from stay in view option
+  - CEN-12121: [Bugfix] Fix applying styles for the lists in attachments
+               [Bugfix] Move global styles for lists to attachments
+  - CEN-12326: [Bugfix] prevent scrolling when figure element as the bottom of the column
+               [Feature] remove padding-bottom from Video player if it's the last child
+  - CEN-12311: [Feature] Centering text of full screen captions
+  - CEN-12313: [Feature] Remove shadow from richtextinput boxes
+  - CEN-12328: [Bugfix] Highlighting items' text is wrapping to the next line when using bigger Text Sizes
+  - CEN-12144: [Bugfix] FIB_draggable_item_text_is_out_of_the_items_borders
+  - CEN-12275: [Bugfix] prevent scroll indicator from jumps
+  - CEN-11845: [Feature] Add a "Custom Font Size" option to the Text Resize Tool
+  - CEN-11968: [Bugfix] Audio icons misaligned in Matching w/ Lines ATs
+  - CEN-11839: [Feature] create content heights DP option
+               [Bugfix] apply the same line-height to drag-and-drop no matter the parent
+  - CEN-11917: [Feature] Fix annotation notes tool
+  - CEN-11680: [Feature] Audio Transcript updates (default size of window, resizability, table functionality)
+               [Bugfix] remove resize icon and fix transcript issues
+  - CEN-11522: [Feature] scroll indicator
+               [Bugfix] fix single column layouts
+               [Bugfix] fix left column scroll indicator position
+               [Bugfix] include multi screen LO navigation in position calc
+  - CEN-11519: [Feature] Apply new values in clamp functions for text resize tool 
+               [Bugfix] reduce layout height to fit the content in it
+               [Bugfix] adjust sizes that depend on font-size
+  - CEN-11727: [Feature] Apply space between tables equal to space between rows at mobile breakpoint
+  - CEN-11728: [Bugfix] Validation slightly misaligned in MC Single activities
+               [Bugfix] fix validation alignment for large and extra large text sizes
+  - CEN-11886: [Feature] styles for attachment modals
+               [Bugfix] make default styles global
+  - CEN-12114: [Feature] Implement new DP Option that allows authors to hide "WYSIWYG" options in #textinput# and #richtextinput# boxes 
+  - CEN-11498: [Feature] change styles for textinput and richtextinput boxes
+               [Feature] small fixes for richtextinput block
+               [Feature] resizing features for inputs 
+  - CEN-12133: [Feature] apply clamp values to highlighting buttons and highlighter icons
+  - CEN-11520: [Feature] Create new DP Option to change alignment of "content area"
+  - CEN-11562: [Feature] implement independent scrolling for left and right columns for stay in view option
+               [Bugfix] include multi screen navigation in layout height calc
+               [Bugfix] enable mobile scroll, adjust mobile padding and areas order
+  - CEN-12000: [Bugfix] Alignment between enumeration, recording buttons, and text is misaligned 
+  - CEN-11840: [Bugfix] Enumeration, recording buttons, and text content not aligned properly when text wraps
+  - CEN-10159: [Feature] SBL Header - Voices Upper Intermediate
+               [Bugfix] rename Voices Upper Intermediate file name
+
+* ngl-slides-0.18.1 (09.04.2024)
+  - CEN-10160: [Feature] SBL Header - Voices Intermediate Plus
+  - CEN-11929: [Feature] update expand icon for images
+  - CEN-11387: [Bugfix] Highlighting contentMaxWidth resize regressions
+  - CEN-11923: [Feature] add platform enumeration styles
+  - CEN-11841: [Feature] Implement WYSIWYG Styles for "p.numberspacing"
+  - CEN-11655: [Bugfix] Type In prefill items appear misaligned
+  - CEN-10161: [Feature] Add new SBL Header Voices Advanced
+  - CEN-11837: [Feature] Sequencing prefill item is extending beyond the background container
+  - CEN-11970: [Bugfix] MC Multiple Checkboxes slightly misaligned from audio icons and text
+  - CEN-11303: [Feature] Create a DP Option to "hide" recording buttons during preview
+  - CEN-11838: [Feature] apply flex layout without animation
+  - CEN-11847: [Bugfix] not set max-height to draggable images
+               [Bugfix] align enumeration with images and text gaps
+  - CEN-11844: [Feature] Set "green" as the default color for the drawing annotation tool, increase default width to medium
+  - CEN-11965: [Bugfix] Table "float" not being honored
+               [Bugfix] The free writing boxes become less wide after clicking Reset 
+  - CEN-11647: [Feature] Suppress the modal window when "Try Again" button is selected
+  - CEN-11681: [Feature] Multiple Choice options appearing crowded with static text
+  - CEN-11843: [Feature] Change Annotation Toolbar Timer tooltip from "Countdown" to "Timer"
+
+* ngl-slides-0.18 (02-04-2024)
+  - CEN-11889: [Feature] Apply DP styling for captions displayed in full-screen
+  - CEN-11922: [Feature] set the default amount of rows to 1 for textareas
+  - CEN-11825: [Bugfix] Fix icon position when a user select option in text resize tool
+  - CEN-11519: [Feature] Roll back of previously made changes 
+  - CEN-11743: [Feature] Ensure Checkboxes, Answer enumeration, and images are properly ordered and aligned when placed into tables
+  - CEN-11842: [Bugfix] Highlighting lineheights inadvertently increased
+  - CEN-11744: [Bugfix] honour percent heights in free and rich writing boxes
+               [Bugfix] honour free writing boxes’s parent padding/margin
+  - CEN-11712: [Bugfix] improve content and rubric zones toggle
+
+* ngl-slides-0.17.5 (26-03-2024)
+  - CEN-11825: [Bugfix] fix button tooltip
+  - CEN-11712: [Feature] shift supplement to center and maintain original size when hiding content and rubric
+  - CEN-11736: [Feature] reduce width of matching lines columns to match the longest word
+
+* ngl-slides-0.17.4 (25-03-2024)
+  - CEN-11825: [Feature] Implement styles for full screen button similar to navigation buttons for Platform team
+  - CEN-11519: [Feature] Update options and labels in Text Resize tool
+  - CEN-11046: [Feature] make drawing and notes draggable only for the selection tool
+  - CEN-11742: [Feature] Improper space applied between static text and Free Writing input boxes after soft returns
+
+* ngl-slides-0.17.1 (22-03-2024)
+  - CEN-11754: [Regression] prevent free writing boxes from being larger than a table cell
+  - CEN-11756: [Regression] fix free writing boxes size inside tables
+  - CEN-11755: [Regression] fix table container min-width calculation
+
+* ngl-slides-0.17 (19-03-2024)
+  - CEN-10839: [Feature] Add option for Full Screen mode when presenting SBLs
+  - CEN-11313: [Feature] Ensure enumeration, text, and recording buttons are aligned
+  - CEN-11661: [Bugfix] center header images
+  - CEN-11706: [Feature] Ensure dropdown items wrap within the menu so that all text can be seen, reduce spacing between line breaks
+  - CEN-11713: [Bugfix] prevent images from expanding over 100% in supplement area
+  - CEN-11669: [Feature] Free Writing boxes overlapping lengthier automatic enumeration
+
+* ngl-slides-0.16.1 (13-03-2024)
+  - CEN-11518: [Feature] Content in dropdowns can appear too crowded with drop-down triangle
+  - CEN-11654: [Bugfix] align tinyAudioPlayers in table cell
+               [Bugfix] prevent image containers from growing without a reason for it
+  - CEN-11651: [Feature] Highlighting button labels not translating, extra space added at end of each syntax bracket
+  - CEN-11653: [Feature] Dropdown items are layered beneath text content
+  - CEN-11225: [Feature] Include rubric area when "Hide Right Column" tool is used 
+  - CEN-11606: [Feature] use fullscreen-expandable option
+  - CEN-11497: [Feature] Move "expand" icon to right-most corner on images with expand enabled  
+  - CEN-11300: [Feature] Close "Text Resize" menu when users click outside of it
+  - CEN-11499: [Feature] Remove the superscript and subscript formatting options from the #richtextinput#
+  - CEN-11161: [Bugfix] Enumeration becomes crowded in larger screens  
+  - CEN-11273: [Feature] styles for platform navigation
+  - CEN-10156: [Feature] add Voices Elementary theme image
+  - CEN-10157: [Feature] add Voices Pre-Intermediate theme image
+  - CEN-10158: [Feature] add Voices Intermediate theme image
+  - CEN-8611:  [Feature] Sequencing AT improvements
+  - CEN-11517: [Feature] Ensure close button changes size depending on viewport in the references modal
+  - CEN-11207: [Feature] Move try again button under "check answer" button in annotation toolbar
+  - CEN-11274: [Feature] Set all tables to 100% width below mobile breakpoint
+  - CEN-11230: [Feature] Implement clamp function for orange bar in header
+  - CEN-10600: [Feature] Remove the gradient from the silver outline on the Close button
+  - CEN-11297: [Feature] implement a flexible layout DP option
+               [Bugfix] prevent expand images from being bigger than 100%
+  - CEN-11467: [Feature] reduce inline sizes for om-text-gap AT inside tables
+  - CEN-11329: [Feature] Percent widths/heights in Type In boxes are not being respected
+  - CEN-11466: [Bugfix] set non zero value for expand image min-width
+  - CEN-11465: [Bugfix] honor expand image sizes
+  - CEN-11406: [Bugfix] provide a temporary solution for rendering issue
+  - CEN-11384: [Feature] hide attachment modal title 
+  - CEN-11257: [Feature] Remove "first-child padding-top" value from MC Multi Select AT
+  - CEN-11004: [Bugfix] The fixed content is not centered in Sequencings AT
+  - CEN-11224: [Bugfix] adjust im-marking AT line-height
+               [Bugfix] adjust dialogs to —-contentMaxWidth
+  - CEN-11190: [Feature] show hover texts over attachments as a modal
+               [Feature] reduce the size of attachments as a modal button icon
+
+* ngl-slides-0.16 (14-02-24)
+  - CEN-11190: [Feature] place attachment as a modal buttons under content zone toggle
+  - CEN-11332: [Feature] Create a p.none text Style in the WYSIWYG editor
+  - CEN-11302: [Feature] Improvement to instructional-content and Voices-skill-box table-class
+  - CEN-11224: [Bugfix] hide hint button label
+               [Bugfix] show toolbar within aspect ratio border
+               [Bugfix] show im-proofing pool within aspect ratio border
+               [Bugfix] fix submit modal
+  - CEN-11316: [Feature] implement bulletlist2
+  - CEN-11256: [Feature] Update the bottom of the FIB Type In Pool with contentMaxWidth values
+
+* ngl-slides-0.15 (09-02-24)
+  - CEN-11193: [Feature] implement bulletlist styles for WYSIWYG
+  - CEN-11304: [Bugfix] align radio buttons for horizontal choice alignment
+               [Bugfix] align checkbox buttons for horizontal choice alignment
+  - CEN-11160: [Bugfix] prevent vertical scrollbar from appearing
+               [Bugfix] vertically align free writing in enumeration
+  - CEN-11298: [Feature] Implement a "word-box-one-column" table class for single-column slides
+
+* ngl-slides-0.14 (08-02-24)
+  - CEN-11277: [Feature] Create new Voices-skill-box table class
+  - CEN-11127: [Bugfix] change footnote selector
+  - CEN-11248: [Bugfix] trigger interactionFontUpdated event on contentMaxWidth update
+  - CEN-11231: [Feature] Ensure eBook page button disappears from header at mobile breakpoint
+  - CEN-10155: [Feature] SBL Header - Voices Beginner
+  - CEN-11235: [Feature] improve spacing underneath highlighting AT toolbar
+  - CEN-11223: [Feature] Resolving instructional-content and word-box table class regressions
+  - CEN-11155: [Feature] apply clamp function to Audio, Speaking and Radio/Checkboxes icons
+
+* ngl-slides-0.13 (05-02-24)
+  - CEN-11192: [Feature] include scrollbar in layout padding calculation
+  - CEN-10836: [Feature] revert radio and checkbox SDY styles
+  - CEN-10826: [Feature] Create instructional-content and word-box table classes
+  - CEN-8858:  [Feature] update recording interfaces
+  - CEN-11063: [Feature] Apply clamp values to left/top/right padding and center gutter (for 2 column layouts)
+  - CEN-11059: [Feature] Adjust CSS Styling of FIB activity types to rely on text rather than input boxes for spacing
+  - CEN-10994: [Feature] Ensure the header, ebook icon, and annotation tool icons change size depending on viewport width
+  - CEN-11127: [Feature] add footnote to WYSIWYG editor
+  - ISP-21748: [Feature] enable initial content in input
+  - CEN-11016: [Feature] set content max aspect ratio
+  - CEN-10834: [Bugfix] align MC single and multiple inputs with a first line
+  - CEN-11131: [Feature] Revert margin-bottom of <rubric> class, update space of <content> class
+  - CEN-10997: [Feature] Create layout_08A for portrait images
+  - CEN-11105: [Feature] Ensure MC Single and Mc Multiple validation correctly overlays the radio buttons/checkboxes
+
+* ngl-slides-0.12 (29-01-24)
+  - CEN-11109: [Bugfix] center X in close button 
+  - CEN-11111: [Feature] Final refinements to margin-bottom of <rubric> class
+  - CEN-10972: [Feature] Implement unique margin and line-height for each DP Option Text value
+  - CEN-11031: [Bugfix] honor empty hard returns
+  - CEN-10911: [Feature] Create layout_07A for portrait images
+  - CEN-10550: [Bugfix] remove word-breaker styles from choice interaction
+  - CEN-10998: [Bugfix] return control over rubric font-size to Author and text resizer
+  - CEN-10973: [Feature] Create Text DP Options and Refactor Text Resize Tool
+               [Feature] pass calculated font-size to rich text editors
+  - CEN-10999: [Bugfix] align vertically enumeration number, image and writing box
+  - CEN-10971: [Feature] Implement Space between individual content boxes
+  - CEN-10970: [Feature] Implement Automatic Space between Rubric and Content, bottom of pool and content
+  - CEN-10969: [Bugfix] Suppress font size changes in ebook page link
+
+* ngl-slides-0.11 (16-01-24)
+  - CEN-10555: [Feature] Ensure that Free Writing Text Boxes can be resized (width)
+  - CEN-10601: [Feature] Ensure no white line appears on the tooltip display for the annotation/presentation tools
+  - CEN-10599: [Feature] Center text and icon on the eBook page link icon
+  - CEN-10837: [Feature] Remove border from images placed in Supplement
+  - CEN-10707: [Feature] Recording interfaces sit at different heights
+  - CEN-10682: [Bugfix] Highlighting AT - Extra space appearing around selections
+  - CEN-10595: [Bugfix] Text in dropdown menues getting cut off on small screens/devices
+  - CEN-10596: [Bugfix] Enumeration Answers text appears above drag and drop pills
+  - CEN-10556: [Feature] Change the position of text appearing to the left of Free Writing Text Boxes
+  - CEN-10506: [Feature] Ensure MC Single and Mc Multiple validation correctly overlays the radio buttons/checkboxes
+  - CEN-10459: [Feature] Remake layouts default, 1А, 2B, 3B, 4B, 6A in structure like layouts 2A, 3A and 4A with css grid markup
+  - CEN-10665: [Bugfix] Free Writing text does NOT resize
+
+* ngl-slides-0.10 (19-12-23)
+  - CEN-10208: [Bugfix] use grid in layout-03B to prevent content overlapping
+  - CEN-10437: [Feature] Left align the Matching w/ Lines ATs
+  - CEN-10547: [Bugfix] prevent radio button header from merging
+  - CEN-10641: [Bugfix] Rubric area is at the right column of the LO for layout 01A
+  - CEN-9707: [Bugfix] Videos placed as text supplements are too small
+  - CEN-10131: [Feature] Add support for 05A and 05B layouts
+  - CEN-10220: remove overflow on transitionend event
+  - CEN-10403: [Tech] add a aNone table class
+  - CEN-10438: [Feature] FIB Type In pool contains 2 shades of gray; should only have 1
+  - CEN-9959: [Feature] Highlighting annotations should "snap" to text, rather than appear as an overlay
+  - CEN-10435: apply author styles to audio player
+  - CEN-9452: [Tech] add media player skip buttons
+  - CEN-10208: [Bugfix] Text set as anything other than "Normal" do not change size when using the "Resize text" tool
+  - CEN-9958: [Feature] Update the Show/Hide Annotations animation
+  - CEN-10314: [Feature] Ensure enumeration spacing is not crowded for ALL layouts used in slides
+
+* ngl-slides-0.9 (27-11-23)
+  - CEN-10315: [Bugfix] Space of MC Single content too wide or overlapping depending on alignment
+  - CEN-8610: [Feature] Multiple choice Multiple select checkboxes update UI
+  - CEN-5652: [Feature] Page eBook link
+  - CEN-9962: [Feature] improve the dragging and resizing capabilities of annotation notes
+
+* ngl-slides-0.8 (14-11-23)
+  - CEN-8609: [Feature] Multiple Choice Single Select
+  - CEN-9686: [Bugfix] Text appear to the right of tables when more than one is present
+  - CEN-9624: [Bugfix] Tables not alignable in rubrics
+  - CEN-7892: [Feature] add Default table class to config.
+              [Bugfix] fix Default table class
+  - CEN-9961: [Feature] Enumeration for content appears crowded when viewed in "Extra Large" font size.
+  - CEN-9960: [Feature] Images viewed in full screen should take up the full screen.
+              [Bugfix] not stretch expanded images
+  - CEN-8856: [Feature] Standardized Rubric, Content, Title, Supplement, and Caption text specifications.
+  - CEN-8857: [Feature] Pool area update.
+  - CEN-8602: [Feature] Ensure text box alignment is customizable.
+  - CEN-6704: [Bugfix] change annotation eraser cursor
+  - CEN-9656: [Feature] Adjust the header height from 96 px to 90 px.
+  - CEN-8727: [Feature] Add support for Text size, Text color, Text background in Text WYSIWIG options.
+  - CEN-6702: [Feature] Annotations Selection tool - grab text boxes.
+  - CEN-8854: [Feature] Video Player Interface Updates.
+
+* ngl-slides-0.7 (06-10-23)
+  - CEN-6689: [Bugfix] hide rubric with content when it’s empty
+  - CEN-9569: [Bugfix] VO - fix position of tool bar
+  - CEN-9815: [Feature] Reduce left-padding of content and add padding to the LO title/header text
+
+* ngl-slides-0.6 (04-10-23)
+  - CEN-6689: [Feature] Show/Hide content area.
+  - CEN-9736: [Feature] Remove border for images in the Content area.
+  - CEN-8392: [Feature] Change order of icons on main bar.
+  - CEN-9569: [Feature] Remove bottom navigation bar in single-screen LOs.
+  - CEN-9651: [Feature] Fix transcript popup display in full screen mode.
+  - CEN-9642: [Feature] Header Media feature with Scroll Bar Indentation. 
+  - CEN-8255: [Feature] Add support for Header media feature.  
+  - CEN-9568: [Feature] Add padding to the left side of the layouts.
+  - CEN-6697: [Feature] Add Text Size tool.
+  - CEN-8853: [Feature] Audio Interface Updates.
+  - CEN-9607: [Feature] Add padding to gutter in 2-column layouts.  
+  - CEN-8394: [Feature] Add more space before layout.
+  
+* ngl-slides-0.5 (15-09-23)
+  - CEN-9090: [Feature] Add 3 layouts: layout_02A, layout_03A and layout_04A.  
+  - CEN-9073: [Feature] header theme.
+  - CEN-8332: [Feature] Add space below image caption.  
+  - CEN-8627: [Bugfix]  Fix displaying the images in column.
+  - CEN-8617: [Bugfix]  Image captions include unexpected text.
+  - CEN-8393: [Feature] Remove images yellow outline.
+  - CEN-8268: [Feature] update countdown styles.
+  - CEN-6708: [Feature] Add annotations Rich TextBox.
+  - CEN-6693: [Feature] Show and hide annotations at the activity control.
+  - CEN-6689: [Feature] Content-zone-toggle support.
+  - CEN-6694: [Feature] Annotation toolbar styles.
+
+* ngl-slides-0.4 (19-05-23)
+  - CEN-7812: [Regression] Timer countdown hover on arrow buttons issue.
+  - CEN-5650: [Feature] Countdown timer tool.
+
+* ngl-slides-0.3 (15-05-23)
+  - Point to develop/mercury  core-41.0.0-beta.2.0.
+  - CEN-5653: basic styles and main bar styles & icons. Remove pagination dots.
+  - CEN-5933: remove an activity title from layouts.
+  - CEN-7824: Enable layout 6A, only media.
+  - CEN-5923: set activity title color to dark
+  - CEN-5925: Removing images fixed styles.
+  - CEN-5923: fix react compilation
+  - CEN-5433: [Feature] audio transcriptions for tiny audio player
+  - CEN-5928: show wrong check after clicking on show answers
+  - CEN-5929: adjust submit-feedback modal and check marks for IM Proofing
+  - CEN-5925: PP flashcards card padding
+  - CEN-5929: IM-Proofing fix some z-index issues
+
+* ngl-slides-0.2 (23-03-23)
+  - CEN-5914: show right icons for see answers case IS-Checkbox
+  - CEN-5923: IC Crossword styles.
+  - CEN-5930: OS Sequence styles.
+  - CEN-5927: IC free writing 2 styles.
+
+* ngl-slides-0.1 (13-03-23)
+  - Point to develop/mercury core-40.0.0-beta.5.0 release.
+  - CEN-5928: OM Pairs styles.
+  - CEN-5931: OS Sorting styles.
+  - CEN-7207: [Regression] Footer orange bar buttons have wrong alignment when the continous enumeration nav is not visible.
+  - CEN-5933: IC Text correction styles.
+  - CEN-5929: IM Proofing styles.
+  - CEN-5932: IM Syllabify styles.
+  - CEN-5917: [Regression] IM Marking underline option doesn't work properly.
+  - CEN-5934: PP Karaoke styles.
+  - CEN-5924: IC Dialogue Recording styles.
+  - CEN-5926: IC Free writing styles.
+  - CEN-5922: IM Autocorrect styles.
+  - CEN-5911: [Regression] Check tooltips without background color.
+  - CEN-5648: [Regression] the content is behind the footer.
+  - CEN-5654: [Regression] Video player styles on diferent sized devices and layout combinations.
+  - CEN-5648: [Regression] Layout behind the lateral orange frame in desktop.
+  - CEN-5648: Revert that the media images get 100% of available room.
+  - CEN-5921: PP Quiz: reverting wrong CSS styles applied to pagination buttons.
+  - CEN-5925: PP Flashcards styles.
+  - CEN-5912: IS Linking lines styles.
+  - CEN-5648: Loading screen color schema.
+  - CEN-5915: MCQ single. IS Radiobutton styles.
+  - CEN-5650: timer styles.
+  - CEN-5914: MCQ multiple. IS Checkbox styles.
+  - CEN-5648: Media images get 100% of available room.
+  - CEN-5648: Audio mediaplayer UI in the media area on two columns layouts.
+  - CEN-5920: IS Pelmanism styles.
+  - CEN-5921: PP Quiz styles.
+  - CEN-5910: IS Dropdown styles.
+  - CEN-6121: [Regression] Full audio player. The speed control menu opens towards the top despite the top position of the audio.
+  - CEN-5917: IM Marking styles.
+  - CEN-5919: IC Text Gap Label an object styles.
+  - CEN-5911: IC Text Gap styles.
+  - CEN-5909: [Regression] draggables white space and image expander inside the draggables style.
+  - CEN-5918: OM Text Gap Label an object AT styles.
+  - CEN-5648: Footer buttons little amend.
+  - CEN-5909: OM Text Gap AT styles.
+  - CEN-5648: Remove Magnet loader logo.
+  - CEN-5654: Media players styles.
+  - CEN-5648: General dialog styles.
+  - CEN-5648: Submit info dialog styles.
+  - CEN-5916: Presentation AT.
+  - CEN-5648: Add layouts, templates, media expander, pagination, and button styles.

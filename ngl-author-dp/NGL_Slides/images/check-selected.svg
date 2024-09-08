@@ -1,0 +1,12 @@
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-405.000000, -395.000000)">
+      <g id="Group" transform="translate(407.000000, 397.000000)">
+          <rect fill="#F5A623" opacity="0.23594916" x="6" y="6" width="30" height="30" rx="4"></rect>
+          <g id="Group-3">
+              <rect fill="#FFF4D3" x="6" y="6" width="30" height="30" rx="4"></rect>
+              <rect stroke="#F5A623" stroke-width="4" x="0" y="0" width="42" height="42" rx="4"></rect>
+          </g>
+          <polygon fill="#F5A623" fill-rule="nonzero" points="31.8333333 15.8796121 28.6837407 12.4349415 19.3148405 22.6109439 15.1413786 18.0776956 12 21.4896944 19.3148405 29.4349415"></polygon>
+      </g>
+  </g>
+</svg>

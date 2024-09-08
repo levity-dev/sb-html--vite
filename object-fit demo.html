@@ -1,0 +1,667 @@
+<style>
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+    background-color: lightgray;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  p {
+    max-width: 900px;
+    font-size: 20px;
+  }
+  .example {
+    background-color: #ffffff;
+  }
+  :root {
+    --contentMaxWidth: 1920px;
+  }
+  @media screen and (max-width: 980px) {
+    .mobile-full-width {
+      width: 100% !important;
+    }
+  }
+</style>
+<body>
+  <h2>Original</h2>
+  <p>
+    Current code in Author. Images replaced with random ones found on google for
+    easier previewing.
+  </p>
+  <div class="example">
+    <table class="Default" style="background-color: #ffd800; width: 100%">
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <span style="font-size: 22px"
+              ><strong>NATIONAL GEOGRAPHIC EXPLORER</strong></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&#160;</p>
+    <table
+      align="none"
+      style="
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+        background-color: rgb(231, 231, 232);
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+                style="width: 100%; height: auto"
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Seif, you are my support system and a fantastic partner. You help
+              me work hard and focus. You always check I&#8217;m OK when
+              I&#8217;m digging and you make sure I eat and rest. You listen to
+              my problems and you take care of me. Thank you for looking after
+              me. Thank you for all that you do. Thank you for being my rock.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      align="none"
+      style="
+        background-color: rgb(231, 231, 232);
+        width: 49%;
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+                style="width: 100%; height: auto"
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              I have some incredible workers on my teams. Two of them &#8211;
+              Saeed and Abdulaziz &#8211; started working with me a long time
+              ago and they are very close to me. They know everything about
+              digging. They understand the ground and the history of the place.
+              They learn about digging techniques from their fathers and their
+              fathers learned from their grandfathers. It&#8217;s in their
+              family. I learn from them every day and they are always so proud
+              to work with me. I want to thank them for teaching me so much.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>object-fit: cover</h2>
+  <p>
+    Ensures image fits within the defined height and width attributes without
+    stretching. One direction will always be bound, the other will be clipped
+    and aligned to the center.
+  </p>
+  <p>
+    This example also demos a mobile adjustment class mentioned in the last
+    example.
+  </p>
+  <div class="example">
+    <table class="Default" style="background-color: #ffd800; width: 100%">
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <span style="font-size: 22px"
+              ><strong>NATIONAL GEOGRAPHIC EXPLORER</strong></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&#160;</p>
+    <table
+      class="mobile-full-width"
+      align="none"
+      style="
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+        background-color: rgb(231, 231, 232);
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  max-width: 97vw;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Seif, you are my support system and a fantastic partner. You help
+              me work hard and focus. You always check I&#8217;m OK when
+              I&#8217;m digging and you make sure I eat and rest. You listen to
+              my problems and you take care of me. Thank you for looking after
+              me. Thank you for all that you do. Thank you for being my rock.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="mobile-full-width"
+      align="none"
+      style="
+        background-color: rgb(231, 231, 232);
+        width: 49%;
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  max-width: 97vw;
+                "
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              I have some incredible workers on my teams. Two of them &#8211;
+              Saeed and Abdulaziz &#8211; started working with me a long time
+              ago and they are very close to me. They know everything about
+              digging. They understand the ground and the history of the place.
+              They learn about digging techniques from their fathers and their
+              fathers learned from their grandfathers. It&#8217;s in their
+              family. I learn from them every day and they are always so proud
+              to work with me. I want to thank them for teaching me so much.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>object-fit: cover + object-position: # #</h2>
+  <p>
+    Allows image to be nudged for preferred focal to be visible. Accepts two
+    values (x and y distance) however when image is bound by one parameter*, the
+    input value would be ignored. I.e. if container definition is a shorter
+    aspect ratio than source image, the y value will adjust the vertical
+    alignment, but an x value input will be ignored.
+  </p>
+  <p>
+    *When images and containers are set to fixed values and not %s, generally
+    both values can used. Since most images we use are set to 100% width,
+    generally only one parameter would have an impact.
+  </p>
+  <div class="example">
+    <table class="Default" style="background-color: #ffd800; width: 100%">
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <span style="font-size: 22px"
+              ><strong>NATIONAL GEOGRAPHIC EXPLORER</strong></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&#160;</p>
+    <table
+      align="none"
+      style="
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+        background-color: rgb(231, 231, 232);
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  object-position: 0% 20%;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Seif, you are my support system and a fantastic partner. You help
+              me work hard and focus. You always check I&#8217;m OK when
+              I&#8217;m digging and you make sure I eat and rest. You listen to
+              my problems and you take care of me. Thank you for looking after
+              me. Thank you for all that you do. Thank you for being my rock.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      align="none"
+      style="
+        background-color: rgb(231, 231, 232);
+        width: 49%;
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  object-position: 50% 33%;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              I have some incredible workers on my teams. Two of them &#8211;
+              Saeed and Abdulaziz &#8211; started working with me a long time
+              ago and they are very close to me. They know everything about
+              digging. They understand the ground and the history of the place.
+              They learn about digging techniques from their fathers and their
+              fathers learned from their grandfathers. It&#8217;s in their
+              family. I learn from them every day and they are always so proud
+              to work with me. I want to thank them for teaching me so much.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>
+    object-fit: cover + object-position: # # + scale<br /><span
+      style="font-size: smaller"
+      >+ overflow: hidden (applied to parent container)</span
+    >
+  </h2>
+  <p>
+    It is NOT RECOMMENDED to use scale because you'll run into issues in mobile,
+    however this example shows both x and y values impact image alignment.
+  </p>
+
+  <div class="example">
+    <table class="Default" style="background-color: #ffd800; width: 100%">
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <span style="font-size: 22px"
+              ><strong>NATIONAL GEOGRAPHIC EXPLORER</strong></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&#160;</p>
+    <table
+      align="none"
+      style="
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+        background-color: rgb(231, 231, 232);
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td style="overflow: hidden">
+            <p>
+              <img
+                alt=""
+                src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  scale: 2;
+                  overflow: hidden;
+                  object-position: -150px -20%;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Seif, you are my support system and a fantastic partner. You help
+              me work hard and focus. You always check I&#8217;m OK when
+              I&#8217;m digging and you make sure I eat and rest. You listen to
+              my problems and you take care of me. Thank you for looking after
+              me. Thank you for all that you do. Thank you for being my rock.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      align="none"
+      style="
+        background-color: rgb(231, 231, 232);
+        width: 49%;
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td style="overflow: hidden">
+            <p>
+              <img
+                alt=""
+                src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: cover;
+                  scale: 2.5;
+                  object-position: -220px 35%;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              I have some incredible workers on my teams. Two of them &#8211;
+              Saeed and Abdulaziz &#8211; started working with me a long time
+              ago and they are very close to me. They know everything about
+              digging. They understand the ground and the history of the place.
+              They learn about digging techniques from their fathers and their
+              fathers learned from their grandfathers. It&#8217;s in their
+              family. I learn from them every day and they are always so proud
+              to work with me. I want to thank them for teaching me so much.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>object-fit: contain + object-position: # #</h2>
+  <p>
+    object-fit:contain can be used when you want an image to maintain it's
+    original aspect ratio but scale down to fit inside a preset container size.
+    object-position can then be used to position it around the container.
+  </p>
+  <div class="example">
+    <table class="Default" style="background-color: #ffd800; width: 100%">
+      <tbody>
+        <tr>
+          <td style="text-align: center">
+            <span style="font-size: 22px"
+              ><strong>NATIONAL GEOGRAPHIC EXPLORER</strong></span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&#160;</p>
+    <table
+      align="none"
+      style="
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+        background-color: rgb(231, 231, 232);
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: contain;
+                  object-position: left bottom;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Seif, you are my support system and a fantastic partner. You help
+              me work hard and focus. You always check I&#8217;m OK when
+              I&#8217;m digging and you make sure I eat and rest. You listen to
+              my problems and you take care of me. Thank you for looking after
+              me. Thank you for all that you do. Thank you for being my rock.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      align="none"
+      style="
+        background-color: rgb(231, 231, 232);
+        width: 49%;
+        border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+      "
+    >
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <img
+                alt=""
+                src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+                style="
+                  width: 100%;
+                  height: 15vw;
+                  object-fit: contain;
+                  object-position: 100% 0;
+                "
+                title=""
+              />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              I have some incredible workers on my teams. Two of them &#8211;
+              Saeed and Abdulaziz &#8211; started working with me a long time
+              ago and they are very close to me. They know everything about
+              digging. They understand the ground and the history of the place.
+              They learn about digging techniques from their fathers and their
+              fathers learned from their grandfathers. It&#8217;s in their
+              family. I learn from them every day and they are always so proud
+              to work with me. I want to thank them for teaching me so much.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Using flex-boxes instead of tables to make the box heights match</h2>
+  <p>
+    One struggle I noticed was the mis-matched box heights using the standard
+    table method. This can be avoided using flex-boxes, and even more complex
+    layouts can use an align property set to stretch to fill a space.
+  </p>
+  <p>This example also uses a class defined as:</p>
+  <pre>
+    @media screen and (max-width: 980px) {
+        .mobile-full-width {
+            width: 100% !important;
+        } 
+    }
+</pre
+  >
+  <p>
+    If we could include a class like this somewhere in the program's css, it
+    would allow us to more quickly adjust an element for mobile display.
+    Whenever a width is defined as less than 100% (as the tables in the examples
+    above were all set to 49% width), that width persists in mobile. If this
+    class was inserted via <code>class="mobile-full-width"</code> in those same
+    instances, the items would display at full device with when on small
+    screens.
+  </p>
+  <div class="example">
+    <div
+      style="
+        background-color: #ffd800;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: calc(0.0075 * var(--contentMaxWidth));
+      "
+    >
+      <strong>NATIONAL GEOGRAPHIC EXPLORER</strong>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2%;
+        row-gap: 15px;
+      "
+    >
+      <div
+        class="mobile-full-width"
+        style="
+          float: left;
+          width: 49%;
+          background-color: rgb(231, 231, 232);
+          border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+          box-sizing: border-box;
+        "
+      >
+        <div>
+          <img
+            alt=""
+            src="https://cdn-imgix.headout.com/media/images/0482ed423ccbcb3c527a7108972d0bdb-AdobeStock-113478859.jpeg"
+            style="
+              width: 100%;
+              height: 15vw;
+              object-fit: cover;
+              object-position: 0% 20%;
+            "
+            title=""
+          />
+        </div>
+        <p>
+          Seif, you are my support system and a fantastic partner. You help me
+          work hard and focus. You always check I&#8217;m OK when I&#8217;m
+          digging and you make sure I eat and rest. You listen to my problems
+          and you take care of me. Thank you for looking after me. Thank you for
+          all that you do. Thank you for being my rock.
+        </p>
+      </div>
+      <div
+        class="mobile-full-width"
+        style="
+          width: 49%;
+          background-color: rgb(231, 231, 232);
+          border: calc(0.0075 * var(--contentMaxWidth)) solid rgb(231, 231, 232);
+          box-sizing: border-box;
+        "
+      >
+        <div>
+          <img
+            alt=""
+            src="https://biuinternational.com/wp-content/uploads/2022/07/Bar-Ilan_LISA_Tell-es-Safi-Gath_2-scaled-1.jpg"
+            style="
+              width: 100%;
+              height: 15vw;
+              object-fit: cover;
+              object-position: 50% 33%;
+            "
+            title=""
+          />
+        </div>
+        <p>
+          I have some incredible workers on my teams. Two of them &#8211; Saeed
+          and Abdulaziz &#8211; started working with me a long time ago and they
+          are very close to me. They know everything about digging. They
+          understand the ground and the history of the place. They learn about
+          digging techniques from their fathers and their fathers learned from
+          their grandfathers. It&#8217;s in their family. I learn from them
+          every day and they are always so proud to work with me. I want to
+          thank them for teaching me so much.
+        </p>
+        <p>
+          Here's some extra text to show how the boxes will match each other's
+          height.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>

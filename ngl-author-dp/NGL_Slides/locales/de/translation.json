@@ -1,0 +1,1771 @@
+{
+  "contentElements": {
+    "mediaPlayer": {
+      "button": {
+        "playbackSpeed1": {
+          "label": "0,5",
+          "description": "0,5"
+        },
+        "playbackSpeed2": {
+          "label": "0,75",
+          "description": "0,75"
+        },
+        "playbackSpeed3": {
+          "label": "Normal",
+          "description": "Normal"
+        },
+        "playbackSpeed4": {
+          "label": "1,25",
+          "description": "1,25"
+        },
+        "playbackSpeed5": {
+          "label": "1,5",
+          "description": "1,5"
+        },
+        "playbackSpeed6": {
+          "label": "2",
+          "description": "2"
+        },
+        "play": {
+          "label": "",
+          "description": "Abspielen {{title}}"
+        },
+        "pause": {
+          "label": "",
+          "description": "Pause"
+        },
+        "volume": {
+          "label": "",
+          "description": "Lautstärke anpassen"
+        },
+        "mute": {
+          "label": "",
+          "description": "Ton stumm schalten"
+        },
+        "speed": {
+          "label": "",
+          "description": "Wiedergabegeschwindigkeit"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "Transkript anzeigen"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "Transkript ausblenden"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "Untertitel anzeigen"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "Untertitel ausblenden"
+        },
+        "quality": {
+          "label": "",
+          "description": "Videoauflösung"
+        },
+        "qualityAuto": {
+          "label": "Auto",
+          "description": "Auto"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "Vollbildschirm"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "Vollbild beenden"
+        },
+        "playbackSpeed": {
+          "label": "Normal"
+        },
+        "stop": {
+          "label": "",
+          "description": "Stop"
+        },
+        "speedTurnOn": {
+          "label": "",
+          "description": "Wiedergabegeschwindigkeit reduzieren"
+        },
+        "speedTurnOff": {
+          "label": "",
+          "description": "Normale Wiedergabegeschwindigkeit"
+        },
+        "playbackTitle": "Geschwindigkeit"
+      },
+      "volumeStair": {
+        "prefix": "Lautstärke ",
+        "suffix": ""
+      },
+      "audio": {
+        "description": "Audio: {{title}}"
+      },
+      "video": {
+        "description": "Video: {{title}}"
+      },
+      "volume": {
+        "description": "Aktuelle Lautstärke"
+      },
+      "progress": {
+        "label": "Verlauf",
+        "value": "{{current}} von {{total}}"
+      },
+      "subtitles": "Untertitel"
+    },
+    "icTextCorrectionDialog": {
+      "titlePrefix": "Ersetzen: ",
+      "placeholder": "Korrigierter Text",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        },
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "OK",
+          "description": "Änderungen einfügen"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "Farbe des Markers"
+        }
+      },
+      "toolbar": "Symbolleiste für Farbauswahl"
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "Sprache",
+          "description": "Sprachselektor"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "Anzeigen",
+          "description": ""
+        }
+      }
+    }
+  },
+  "body": {
+    "timer": {
+      "days": "Tag",
+      "days_plural": "Tage",
+      "hours": "Stunde",
+      "hours_plural": "Stunden",
+      "label": "Verbleibende Zeit:",
+      "negative": "-",
+      "minutes": "Minuten",
+      "minutes_plural": "Minuten",
+      "seconds": "Sekunden",
+      "seconds_plural": "Sekunden",
+      "extra": "über Limit",
+      "extra_plural": "über Limit",
+      "left": "verbleiben",
+      "left_plural": "verbleiben"
+    },
+    "error": {
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      },
+      "code_LO_OFFLINE": "Sie benötigen eine Internetverbindung, um Ihr Lernobjekt einreichen zu können. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "title": "Fehler",
+      "code_LO_START": "Beim Laden von zuvor gespeicherten Daten ist ein Fehler aufgetreten. Bitte schließen Sie das Fenster und versuchen Sie es erneut.",
+      "code_LO_CLOSE": "Beim Schließen des Lernobjekts ist ein Fehler aufgetreten.",
+      "code_LO_SUBMIT": "Beim Einreichen des Lernobjekts ist ein Fehler aufgetreten.",
+      "code_LO_SUBMIT_NO_ATTEMPTS": "Keine verbleibenden Versuche. Ihr Lernobjekt kann nicht eingereicht werden.",
+      "code_LO_SUBMIT_OFFLINE": "Sie benötigen eine Internetverbindung, um Ihr Lernobjekt einreichen zu können. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "code_LO_SEND_SCORES": "Bei Übertragung des Punktestands für dieses Lernobjekt ist ein Fehler aufgetreten.",
+      "code_LO_SEND_SCORES_NO_ATTEMPTS": "Sie haben keine verbleibenden Versuche. Punkte können nicht gesendet werden.",
+      "unexpected": "Ein unerwarteter Fehler ist aufgetreten. Bitte Fenster schließen und erneut versuchen."
+    },
+    "figure": {
+      "button": {
+        "label": "Beschreibung",
+        "description": "Beschreibung"
+      }
+    },
+    "brand": "Avallain",
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Optionen",
+          "description": "Kontextmenü öffnen"
+        },
+        "toggleTurnOff": {
+          "label": "Optionen",
+          "description": "Kontextmenü schließen"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "Schließen"
+      }
+    },
+    "learningObject": {
+      "title": "Lernobjekt"
+    }
+  },
+  "interaction": {
+    "ppSlideshowToolbar": {
+      "seconds": " Sek",
+      "button": {
+        "fullscreen": {
+          "label": "",
+          "description": "Vollbildmodus"
+        },
+        "previous": {
+          "label": "Zurück",
+          "description": "Zurück"
+        },
+        "next": {
+          "label": "Vorwärts",
+          "description": "Vorwärts"
+        },
+        "first": {
+          "label": "Zum Anfang",
+          "description": "Zum Anfang"
+        },
+        "last": {
+          "label": "Zum Ende",
+          "description": "Zum Ende"
+        },
+        "play": {
+          "label": "Wiedergabe",
+          "description": "Automatische Wiedergabe"
+        },
+        "pause": {
+          "label": "Pause",
+          "description": "Pause"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "Intervall verringern"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "Intervall vergrößern"
+        },
+        "shuffleOrder": {
+          "label": "Zufall",
+          "description": "Zufällige Reihenfolge"
+        },
+        "defaultOrder": {
+          "label": "Standard",
+          "description": "Standard Reihenfolge"
+        },
+        "show": {
+          "label": "Einblenden",
+          "description": "Zusatzbild einblenden"
+        },
+        "hide": {
+          "label": "Ausblenden",
+          "description": "Zusatzbild ausblenden"
+        }
+      }
+    },
+    "shared": {
+      "answerCheckTooltipPrefix": "Gegebene Antwort: ",
+      "prefilled": "Vorausgefüllte Antwort",
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span> Fehler"
+      },
+      "toolbar": {
+        "accessibilityToolbar": {
+          "label": "Farbenblindheitsmodus",
+          "tooltip": "Kategorien, die sowohl durch Nummer als auch durch Farbe identifiziert werden"
+        },
+        "button": {
+          "eraserOn": {
+            "label": "Radierer",
+            "description": "Radierer"
+          },
+          "eraserOff": {
+            "label": "Radierer",
+            "description": "Radierer"
+          },
+          "selected": "Ausgewählt",
+          "option": "Option"
+        },
+        "label": "Symbolleiste"
+      },
+      "card": {
+        "order": "Karte {{order}}/{{count}}",
+        "status": {
+          "unturned": "Unaufgedeckt",
+          "turned": "Aufgedeckt"
+        }
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "Optionen",
+          "description": "Dialogoptionen"
+        },
+        "hideTurnOn": {
+          "label": "Meine Texte verbergen",
+          "description": "Meine Texte verbergen"
+        },
+        "hideTurnOff": {
+          "label": "Meine Texte verbergen",
+          "description": "Meine Texte anzeigen"
+        },
+        "hideAllTurnOn": {
+          "label": "Alle Texte verbergen",
+          "description": "Alle Texte verbergen"
+        },
+        "hideAllTurnOff": {
+          "label": "Alle Texte verbergen",
+          "description": "Alle Texte anzeigen"
+        },
+        "download": {
+          "label": "Herunterladen",
+          "description": "Alle herunterladen"
+        },
+        "playDialog": {
+          "label": "Dialog abspielen",
+          "description": ""
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "Texteingabe",
+        "label": "Lücke {{order}}",
+        "labelGaps": "Lücke {{order}} mit {{count}} einzusetzenden Zeichen",
+        "prefilled": "Vorausgefüllte Antwort {{value}}"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "Einfügen",
+          "spelling": "Rechtschreibung: ",
+          "grammar": "Grammatik: "
+        },
+        "placeholder": "Einzufügender Text",
+        "button": {
+          "close": {
+            "label": "Schließen",
+            "description": "Dialog schließen"
+          },
+          "ok": {
+            "label": "OK",
+            "description": "Änderungen einfügen"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "Markierungen für Korrekturlesen",
+            "description": "Markierungen für Korrekturlesen"
+          },
+          "eraser": {
+            "label": "Radierer",
+            "description": "Entfernen von Markierungen"
+          },
+          "capitalize": {
+            "label": "Großschreibung",
+            "description": "Großschreibung"
+          },
+          "lowercase": {
+            "label": "Kleinschreibung",
+            "description": "Kleinschreibung"
+          },
+          "fullStop": {
+            "label": "Satzpunkt einfügen",
+            "description": "Satzpunkt einfügen"
+          },
+          "insert": {
+            "label": "Einfügen",
+            "description": "Einfügen"
+          },
+          "remove": {
+            "label": "Entfernen",
+            "description": "Entfernen"
+          },
+          "newParagraph": {
+            "label": "Absatz einfügen",
+            "description": "Absatz einfügen"
+          },
+          "spelling": {
+            "label": "Rechtschreibung",
+            "description": "Rechtschreibung"
+          },
+          "grammar": {
+            "label": "Grammatik",
+            "description": "Grammatik"
+          },
+          "indent": {
+            "label": "Einzug",
+            "description": "Einzug"
+          }
+        },
+        "label": "Symbolleiste für Korrekturen"
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "correct": "Richtig",
+          "wrong": "Falsch",
+          "missing": "Fehlt",
+          "prefilled": "Vorausgefüllt"
+        },
+        "checkbox": "Nicht wieder anzeigen",
+        "button": {
+          "close": {
+            "label": "Legende schließen",
+            "description": "Legende schließen"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "Team {{label}}",
+        "points": "Pkte",
+        "categories": "Kategorien"
+      },
+      "gameOver": {
+        "team": "Team {{label}}",
+        "winners": {
+          "conjunction": "und",
+          "suffix": "gewinnt.",
+          "suffix_plural": "gewinnen."
+        },
+        "greeting": "Glückwünsche!"
+      },
+      "team": {
+        "team": "Team {{label}}"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "Hören"
+        },
+        "pause": {
+          "label": "",
+          "description": "Pause"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "Stop"
+        },
+        "record": {
+          "label": "Antwort aufnehmen",
+          "description": "Antwort aufnehmen"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "Aufzeichnung pausieren"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "Aufzeichnung anhalten"
+        },
+        "speak": {
+          "label": "Antwort aufnehmen",
+          "description": "Antwort aufnehmen"
+        },
+        "stopSpeaking": {
+          "label": "Aufnahme",
+          "description": "Aufzeichnung anhalten"
+        },
+        "finish": {
+          "label": "",
+          "description": "Beenden"
+        },
+        "play": {
+          "label": "Wiedergabe",
+          "description": "Wiedergabe"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "Wiedergabe beenden"
+        },
+        "download": {
+          "label": "",
+          "description": "Herunterladen"
+        },
+        "retry": {
+          "label": "Nächster Versuch",
+          "description": "Nächster Versuch"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "Alles wiedergeben",
+            "description": ""
+          },
+          "pause": {
+            "label": "Alles wiedergeben",
+            "description": "Pause"
+          },
+          "stop": {
+            "label": "",
+            "description": "Stop"
+          },
+          "prev": {
+            "label": "",
+            "description": "Vorheriges Audio"
+          },
+          "next": {
+            "label": "",
+            "description": "Nächstes Audio"
+          }
+        }
+      },
+      "timelimit": "Die maximale Wiedergabelänge beträgt {{time}} Sekunden"
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "Hinweise",
+        "subtitle_horizontal": "Waagerecht",
+        "subtitle_vertical": "Senkrecht"
+      },
+      "cell": {
+        "description_horizontal": "Buchstabe {{letterPosition}} des Wortes {{wordReference}}, waagerecht",
+        "description_vertical": "Buchstabe {{letterPosition}} des Wortes {{wordReference}}, senkrecht"
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "Zurücksetzen",
+          "description": "Zurücksetzen"
+        }
+      },
+      "instructions": {
+        "replace": {
+          "description": "Zum Korrigieren Wort auswählen"
+        }
+      },
+      "group": "Textänderung {{order}}",
+      "modified": "Geändert",
+      "checkbox": {
+        "label": "Den {{order}} Satz markieren"
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "Ende!",
+        "body": "Das Spiel ist beendet. <br>Zum Fortfahren <q>Weiter</q> anklicken.",
+        "button": {
+          "ok": {
+            "label": "Weiter",
+            "description": "Dialog schließen"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "Zeit: ",
+        "points": "Punkte: "
+      },
+      "timeUp": {
+        "title": "Fertig!",
+        "body": "Die Zeit ist abgelaufen!<br>Zum Fortfahren <q>Weiter</q> anklicken.",
+        "button": {
+          "ok": {
+            "label": "Weiter",
+            "description": "Dialog schließen"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "Mögliche Antworten"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "Mögliche Antworten"
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "Gegebene Antwort: "
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "label": "{{count}} verbleibende Versuche",
+        "label_plural": "{{count}} verbleibende Versuche",
+        "description": "{{count}} von {{total}} verbleibende Versuche",
+        "description_plural": "{{count}} von {{total}} verbleibende Versuche"
+      }
+    },
+    "imVoiceFeedback": {
+      "low": "Fehlt",
+      "mid": "Klingt wie ",
+      "high": "Gut"
+    },
+    "imAutoCorrect": {
+      "description": "Finden und markieren Sie die Fehler im Text"
+    },
+    "isDropdown": {
+      "combobox": {
+        "label": "Liste {{order}}"
+      }
+    },
+    "osSequence": {
+      "instructions": {
+        "drag": {
+          "description": "Bewegen Sie die Kacheln mit Drag & Drop in die richtige Reihenfolge"
+        },
+        "swap": {
+          "description": "Bewegen Sie die Kacheln mit den Pfeiltasten in die richtige Reihenfolge"
+        }
+      },
+      "group": "Sequenz {{order}}.",
+      "button": {
+        "left": {
+          "description": "Kachel nach links verschieben"
+        },
+        "right": {
+          "description": "Kachel nach rechts verschieben"
+        },
+        "up": {
+          "description": "Kachel nach oben verschieben"
+        },
+        "down": {
+          "description": "Kachel nach unten verschieben"
+        },
+        "goLast": {
+          "description": "Zum Ende gehen"
+        },
+        "goFirst": {
+          "description": "Zum Anfang gehen"
+        }
+      }
+    },
+    "icVoice": {
+      "score": "Gesamtpunktzahl",
+      "fluency": "Sprachgewandtheit",
+      "grammar": "Grammatik",
+      "vocabulary": "Wortschatz",
+      "pronunciation": "Aussprache",
+      "relevance": {
+        "notRelevant": "Nicht relevant!",
+        "partiallyRelevant": "Nicht schlecht!",
+        "relevant": "Gut gemacht!"
+      },
+      "tabs": {
+        "feedback": "Feedback",
+        "transcript": "Abschrift"
+      },
+      "transcript": {
+        "phoneme": "Phonem",
+        "score": "Bewertung",
+        "quality": {
+          "low": "Nicht gefunden",
+          "mid": "Klingt wie {{phone}}",
+          "high": "Gut"
+        },
+        "tip": "Fahren Sie mit der Maus über ein Wort, um Ihre Aussprache zu überprüfen"
+      }
+    },
+    "linkingLines": {
+      "group": "Gruppe {{group}} von {{count}} Elementen.",
+      "enumGroup": "{{group}}",
+      "order": "{{group}}.{{order}}",
+      "prefilled": "(Vorausgefüllte Antwort, nicht interaktiv)",
+      "linkedTo": "verlinked mit"
+    },
+    "imMarking": {
+      "toolbar": "Symbolleiste für Markierungen",
+      "instructions": {
+        "description": "Markiere Worte mit einer zuvor ausgewählten Markierung"
+      },
+      "group": "Markierung {{order}}."
+    }
+  },
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Werkzeuge öffnen"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Werkzeuge schließen"
+        },
+        "pointer": {
+          "label": "",
+          "description": "Pointer"
+        },
+        "pen": {
+          "label": "",
+          "description": "Zeichnen"
+        },
+        "brush": {
+          "label": "",
+          "description": "Markieren"
+        },
+        "eraser": {
+          "label": "",
+          "description": "Radierer"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "Notiz"
+        },
+        "undo": {
+          "label": "",
+          "description": "Rückgängig"
+        },
+        "redo": {
+          "label": "",
+          "description": "Wiederherstellen"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "Anmerkungen ausblenden"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "Anmerkungen anzeigen"
+        },
+        "richText": {
+          "label": "",
+          "description": "Rich Text Notizen"
+        },
+        "clearAll": {
+          "label": "",
+          "description": "Alle Anmerkungen entfernen"
+        },
+        "textHighlighter": {
+          "label": "",
+          "description": "Textmarker"
+        },
+        "shapes": {
+          "label": "Form hinzufügen",
+          "description": "Formen"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Symbolansicht"
+        },
+        "expand": {
+          "label": "",
+          "description": "Vollansicht"
+        },
+        "delete": {
+          "label": "",
+          "description": "Notiz löschen"
+        }
+      }
+    },
+    "timer": {
+      "title": "Timer",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
+      "display": "Minuten:Sekunden",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Timer schließen"
+        },
+        "start": {
+          "label": "Start",
+          "description": "Timer starten"
+        },
+        "stop": {
+          "label": "Stop",
+          "description": "Timer stoppen"
+        }
+      }
+    },
+    "richText": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Text ausblenden"
+        },
+        "delete": {
+          "label": "",
+          "description": "Text löschen"
+        },
+        "expand": {
+          "label": "",
+          "description": "Text erweitern"
+        }
+      },
+      "control": {
+        "handle": {
+          "description": "Ziehen, um Text zu verschieben"
+        }
+      }
+    },
+    "label": "Symbolleiste für Anmerkungen"
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "Seite ",
+          "conjunction": " von ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "Aktuelle Seite"
+        },
+        "screenSelection": {
+          "showScreenSelection": "Seitenliste einblenden",
+          "hideScreenSelection": "Seitenliste ausblenden"
+        }
+      },
+      "runningScore": {
+        "prefix": "Auswertung:",
+        "conjunction": "/",
+        "suffix": "Punkte"
+      },
+      "button": {
+        "previous": {
+          "label": "Vorherige Seite",
+          "description": "Zurück"
+        },
+        "forward": {
+          "label": "Weiter",
+          "description": "Weiter"
+        },
+        "previousLO": {
+          "label": "Vorherige Übung",
+          "description": "Vorherige Übung"
+        },
+        "forwardLO": {
+          "label": "Nächste Übung",
+          "description": "Nächste Übung"
+        },
+        "rights": {
+          "label": "Copyright",
+          "description": "Copyright"
+        },
+        "signalShow": {
+          "label": "Falsche Wörter kennzeichnen",
+          "description": "Falsche Wörter kennzeichnen"
+        },
+        "signalHide": {
+          "label": "Kennzeichnung ausblenden",
+          "description": "Kennzeichnung der falschen Wörter ausblenden"
+        },
+        "answerNext": {
+          "label": "Nächste Antwort zeigen",
+          "description": "Nächste Antwort"
+        },
+        "answerAll": {
+          "label": "Alle Antworten zeigen",
+          "description": "Alle Antworten"
+        },
+        "solutionHint": {
+          "label": "Lösungshinweis zeigen",
+          "description": "Lösungshinweis"
+        },
+        "retry": {
+          "label": "Nächster Versuch",
+          "description": "Neuer Versuch"
+        },
+        "reveal": {
+          "label": "Einblenden",
+          "description": "Einblenden"
+        },
+        "hide": {
+          "label": "Ausblenden",
+          "description": "Ausblenden"
+        },
+        "save": {
+          "label": "Speichern",
+          "description": "Speichern"
+        },
+        "boxdrop": {
+          "label": "Loslassen",
+          "description": "Loslassen"
+        },
+        "boxdropPause": {
+          "label": "Pause",
+          "description": "Übung pausieren"
+        },
+        "boxdropResume": {
+          "label": "Weiter",
+          "description": "Übung wieder aufnehmen"
+        },
+        "quizNew": {
+          "label": "Neues Spiel",
+          "description": "Spiel mit neuen Fragen starten"
+        },
+        "quizRestart": {
+          "label": "Wiederholen",
+          "description": "Spiel mit den gleichen Fragen neu starten"
+        },
+        "quizSkip": {
+          "label": "Überspringen",
+          "description": "Frage überspringen und aussetzen"
+        },
+        "quizBack": {
+          "label": "Zurück",
+          "description": "Zur Punkteübersicht"
+        },
+        "loNotes": {
+          "label": "Notizen",
+          "description": "Notizen"
+        },
+        "micSettings": {
+          "label": "Mikrofon",
+          "description": "Mikrofon-Einstellungen"
+        },
+        "specialChars": {
+          "label": "Sonderzeichen",
+          "description": "Sonderzeichen"
+        },
+        "export": {
+          "label": "Exportieren",
+          "description": "Exportieren"
+        },
+        "imProofingHint": {
+          "label": "Hinweis",
+          "description": "Hinweis öffnen"
+        },
+        "hints": {
+          "label": "Hinweis 1",
+          "description": "Hinweis 1"
+        },
+        "hintsSecond": {
+          "label": "Hinweis 2"
+        },
+        "hintsThird": {
+          "label": "Hinweis 3"
+        },
+        "help": {
+          "label": "Hilfe",
+          "description": "Hilfe"
+        },
+        "answers": {
+          "label": "Antworten anzeigen",
+          "description": "Antworten anzeigen"
+        },
+        "check": {
+          "label": "Antworten prüfen",
+          "description": "Antworten prüfen"
+        },
+        "reset": {
+          "label": "Übung neu starten",
+          "description": "Löschen"
+        },
+        "resetAll": {
+          "label": "Alles neu starten",
+          "description": "Alles löschen"
+        },
+        "fullscreenTurnOn": {
+          "label": "Vollbildschirm",
+          "description": "Vollbildmodus"
+        },
+        "fullscreenTurnOff": {
+          "label": "Vollbild beenden",
+          "description": "Vollbildmodus"
+        },
+        "toc": {
+          "label": "Inhalt",
+          "description": "Inhaltsverzeichnis"
+        },
+        "results": {
+          "label": "Auswertung",
+          "description": "Auswertung"
+        },
+        "sectionTimes": {
+          "label": "Zeiten",
+          "description": "Benötigte Zeit"
+        },
+        "sendscores": {
+          "label": "Ergebnis einsenden",
+          "description": "Ergebnis einsenden"
+        },
+        "exercises": {
+          "label": "Antworten prüfen",
+          "description": "Überprüfung"
+        },
+        "submit": {
+          "label": "Einreichen",
+          "description": "Einreichen"
+        },
+        "countdown": {
+          "label": "Timer",
+          "description": "Timer"
+        },
+        "hideContent": {
+          "label": "Inhalt ausblenden",
+          "description": "Inhalt ausblenden"
+        },
+        "showContent": {
+          "label": "Inhalt anzeigen",
+          "description": "Inhalt anzeigen"
+        },
+        "hideRubric": {
+          "label": "Rubrik ausblenden",
+          "description": "Rubrik ausblenden"
+        },
+        "showRubric": {
+          "label": "Rubrik einblenden",
+          "description": "Rubrik einblenden"
+        },
+        "hideContentRubric": {
+          "label": "Rubrik und Inhalt ausblenden",
+          "description": "Rubrik und Inhalt ausblenden"
+        },
+        "showContentRubric": {
+          "label": "Rubrik und Inhalt einblenden",
+          "description": "Rubrik und Inhalt einblenden"
+        }
+      }
+    },
+    "alerts": {
+      "showNextAnswer": "Schaltfläche 'Nächste Antwort einblenden' ist aktiv.",
+      "showNextButtonActive": "Schaltfläche 'Nächste Antwort einblenden' ist aktiv.",
+      "showAllAnswer": "Schaltfläche 'Antworten einblenden' ist aktiv.",
+      "reveal": "Schaltfläche 'Einblenden' ist aktiv.",
+      "revealMore": "Schaltfläche 'Einblenden' ist aktiv.",
+      "hide": "Schaltfläche 'Ausblenden' ist aktiv.",
+      "hidePrevious": "Schaltfläche 'Ausblenden' ist aktiv.",
+      "checkAnswer": "Schaltfläche 'Antworten überprüfen' ist aktiv.",
+      "result": "Schaltfläche 'Arbeitsergebnisse' ist aktiv.",
+      "review": "Schaltfläche 'Überprüfen' ist aktiv.",
+      "sendScores": "Schaltfläche 'Ergebnis einsenden' ist aktiv.",
+      "previousPage": "Schaltfläche 'Zurück' ist aktiv.",
+      "forwardPage": "Schaltfläche 'Weiter' ist aktiv."
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "Richtige Antwort"
+    },
+    "wrong": {
+      "description": "Falsche Antwort"
+    },
+    "revealed": {
+      "description": "Leere Antwort"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "Aktion ausführen?",
+      "results": "Auswertung anzeigen?",
+      "feedback": "Feedback",
+      "score": {
+        "prefix": "Ihre Bewertung:",
+        "conjunction": "von"
+      },
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        },
+        "ok": {
+          "label": "OK",
+          "description": "Änderungen einfügen"
+        },
+        "continue": {
+          "label": "Weiter",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "Auswertung anzeigen?",
+      "body": "Ihre Bewertung: {{correct}} von {{total}}.",
+      "automaticmarked": "In Prozent: {{score}}%.",
+      "table": {
+        "header": {
+          "question": "Frage",
+          "mark": "Wertung"
+        },
+        "body": {
+          "mark": "{{correct}} von {{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "Weiter",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "Feedback",
+      "body": "Ihre Bewertung: {{correct}} von {{total}}.",
+      "button": {
+        "tryAgain": {
+          "label": "Nächster Versuch",
+          "description": "Nächster Versuch"
+        },
+        "submit": {
+          "label": "Einreichen",
+          "description": "Ergebnis in der Bewertungsübersicht abspeichern"
+        },
+        "next": {
+          "label": "Weiter",
+          "description": "Zur nächsten Übung wechseln"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "Auswertung anzeigen?",
+      "body": "Ihre Bewertung: <span class=\"checkInfo__score\">{{correct}} von {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "Verstanden",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "Wählen Sie einen oder mehrere Buchstaben aus"
+    },
+    "imVoiceNoMatch": {
+      "title": "Keine Übereinstimmung gefunden",
+      "body": "Die Aufnahme konnte keinem Text oder Textteilen zugeordnet werden. Bitte Aufnahme wiederholen."
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "Keine Übereinstimmung gefunden",
+      "body": "Die Aufnahme konnte keiner der zur Auswahl stehenden Antworten zugeordnet werden. Bitte Aufnahme wiederholen."
+    },
+    "micNotFound": {
+      "title": "Kein Mikrofon gefunden",
+      "body": "Bitte Mikrofon aktivieren, da es für diese Übung benötigt wird."
+    },
+    "testRecording": {
+      "title": "Mikrofon-Test",
+      "body": "Zum Testen des Mikrofons kann unten eine Aufnahme erstellt werden. Durch Abspielen der Aufnahme kann die korrekte Arbeitsweise des Mikrofons überprüft werden.",
+      "button": {
+        "record": {
+          "label": "Aufnahme",
+          "description": "Testaufnahme "
+        },
+        "stopRecording": {
+          "label": "Pause",
+          "description": "Aufnahme anhalten"
+        },
+        "play": {
+          "label": "Abspielen",
+          "description": "Aufnahme wiedergeben"
+        },
+        "stopPlay": {
+          "label": "Stop",
+          "description": "Wiedergabe anhalten"
+        }
+      },
+      "discard": "Nicht wieder anzeigen."
+    },
+    "close": {
+      "title": "Aktion ausführen?",
+      "body": "Soll dieses Lernobjekt geschlossen werden?",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Lernobjekt nicht schließen"
+        },
+        "ok": {
+          "label": "Schließen",
+          "description": "Lernobjekt schließen"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "Feedback",
+      "body": "Die Auswertung erfolgt in einer späteren Übung. Bitte fortfahren.",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "Exportieren als",
+      "body": "",
+      "filename": "Name der Datei",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "Wählen Sie das Dateiformat",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Exportieren",
+          "description": "Exportieren als"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "Erste Antwort"
+    },
+    "helpText": {
+      "title": "Hilfe",
+      "body": "Dieser Text kann in \"Author -> Project activities -> AT auswählen -> Edit -> Help text\" bearbeitet werden.",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "hint": {
+      "title": "Hinweis",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "infoText": {
+      "title": "Info",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "Abschrift"
+      }
+    },
+    "notebook": {
+      "title": "Notizbuch"
+    },
+    "offlineCheck": {
+      "title": "Keine Verbindung",
+      "body": "Zurzeit kann keine Verbindung zum Internet hergestellt werden.<br>Das Einreichen der Übungen ist nur möglich, während eine Internetverbindung besteht. Bitte Verbindung überprüfen und nochmals versuchen.",
+      "button": {
+        "close": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "Anzahl der Teams",
+      "body": "Wählen Sie die Anzahl der Teams.",
+      "button": {
+        "ok": {
+          "label": "Start",
+          "description": "Spiel starten"
+        }
+      },
+      "teams": "Teams:"
+    },
+    "reallyReload": {
+      "title": "Aktion ausführen?",
+      "body": "Durch Fortsetzen des Vorgangs wird diese Übung in ihren Ausgangszustand zurückversetzt. Antworten werden dadurch entfernt.",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Übung neu starten",
+          "description": "Antworten für die aktuelle Übung zurücksetzen"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "Aktion ausführen?",
+      "body": "Durch Fortsetzen des Vorgangs wird dieses Lernobjekt in seinen Ausgangszustand zurückversetzt. Antworten <strong>in allen Übungen</strong> werden dadurch entfernt.",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Alles neu starten",
+          "description": "Antworten für alle Übungen zurücksetzen"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "Aktion ausführen?",
+      "body": "Es wurden noch nicht alle Fragen beantwortet.<br>Sind Sie sicher, dass sie die Arbeitsergebnisse einreichen wollen?",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Abbrechen"
+        },
+        "ok": {
+          "label": "Einreichen",
+          "description": "Einreichen"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "Aufnahmefehler",
+      "body": "Die Aufnahme wurde durch einen technischen Fehler vorzeitig beendet. Bitte Aufnahme wiederholen."
+    },
+    "recordingSaveAs": {
+      "title": "Herunterladen als",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Herunterladen",
+          "description": "Audio herunterladen"
+        }
+      }
+    },
+    "rights": {
+      "title": "Copyright",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "Aktion ausführen?",
+      "body": "Sollen die Antworten jetzt angezeigt werden?<br>Nach Anzeigen der Antworten ist kein weiterer Lösungsversuch möglich.",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Weiter",
+          "description": "Antworten anzeigen"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "Aktion ausführen?",
+      "body": "Sollen die Antworten jetzt angezeigt werden?<br>In diesem Fall wird die Übung mit 0 Punkten bewertet.",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        },
+        "ok": {
+          "label": "Weiter",
+          "description": "Antworten anzeigen"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "Ergebnis einsenden",
+      "body": "Bitte sicherstellen, dass in jeder Übung \"Antworten prüfen\" ausgeführt wurde.",
+      "button": {
+        "cancel": {
+          "label": "Weiter",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "Ergebnis einsenden",
+      "body": "<br>Die Arbeitsergebnisse wurden im Notenbuch gespeichert.",
+      "score": "Ihre Bewertung: {{correct}} von {{total}}."
+    },
+    "specialCharacters": {
+      "title": "Sonderzeichen",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "Schließen",
+          "description": "Dialog schließen"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "Beendet",
+      "body": "Sehr gut! Das Bearbeiten dieses Lernobjekts ist abgeschlossen."
+    },
+    "submitInfo": {
+      "title": "Eingereicht",
+      "body": "<h2>Ihre Bewertung:</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "Antworten",
+      "correct": "Korrekt",
+      "score": "Bewertung",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "Keine weiteren Versuche möglich.",
+            "singular": "Für den letzten verbleibenden Versuch klicken Sie <q>Nächster Versuch</q>.",
+            "plural": "Es verbleiben {{attemptsLeft}} Versuche. Für einen weiteren Lösungsversuch klicken Sie <q>Neuer Versuch</q>."
+          }
+        },
+        "unlimited": "Dies ist Ihr {{attempts}}. Versuch. Für einen weiteren Lösungsversuch klicken Sie <q>Nächster Versuch</q>."
+      },
+      "button": {
+        "close": {
+          "label": "Antworten prüfen",
+          "description": "Dialog schließen und Antworten überprüfen"
+        }
+      },
+      "perfectScore": "Gut gemacht!"
+    },
+    "tableOfContents": {
+      "title": "Wähle eine Übung",
+      "empty": "Keine Einträge vorhanden.",
+      "button": {
+        "cancel": {
+          "label": "Abbrechen",
+          "description": "Weiter ohne zu speichern"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "Endauswertung"
+    },
+    "teamsScoreboard": {
+      "title": "Auswertung"
+    },
+    "timeSpentInSections": {
+      "title": "Zeiten",
+      "table": {
+        "header": {
+          "section": "Abschnitt",
+          "recommended": "Empfohlen",
+          "spent": "Benötigt"
+        },
+        "body": {
+          "total": "Summe"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "Fertig!",
+      "body": "Die Zeit ist abgelaufen!",
+      "button": {
+        "cancel": {
+          "label": "Weiter",
+          "description": "Dialog schließen"
+        },
+        "submit": {
+          "label": "Einreichen",
+          "description": "Ergebnis in der Bewertungsübersicht abspeichern"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "Nicht unterstützt",
+      "body": "Diese Übung steht nur auf unterstützten Geräten über HTTPS zur Verfügung."
+    },
+    "countdown": {
+      "title": "Countdown einstellen",
+      "titleInProgress": "Verbleibende Zeit",
+      "body": "Timer einstellen und Starttaste drücken, um Countdown zu starten",
+      "button": {
+        "close": {
+          "label": "Abbrechen",
+          "description": "Countdown schließen"
+        },
+        "pause": {
+          "label": "Pause",
+          "description": "Countdown pausieren"
+        },
+        "play": {
+          "label": "Abspielen",
+          "description": "Countdown wieder aufnehmen"
+        },
+        "reset": {
+          "label": "Zurücksetzen",
+          "description": "Countdown zurücksetzen"
+        },
+        "start": {
+          "label": "Start",
+          "description": "Countdown starten"
+        },
+        "resume": {
+          "label": "Fortsetzen",
+          "description": "Countdown fortsetzen"
+        }
+      },
+      "titleEditing": "Countdown bearbeiten"
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "Name: ",
+      "class": "Klasse: ",
+      "title": "Titel: "
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "Notizen",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "Für diese Übung existieren noch keine Notizen. Verwende <q>Notiz hinzufügen</q> um eine Notiz zu erstellen.",
+        "confirmation": "Alle Notizen zu dieser Übung löschen?",
+        "button": {
+          "new": {
+            "label": "Notiz hinzufügen",
+            "description": "Neue Notiz erstellen"
+          },
+          "send": {
+            "label": "Alle einsenden",
+            "description": "Alle Notizen einsenden"
+          },
+          "print": {
+            "label": "Alle drucken",
+            "description": "Alle Notizen ausdrucken"
+          },
+          "erase": {
+            "label": "Alle löschen",
+            "description": "Alle Notizen löschen"
+          },
+          "cancel": {
+            "label": "Abbrechen",
+            "description": "Weiter ohne zu speichern"
+          },
+          "ok": {
+            "label": "Alle löschen",
+            "description": "Alle Notizen löschen"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "Unbenannte Notiz 1",
+        "lastEdited": "Zuletzt bearbeitet: ",
+        "undefined": "nicht definiert",
+        "button": {
+          "toggle": {
+            "label": "Einstellungen",
+            "description": ""
+          },
+          "send": {
+            "label": "Einsenden",
+            "description": "Notiz einsenden"
+          },
+          "print": {
+            "label": "Drucken",
+            "description": "Notiz ausdrucken"
+          },
+          "erase": {
+            "label": "Löschen",
+            "description": "Notiz löschen"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "Drucken",
+        "description": "Diese Übung drucken"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Hinweise",
+          "description": "Hinweise öffnen"
+        },
+        "toggleTurnOff": {
+          "label": "Hinweise",
+          "description": "Hinweise schließen"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "Bild maximieren"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "Bild minimieren"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "",
+            "description": "Dialog schließen"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "Export",
+        "description": "Notizen exportieren"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "Artikelanzahl"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Erweitern"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Minimieren"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "Wählen Sie aus diesen Antworten",
+      "order": "Setzen Sie diese Antworten an die richtige Stelle"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "Ziehen, um Wortpool zu verschieben"
+        },
+        "dock": {
+          "label": "Anheften",
+          "description": "Zurück zur Ausgangsposition"
+        }
+      }
+    },
+    "carousel": {
+      "button": {
+        "next": {
+          "label": "Vor",
+          "description": "Pool nach rechts verschieben"
+        },
+        "previous": {
+          "label": "Zurück",
+          "description": "Pool nach links verschieben"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "Frage {{-enum}}",
+    "openAlert": {
+      "question": "Beantwortung der Frage {{-enum}}"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "Frage ",
+    "question": "Frage {{index}}",
+    "openAlert": {
+      "enumQuestion": "Beantwortung der Frage ",
+      "question": "Beantwortung der Frage {{index}}."
+    },
+    "heading": "Fragen"
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "Zeichen",
+        "description": "Zählen der eingegebenen Zeichen"
+      },
+      "words": {
+        "label": "Worte",
+        "description": "Zählen der eingegebenen Worte"
+      },
+      "minChars": {
+        "label": "Zeichen verbleibend",
+        "description": "Zählen der verbleibenden Zeichen bis das erforderliche Minimum erreicht ist"
+      },
+      "minWords": {
+        "label": "Worte verbleibend",
+        "description": "Zählen der verbleibenden Worte bis das erforderliche Minimum erreicht ist"
+      },
+      "maxChars": {
+        "label": "Zeichen verbleibend",
+        "description": "Zählen der verbleibenden Zeichen bis das zulässige Maximum erreicht ist"
+      },
+      "maxWords": {
+        "label": "Worte verbleibend",
+        "description": "Zählen der verbleibenden Worte bis das zulässige Maximum erreicht ist"
+      }
+    },
+    "input": {
+      "text": {
+        "label": "Texteingabefeld {{order}}"
+      },
+      "textarea": {
+        "label": "Text Editor {{order}}"
+      },
+      "richtext": {
+        "label": "Rich Text Editor {{order}}"
+      }
+    },
+    "questionInput": {
+      "text": {
+        "label": "Texteingabefeld {{order}} um die ausgewählte Frage zu beantworten"
+      },
+      "textarea": {
+        "label": "Texteditor {{order}} um die ausgewählte Frage zu beantworten"
+      },
+      "richtext": {
+        "label": "Rich Text Editor {{order}} um die ausgewählte Frage zu beantworten"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "Art des Tests:",
+      "number": "Anzahl der Fragen:"
+    },
+    "button": {
+      "continue": {
+        "label": "OK",
+        "description": "Übungen beginnen"
+      }
+    }
+  }
+}

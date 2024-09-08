@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C7067F92-0C31-4AE4-AD07-A273F6E58CD9@1x</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-432.000000, -3055.000000)">
+            <g transform="translate(331.000000, 2847.000000)">
+                <g transform="translate(101.000000, 208.000000)">
+                    <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M18,4 L6,4 C4.9,4 4,4.9 4,6 L4,15 C4,16.1045695 4.8954305,17 6,17 L9.31141443,17 L9.31141443,17 L9.31141443,21 L13.3114144,17 L18,17 C19.1,17 20,16.1 20,15 L20,6 C20,4.9 19.1,4 18,4 Z" fill="currentColor"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

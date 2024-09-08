@@ -1,0 +1,1 @@
+NGL_Slides: git@git.avallain.com:author-client-designpacks/cengage.git:refs/tags/ngl-slides-1.3.0 - git@git.avallain.com:author/designpacks.git:refs/tags/ngl-slides-1.3.0 - git@git.avallain.com:author/designpacks.git:refs/tags/core-46.0.0-beta.4.0 - 

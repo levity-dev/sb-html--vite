@@ -1,0 +1,9 @@
+p.none,
+p.footnote, 
+p.bulletspacing_1x,
+p.bulletspacing_1p4x,
+p.numberspacing_1x,
+p.numberspacing_1p4x,
+p.reading-with-line-num {
+  display: block;
+}

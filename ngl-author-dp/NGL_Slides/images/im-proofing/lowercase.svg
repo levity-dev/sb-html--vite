@@ -1,0 +1,9 @@
+<svg viewBox="0 0 28 23" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(-1)" fill="none" fill-rule="evenodd">
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="22">
+                <tspan x=".213" y="22" fill="#9B9B9B">B</tspan>
+                <tspan x="16.037" y="22" fill="#000">b</tspan>
+            </text>
+    <circle fill="#000" cx="24.5" cy="2.5" r="2.5"/>
+  </g>
+</svg>

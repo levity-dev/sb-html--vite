@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A773969B-D76D-42E4-A2FE-BEE93B21761D@1x</title>
+    <g id="Library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DP---Icons" transform="translate(-469.000000, -3079.000000)">
+            <g id="icon/24x24/video" transform="translate(467.000000, 3076.000000)">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M9,7 L9,15 L16,11 L9,7 Z M20,3 L4,3 C2.9,3 2,3.9 2,5 L2,17 C2,18.1 2.9,19 4,19 L8,19 L8,21 L16,21 L16,19 L20,19 C21.1,19 22,18.1 22,17 L22,5 C22,3.9 21.1,3 20,3 Z M20,17 L4,17 L4,5 L20,5 L20,17 Z" id="Shape" fill="#182B37"></path>
+            </g>
+        </g>
+    </g>
+</svg>

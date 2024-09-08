@@ -1,0 +1,61 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #F9C52A;
+  z-index: 9999;
+}
+
+.loader svg {
+  width: 100px;
+  height: 100px;
+  animation: rotate 2s linear infinite;
+}
+
+@media only screen and (min-width: 640px) {
+  .loader svg {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.loader circle {
+  stroke: #fff;
+  stroke-linecap: round;
+  transform-origin: center;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+#loader__innerCircle {
+  transform: rotate(180deg);
+}
+
+#loader__middleCircle {
+  transform: rotate(90deg);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 0, 190;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 190, 360;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 190, 360;
+    stroke-dashoffset: -190;
+  }
+}

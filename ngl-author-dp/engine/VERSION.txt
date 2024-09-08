@@ -1,0 +1,9 @@
+versions:
+- commitDate: 2024-08-12 13:20:17 +0000
+  commitedBy: Carlos Rodríguez
+  hash: 1a342320a0e39892d46551aa58852e94ebee29d5
+  name: buckminster-46.0.0-beta.3.0
+  updateDate: 2024-08-12 13:20:17 +0000
+  updatedBy: Carlos Rodríguez
+  url: //author-engine-production.avallain.net/buckminster-46.0.0-beta.3.0/
+  versionTag: buckminster-46.0.0-beta.3.0

@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="../style.css">
+<script type="text/javascript">
+      // Engine will search for authorAPI in all the parent windows. So define this object in the window you consider
+window.authorAPI = {
+	setEngine: function(engine) {
+		engine.addEventListener('lo:end', function() {
+			// do closing stuff here
+			if (parent.PF) {
+				var lb = parent.PF('alightBox');
+				if (lb) {
+					lb.hide();
+				}
+			}
+		}
+		);
+	},
+
+	set: function() { },
+	get: function() { },
+
+	finish: function() { }
+};
+      A5 = {};
+      A5.LMS_APIS = 'Author,Console';
+      A5.ENGINE_ROOT = '//author-engine-production.avallain.net/buckminster-46.0.0-beta.3.0/';
+      A5.SKIN_URL= 'https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/';
+      A5.SKIN_TYPE= 'git';
+      A5.TOOLBELT_URL = '//avallain-toolbelt-prod.avallain.net';
+      A5.GEOGEBRA = '//author-engine-production.avallain.net/geogebra/v5-0-672-0/HTML5/5.0/web/';
+      A5.MATHJAX = '//author-engine-production.avallain.net/mathjax/3.2.2';
+      A5.CKEDITOR_RELATIVE = false;
+
+      A5.WIRIS_QUIZ_VALIDATION_SERVICE_URL = '';
+      A5.AUDIO_FORMATS = 'mp3';
+      A5.ITEM_BANK_API_URL = 'https://api-cen-author6-prod.avallain.net/api/v2/items_bank_items_for_engine';
+      A5.WIRIS_QUIZ_LIBRARY_RESOURCES_URL = '//author-engine-production.avallain.net/wirisquiz/4.9.4/resources';
+      A5.VIDEO_FORMATS = 'mp4';
+            
+      A5.AUDIO_URL_BUILDER = function(id, format) {
+		var cdn = (id.indexOf("r5_") === 0 ? "https://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com" : "https://cen-author-prod-assets.avallain.net");
+		return cdn + "/" + id + "." + format;
+      };
+      
+      A5.VIDEO_URL_BUILDER = function(id, format){
+    	  if (format=='hls') {
+			return "https://cen-author-prod-assets.avallain.net/" + id + "/hls_playlist.m3u8";
+   		  } else {
+   			return "https://cen-author-prod-assets.avallain.net/" + id + "." + format;
+   		  } 
+      };
+
+      /* A5.EXTERNAL_URL_BUILDER */
+      A5.START_TASK=0
+    </script>
+    <script type="text/javascript" src="data.do"></script>
+    <title>Unit 2A | Goals</title>
+
+    <script type="text/javascript">
+      function a5_init($) {
+        
+        window.LOInfo = {};
+        
+        window.LOInfo.assessmentOptions = '';
+        window.LOInfo.LOOptions = '<options data-author="options-v2"><option id="433"><key>off</key></option><option id="341"><key>on</key></option><option id="311"><key>always</key></option><option id="384"><key>{&amp;quot;items&amp;quot;:[]}</key></option><option id="568"><key>shown</key></option><option id="373"><key>off</key></option><option id="547"><key>on</key><value>{&amp;quot;items&amp;quot;:[{&amp;quot;Header Theme&amp;quot;:&amp;quot;Voices Beginner&amp;quot;},{&amp;quot;Text Size&amp;quot;:&amp;quot;Large&amp;quot;},{},{},{},{},{},{},{},{},{},{},{},{},{},{}],&amp;quot;selection&amp;quot;:&amp;quot;on&amp;quot;}</value></option><option id="335"><key>off</key></option><option id="432"><key>on</key></option><option id="025"><key>true</key></option><option id="050"><key>auto</key></option><option id="313"><key>off</key></option><option id="419"><key>off</key></option><option id="587"><key>shown</key></option><option id="046"><key>1_point_action</key></option><option id="449"><key>on</key></option><option id="312"><key>off</key></option><option id="450"><key>off</key></option><option id="336"><key>always</key></option><option id="371"><key>off</key></option><option id="334"><key>off</key><value>{&amp;quot;items&amp;quot;:[],&amp;quot;selection&amp;quot;:&amp;quot;off&amp;quot;}</value></option><option id="570"><key>on</key></option><option id="396"><key>on</key></option><option id="049"><key>on</key></option><option id="380"><key>true</key></option><option id="393"><key>["2","9"]</key></option><option id="418"><key>["ebook"]</key></option><option id="528"><key>on</key></option><option id="541"><key>on</key></option><option id="550"><key>200</key></option><option id="553"><key>on</key></option><option id="560"><key>["2","9","4","5","3","6"]</key></option><option id="563"><key>First Activity</key></option><option id="581"><key>["2","9"]</key></option><option id="582"><key>["2","9"]</key></option><option id="583"><key>["2","9"]</key></option><option id="584"><key>["2","9"]</key></option></options>';
+        window.LOInfo.mode = 'Normal';
+        window.LOInfo.title = 'Unit 2A | Goals';
+        
+          window.LOInfo.lotype = 'Standard';
+          window.LOInfo.mediaURL = '';
+          window.LOInfo.toolBeltURL = '//avallain-toolbelt-prod.avallain.net';
+          window.LOInfo.UID = 'cen-prod_602304';
+          window.LOInfo.geoGebra = '//author-engine-production.avallain.net/geogebra/v5-0-672-0/HTML5/5.0/web/';
+          window.LOInfo.assetCDNURL = 'https://cen-author-prod-assets.avallain.net';
+          window.LOInfo.merge = 'true';
+          window.LOInfo.name = 'V1e_sbl_BrE_L1_Unit 2_A_p024__Goals';
+          window.LOInfo.mathJAX = '//author-engine-production.avallain.net/mathjax/3.2.2';
+          window.LOInfo.ID = '602304';
+          window.LOInfo.lang = 'en';
+        var engine = new a5.Engine();
+        
+       	engine.register('get-toolbelt-token', function() {
+			return $.get('https://cengage.enterprise.avallainauthor.com/authorj/api/toolbelt/token').then(function(response) {
+				return response;
+        	});
+        }); 
+       	
+        engine.initialize();
+      }
+   </script>
+    
+    
+  <script type="text/javascript" src="//author-engine-production.avallain.net/buckminster-46.0.0-beta.3.0/player.js"></script>
+  <link href="https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/css/style.css" rel="preload" as="style">
+  <link href="https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/js.js" rel="preload" as="script">
+  <link href="https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/templates.js" rel="preload" as="script">
+  <link href="https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/js.js" rel="preload" as="script">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700%7CPatrick+Hand:400%7COswald:400,600,700" media="all">
+  <link rel="stylesheet" type="text/css" href="https://cen-author-prod-assets.avallain.net/designpack/NGL_Slides/295a664e5182ff8b22507028208c89db/css/style.css">
+  
+

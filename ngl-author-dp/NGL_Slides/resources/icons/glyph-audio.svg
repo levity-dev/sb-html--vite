@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>70D43A4E-1C10-469C-8AFE-5EAA1C9739BC@1x</title>
+    <g id="Library" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DP---Icons" transform="translate(-562.000000, -3078.000000)">
+            <g id="icon/24x24/listening" transform="translate(559.000000, 3076.000000)">
+                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M19,15 L19,18 C19,18.55 18.55,19 18,19 L17,19 L17,15 L19,15 M7,15 L7,19 L6,19 C5.45,19 5,18.55 5,18 L5,15 L7,15 M12,2 C7.03,2 3,6.03 3,11 L3,18 C3,19.66 4.34,21 6,21 L9,21 L9,13 L5,13 L5,11 C5,7.13 8.13,4 12,4 C15.87,4 19,7.13 19,11 L19,13 L15,13 L15,21 L18,21 C19.66,21 21,19.66 21,18 L21,11 C21,6.03 16.97,2 12,2 Z" id="Shape" fill="#182B37"></path>
+            </g>
+        </g>
+    </g>
+</svg>

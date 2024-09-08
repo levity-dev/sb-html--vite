@@ -1,0 +1,8 @@
+<svg viewBox="0 0 29 29" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+    <circle stroke="#000" stroke-width="2" cx="13.5" cy="13.5" r="13.5"/>
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="15" fill="#000">
+                <tspan x="4.495" y="20">SP</tspan>
+            </text>
+  </g>
+</svg>

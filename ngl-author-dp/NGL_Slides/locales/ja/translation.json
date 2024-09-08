@@ -1,0 +1,1771 @@
+{
+  "contentElements": {
+    "mediaPlayer": {
+      "button": {
+        "playbackSpeed1": {
+          "label": "0.5",
+          "description": "0.5"
+        },
+        "playbackSpeed2": {
+          "label": "0.75",
+          "description": "0.75"
+        },
+        "playbackSpeed3": {
+          "label": "通常",
+          "description": "通常"
+        },
+        "playbackSpeed4": {
+          "label": "1.25",
+          "description": "1.25"
+        },
+        "playbackSpeed5": {
+          "label": "1.5",
+          "description": "1.5"
+        },
+        "playbackSpeed6": {
+          "label": "2",
+          "description": "2"
+        },
+        "play": {
+          "label": "",
+          "description": "{{title}} を再生"
+        },
+        "pause": {
+          "label": "",
+          "description": "一時停止"
+        },
+        "volume": {
+          "label": "",
+          "description": "音量を調整"
+        },
+        "mute": {
+          "label": "",
+          "description": "音声をミュート"
+        },
+        "speed": {
+          "label": "",
+          "description": "再生速度"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "トランスクリプトを表示"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "トランスクリプトを表示"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "字幕を表示"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "字幕を評表示"
+        },
+        "quality": {
+          "label": "",
+          "description": "質"
+        },
+        "qualityAuto": {
+          "label": "自動",
+          "description": "自動"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "全画面表示を切り替える"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "全画面表示を終了"
+        },
+        "playbackSpeed": {
+          "label": "通常"
+        },
+        "stop": {
+          "label": "",
+          "description": "停止"
+        },
+        "speedTurnOn": {
+          "label": "",
+          "description": "再生速度を下げる"
+        },
+        "speedTurnOff": {
+          "label": "",
+          "description": "通常の再生速度"
+        },
+        "playbackTitle": "スピード"
+      },
+      "volumeStair": {
+        "prefix": "音量 ",
+        "suffix": ""
+      },
+      "audio": {
+        "description": "音声: {{title}}"
+      },
+      "video": {
+        "description": "動画: {{title}}"
+      },
+      "volume": {
+        "description": "現在の音量"
+      },
+      "progress": {
+        "label": "メディアの進行状況",
+        "value": "{{total}} の {{current}}"
+      },
+      "subtitles": "字幕"
+    },
+    "icTextCorrectionDialog": {
+      "titlePrefix": "置換: ",
+      "placeholder": "正しい単語を記述",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        },
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "適用",
+          "description": "変更を適用"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "蛍光ペンの色"
+        }
+      },
+      "toolbar": "カラーリングツールバー"
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "言語",
+          "description": "言語切替"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "すべて表示",
+          "description": ""
+        }
+      }
+    }
+  },
+  "body": {
+    "timer": {
+      "days": "日",
+      "days_plural": "日",
+      "hours": "時間",
+      "hours_plural": "時間",
+      "label": "残り時間:",
+      "negative": "-",
+      "minutes": "分",
+      "minutes_plural": "分",
+      "seconds": "秒",
+      "seconds_plural": "秒",
+      "extra": "エクストラ",
+      "extra_plural": "エクストラ",
+      "left": "残り",
+      "left_plural": "残り"
+    },
+    "error": {
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "ダイアログを閉じる"
+        }
+      },
+      "code_LO_OFFLINE": "オンラインになるまで、作業を提出することはできません。接続を確認して、もう一度お試しください。",
+      "title": "エラー",
+      "code_LO_START": "以前に保存したデータの読み込み中にエラーが発生しました。閉じてもう一度お試しください。",
+      "code_LO_CLOSE": "ラーニングオブジェクトを閉じる際にエラーが発生しました。",
+      "code_LO_SUBMIT": "ラーニングオブジェクトの送信中にエラーが発生しました。",
+      "code_LO_SUBMIT_NO_ATTEMPTS": "これ以上利用できる試行はありません。ラーニングオブジェクトを送信できません。",
+      "code_LO_SUBMIT_OFFLINE": "オフラインの間はラーニングオブジェクトを送信できません。インターネット接続を確認して、もう一度お試しください。",
+      "code_LO_SEND_SCORES": "ラーニングオブジェクトからスコアを送信中にエラーが発生しました。",
+      "code_LO_SEND_SCORES_NO_ATTEMPTS": "これ以上利用できる試行はありません。スコアを送信できません。",
+      "unexpected": "予期しないエラーが発生しました。閉じてもう一度お試しください。"
+    },
+    "figure": {
+      "button": {
+        "label": "説明",
+        "description": "説明"
+      }
+    },
+    "brand": "Avallain",
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "オプション",
+          "description": "コンテキストメニューを開く"
+        },
+        "toggleTurnOff": {
+          "label": "オプション",
+          "description": "コンテキストメニューを閉じる"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "閉じる"
+      }
+    },
+    "learningObject": {
+      "title": "学習目標"
+    }
+  },
+  "interaction": {
+    "ppSlideshowToolbar": {
+      "seconds": " 秒",
+      "button": {
+        "fullscreen": {
+          "label": "",
+          "description": "全画面表示"
+        },
+        "previous": {
+          "label": "前へ進む",
+          "description": "前へ進む"
+        },
+        "next": {
+          "label": "次へ進む",
+          "description": "次へ進む"
+        },
+        "first": {
+          "label": "最初に移動",
+          "description": "最初に移動"
+        },
+        "last": {
+          "label": "最後に移動",
+          "description": "最後に移動"
+        },
+        "play": {
+          "label": "再生",
+          "description": "再生"
+        },
+        "pause": {
+          "label": "一時停止",
+          "description": "一時停止"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "遅れを減らす"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "遅れを増やす"
+        },
+        "shuffleOrder": {
+          "label": "シャッフル",
+          "description": "シャッフル"
+        },
+        "defaultOrder": {
+          "label": "デフォルトの順序",
+          "description": "デフォルトの順序"
+        },
+        "show": {
+          "label": "表示",
+          "description": "デコードを表示"
+        },
+        "hide": {
+          "label": "非表示",
+          "description": "デコードを非表示"
+        }
+      }
+    },
+    "shared": {
+      "answerCheckTooltipPrefix": "回答:",
+      "prefilled": "事前入力された回答",
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span> 個のエラー"
+      },
+      "toolbar": {
+        "accessibilityToolbar": {
+          "label": "色覚異常対応モード",
+          "tooltip": "番号と色の両方で識別されるカテゴリー"
+        },
+        "button": {
+          "eraserOn": {
+            "label": "消しゴム",
+            "description": "消去マーカー"
+          },
+          "eraserOff": {
+            "label": "消しゴム",
+            "description": "消去マーカー"
+          },
+          "selected": "選択済み",
+          "option": "オプション"
+        },
+        "label": "ツールバー"
+      },
+      "card": {
+        "order": "カード {{order}}/{{count}}:",
+        "status": {
+          "unturned": "回転していません。",
+          "turned": "回転しました。"
+        }
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "オプション",
+          "description": "ダイアログのオプション"
+        },
+        "hideTurnOn": {
+          "label": "自分の行を非表示",
+          "description": "自分の行を非表示"
+        },
+        "hideTurnOff": {
+          "label": "自分の行を非表示",
+          "description": "自分の行を表示"
+        },
+        "hideAllTurnOn": {
+          "label": "すべての行を非表示",
+          "description": "すべての行を非表示"
+        },
+        "hideAllTurnOff": {
+          "label": "すべての行を非表示",
+          "description": "すべての行を表示"
+        },
+        "download": {
+          "label": "ダウンロード",
+          "description": "すべてダウンロード"
+        },
+        "playDialog": {
+          "label": "ダイアログを再生",
+          "description": ""
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "テキスト入力",
+        "label": "{{order}}空白",
+        "labelGaps": "{{order}}空白で{{count}}字",
+        "prefilled": "{{value}}入力済みの答え。"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "挿入",
+          "spelling": "スペリング:",
+          "grammar": "文法:"
+        },
+        "placeholder": "挿入する内容を入力",
+        "button": {
+          "close": {
+            "label": "閉じる",
+            "description": "このダイアログを閉じる"
+          },
+          "ok": {
+            "label": "適用",
+            "description": "変更を適用"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "採点を校正",
+            "description": "採点を校正"
+          },
+          "eraser": {
+            "label": "消しゴム",
+            "description": "マーカーを消す"
+          },
+          "capitalize": {
+            "label": "大文字化",
+            "description": "大文字化"
+          },
+          "lowercase": {
+            "label": "小文字",
+            "description": "小文字"
+          },
+          "fullStop": {
+            "label": "句点を追加",
+            "description": "句点を追加"
+          },
+          "insert": {
+            "label": "挿入",
+            "description": "挿入"
+          },
+          "remove": {
+            "label": "削除",
+            "description": "削除"
+          },
+          "newParagraph": {
+            "label": "新しい段落",
+            "description": "新しい段落"
+          },
+          "spelling": {
+            "label": "スペリング",
+            "description": "スペリング"
+          },
+          "grammar": {
+            "label": "文法",
+            "description": "文法"
+          },
+          "indent": {
+            "label": "インデント",
+            "description": "インデント"
+          }
+        },
+        "label": "プルーフィングツールバー"
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "correct": "正解",
+          "wrong": "間違い",
+          "missing": "不足",
+          "prefilled": "事前入力済み"
+        },
+        "checkbox": "再度表示しないでください",
+        "button": {
+          "close": {
+            "label": "閉じる",
+            "description": "キーテーブルを閉じる"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "チーム {{label}}",
+        "points": "ポイント",
+        "categories": "カテゴリー"
+      },
+      "gameOver": {
+        "team": "チーム {{label}}",
+        "winners": {
+          "conjunction": "と",
+          "suffix": "勝ち。",
+          "suffix_plural": "勝ち。"
+        },
+        "greeting": "おめでとうございます!"
+      },
+      "team": {
+        "team": "チーム {{label}}"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "聴く"
+        },
+        "pause": {
+          "label": "",
+          "description": "聴くのを一時停止"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "聴くのを停止"
+        },
+        "record": {
+          "label": "回答を録音",
+          "description": "回答を録音"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "録音を一時停止"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "録音を停止"
+        },
+        "speak": {
+          "label": "回答を録音",
+          "description": "音声を録音"
+        },
+        "stopSpeaking": {
+          "label": "話す",
+          "description": "録音を停止"
+        },
+        "finish": {
+          "label": "",
+          "description": "録音を終了"
+        },
+        "play": {
+          "label": "再生",
+          "description": "録音を再生"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "再生を停止"
+        },
+        "download": {
+          "label": "",
+          "description": "録音をダウンロード"
+        },
+        "retry": {
+          "label": "もう一度学習",
+          "description": "もう一度学習"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "ダイアログを再生",
+            "description": ""
+          },
+          "pause": {
+            "label": "ダイアログを再生",
+            "description": "一時停止"
+          },
+          "stop": {
+            "label": "",
+            "description": "停止"
+          },
+          "prev": {
+            "label": "",
+            "description": "戻る"
+          },
+          "next": {
+            "label": "",
+            "description": "次へ"
+          }
+        }
+      },
+      "timelimit": "最大再生時間は {{time}} 秒です"
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "ヒント",
+        "subtitle_horizontal": "横",
+        "subtitle_vertical": "下"
+      },
+      "cell": {
+        "description_horizontal": "単語 {{wordReference}} の {{letterPosition}} 文字目、横",
+        "description_vertical": "単語 {{wordReference}} の {{letterPosition}} 文字目、下"
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "リセット",
+          "description": "この文をリセット"
+        }
+      },
+      "instructions": {
+        "replace": {
+          "description": "編集したい単語を選択してください。"
+        }
+      },
+      "group": "{{order}}テキスト編集。",
+      "modified": "編集",
+      "checkbox": {
+        "label": "文にマークをつける {{order}}。"
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "ゲームオーバー!",
+        "body": "ゲームが終了しました。<br>進めるには、<q>続行</q>をクリックしてください。",
+        "button": {
+          "ok": {
+            "label": "続行",
+            "description": "このダイアログを閉じる"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "時間:",
+        "points": "ポイント: "
+      },
+      "timeUp": {
+        "title": "タイムアウト!",
+        "body": "時間切れです!<br> 進めるには [<q>続行</q>] をクリックしてください。",
+        "button": {
+          "ok": {
+            "label": "続行",
+            "description": "このダイアログを閉じる"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "可能な回答"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "可能な回答"
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "あなたの回答:"
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "label": "{{count}} 回の試行が残っています",
+        "label_plural": "{{count}} 回の試行が残っています",
+        "description": "残りの試行回数は {{total}} 回中 {{count}} 回です。",
+        "description_plural": "残りの試行回数は {{total}} 回中 {{count}} 回です。"
+      }
+    },
+    "imVoiceFeedback": {
+      "low": "不足",
+      "mid": "次のように聞こえます:",
+      "high": "グッド"
+    },
+    "imAutoCorrect": {
+      "description": "テキストのエラーを見つけて印をつけてください"
+    },
+    "isDropdown": {
+      "combobox": {
+        "label": "リスト {{order}}"
+      }
+    },
+    "osSequence": {
+      "instructions": {
+        "drag": {
+          "description": "ドラッグアンドドロップを使用して、タイルを正しい順序に並べてください"
+        },
+        "swap": {
+          "description": "矢印キーを使用してタイルを正しい順序に並べてください"
+        }
+      },
+      "group": "シーケンス {{order}}。",
+      "button": {
+        "left": {
+          "description": "タイルを左に移動"
+        },
+        "right": {
+          "description": "タイルを右に移動"
+        },
+        "up": {
+          "description": "タイルを上に移動"
+        },
+        "down": {
+          "description": "タイルを下に移動"
+        },
+        "goLast": {
+          "description": "最後に移動"
+        },
+        "goFirst": {
+          "description": "先頭に移動"
+        }
+      }
+    },
+    "icVoice": {
+      "score": "全体スコア",
+      "fluency": "流暢さ",
+      "grammar": "文法",
+      "vocabulary": "語彙",
+      "pronunciation": "発音",
+      "relevance": {
+        "notRelevant": "関係ありません!",
+        "partiallyRelevant": "良いですね!",
+        "relevant": "よくできました!"
+      },
+      "tabs": {
+        "feedback": "フィードバック",
+        "transcript": "トランスクリプト"
+      },
+      "transcript": {
+        "phoneme": "音素",
+        "score": "スコア",
+        "quality": {
+          "low": "見つかりません",
+          "mid": "{{phone}} のように聞こえます",
+          "high": "グッド"
+        },
+        "tip": "任意の単語とやり取りして、パフォーマンスを向上させましょう"
+      }
+    },
+    "linkingLines": {
+      "group": "グループ{{group}}  には {{count}} の要素があります。",
+      "enumGroup": "{{group}}",
+      "order": "{{group}}.{{order}}.",
+      "prefilled": "(事前入力された回答、非対話型)",
+      "linkedTo": "次へリンク"
+    },
+    "imMarking": {
+      "toolbar": "マーキングツールバー",
+      "instructions": {
+        "description": "正しく選択して単語をマーキングします。"
+      },
+      "group": "{{order}}マーキング。"
+    }
+  },
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "ツールを開く"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "ツールを閉じる"
+        },
+        "pointer": {
+          "label": "",
+          "description": "ポインター"
+        },
+        "pen": {
+          "label": "",
+          "description": "ペンシル"
+        },
+        "brush": {
+          "label": "",
+          "description": "蛍光ペン"
+        },
+        "eraser": {
+          "label": "",
+          "description": "消しゴム"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "付箋"
+        },
+        "undo": {
+          "label": "",
+          "description": "元に戻す"
+        },
+        "redo": {
+          "label": "",
+          "description": "やり直す"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "注釈を非表示"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "注釈を表示"
+        },
+        "richText": {
+          "label": "",
+          "description": "リッチテキストメモ"
+        },
+        "clearAll": {
+          "label": "",
+          "description": "すべての注釈を削除"
+        },
+        "textHighlighter": {
+          "label": "",
+          "description": "テキスト蛍光ペン"
+        },
+        "shapes": {
+          "label": "形状の追加",
+          "description": "形状"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "折りたたむ"
+        },
+        "expand": {
+          "label": "",
+          "description": "メモを展開"
+        },
+        "delete": {
+          "label": "",
+          "description": "メモを削除"
+        }
+      }
+    },
+    "timer": {
+      "title": "タイマー",
+      "minutes": "分",
+      "seconds": "秒",
+      "display": "分:秒",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "タイマーを閉じる"
+        },
+        "start": {
+          "label": "開始",
+          "description": "タイマーを開始"
+        },
+        "stop": {
+          "label": "停止",
+          "description": "タイマーを停止"
+        }
+      }
+    },
+    "richText": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "テキストを折りたたむ"
+        },
+        "delete": {
+          "label": "",
+          "description": "テキストを削除"
+        },
+        "expand": {
+          "label": "",
+          "description": "テキストを展開"
+        }
+      },
+      "control": {
+        "handle": {
+          "description": "テキストをドラッグして移動"
+        }
+      }
+    },
+    "label": "アノテーションツールバー"
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "ページ ",
+          "conjunction": " / ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "現在のページ"
+        },
+        "screenSelection": {
+          "showScreenSelection": "ページリストを表示",
+          "hideScreenSelection": "ページリストを非表示"
+        }
+      },
+      "runningScore": {
+        "prefix": "スコア",
+        "conjunction": "/",
+        "suffix": "ポイント"
+      },
+      "button": {
+        "previous": {
+          "label": "戻る",
+          "description": "戻る"
+        },
+        "forward": {
+          "label": "続行",
+          "description": "続行"
+        },
+        "previousLO": {
+          "label": "前のアクティビティ",
+          "description": "前のアクティビティ"
+        },
+        "forwardLO": {
+          "label": "次のアクティビティ",
+          "description": "次のアクティビティ"
+        },
+        "rights": {
+          "label": "著作権情報",
+          "description": "著作権情報"
+        },
+        "signalShow": {
+          "label": "間違った単語を表示",
+          "description": "間違った単語を表示"
+        },
+        "signalHide": {
+          "label": "間違った単語を非表示",
+          "description": "間違った単語を非表示"
+        },
+        "answerNext": {
+          "label": "次の回答",
+          "description": "次の回答"
+        },
+        "answerAll": {
+          "label": "すべての回答",
+          "description": "すべての回答"
+        },
+        "solutionHint": {
+          "label": "解決策のヒント",
+          "description": "解決策のヒント"
+        },
+        "retry": {
+          "label": "もう一度お試しください",
+          "description": "再試行する"
+        },
+        "reveal": {
+          "label": "表示",
+          "description": "表示する"
+        },
+        "hide": {
+          "label": "非表示",
+          "description": "非表示にする"
+        },
+        "save": {
+          "label": "保存",
+          "description": "保存する"
+        },
+        "boxdrop": {
+          "label": "ドロップ",
+          "description": "ドロップ"
+        },
+        "boxdropPause": {
+          "label": "一時停止",
+          "description": "アクティビティを一時停止"
+        },
+        "boxdropResume": {
+          "label": "再開",
+          "description": "アクティビティを再開"
+        },
+        "quizNew": {
+          "label": "新しいゲーム",
+          "description": "新しい質問でゲームを再開する"
+        },
+        "quizRestart": {
+          "label": "ゲームを再開",
+          "description": "同じ質問でゲームを再開する"
+        },
+        "quizSkip": {
+          "label": "質問をスキップ",
+          "description": "質問をスキップしてターンを終了する"
+        },
+        "quizBack": {
+          "label": "戻る",
+          "description": "ゲームボードに移動"
+        },
+        "loNotes": {
+          "label": "メモ",
+          "description": "メモ"
+        },
+        "micSettings": {
+          "label": "マイク設定",
+          "description": "マイク設定"
+        },
+        "specialChars": {
+          "label": "特殊文字",
+          "description": "特殊文字"
+        },
+        "export": {
+          "label": "エクスポート",
+          "description": "エクスポートアクティビティ"
+        },
+        "imProofingHint": {
+          "label": "ヒント",
+          "description": "ヒントをください"
+        },
+        "hints": {
+          "label": "1 番目のヒント",
+          "description": "最初のヒント"
+        },
+        "hintsSecond": {
+          "label": "2 番目のヒント"
+        },
+        "hintsThird": {
+          "label": "3 番目のヒント"
+        },
+        "help": {
+          "label": "ヘルプ",
+          "description": "アクティビティのヘルプを表示"
+        },
+        "answers": {
+          "label": "解答を表示",
+          "description": "正答を表示"
+        },
+        "check": {
+          "label": "解答を確認",
+          "description": "回答を確認する"
+        },
+        "reset": {
+          "label": "クリア",
+          "description": "クリア"
+        },
+        "resetAll": {
+          "label": "すべてをクリア",
+          "description": "すべてクリア"
+        },
+        "fullscreenTurnOn": {
+          "label": "全画面表示",
+          "description": "全画面表示"
+        },
+        "fullscreenTurnOff": {
+          "label": "全画面表示",
+          "description": "全画面表示"
+        },
+        "toc": {
+          "label": "目次",
+          "description": "目次"
+        },
+        "results": {
+          "label": "結果",
+          "description": "結果"
+        },
+        "sectionTimes": {
+          "label": "消費時間",
+          "description": "費やした時間"
+        },
+        "sendscores": {
+          "label": "スコアを送信",
+          "description": "スコアを送信"
+        },
+        "exercises": {
+          "label": "レビュー",
+          "description": "見直す"
+        },
+        "submit": {
+          "label": "提出",
+          "description": "送信する"
+        },
+        "countdown": {
+          "label": "タイマー",
+          "description": "タイマー"
+        },
+        "hideContent": {
+          "label": "コンテンツを非表示",
+          "description": "コンテンツを非表示"
+        },
+        "showContent": {
+          "label": "コンテンツを表示",
+          "description": "コンテンツを表示"
+        },
+        "hideRubric": {
+          "label": "ルーブリックを非表示",
+          "description": "ルーブリックを非表示"
+        },
+        "showRubric": {
+          "label": "ルーブリックを表示",
+          "description": "ルーブリックを表示"
+        },
+        "hideContentRubric": {
+          "label": "ルーブリックとコンテンツを非表示",
+          "description": "ルーブリックとコンテンツを非表示"
+        },
+        "showContentRubric": {
+          "label": "ルーブリックとコンテンツを表示",
+          "description": "ルーブリックとコンテンツを表示"
+        }
+      }
+    },
+    "alerts": {
+      "showNextAnswer": "[次の解答] ボタンがアクティブです。",
+      "showNextButtonActive": "[次の解答] ボタンがアクティブ",
+      "showAllAnswer": "[すべての回答] ボタンがアクティブです。",
+      "reveal": "[表示] ボタンがアクティブです。",
+      "revealMore": "[表示] ボタンがアクティブ",
+      "hide": "[非表示] ボタンがアクティブです。",
+      "hidePrevious": "[非表示] ボタンがアクティブ",
+      "checkAnswer": "[解答を確認] ボタンがアクティブです。",
+      "result": "[結果] ボタンがアクティブです。",
+      "review": "[レビュー] ボタンがアクティブです。",
+      "sendScores": "[スコアを送信] ボタンがアクティブです。",
+      "previousPage": "[戻る] ボタンがアクティブです。",
+      "forwardPage": "[続行] ボタンがアクティブです。"
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "正解"
+    },
+    "wrong": {
+      "description": "不正解"
+    },
+    "revealed": {
+      "description": "空の回答"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "本当によろしいですか?",
+      "results": "どう行ったのですか?",
+      "feedback": "フィードバック",
+      "score": {
+        "prefix": "スコア",
+        "conjunction": "/"
+      },
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        },
+        "ok": {
+          "label": "適用",
+          "description": "変更を適用"
+        },
+        "continue": {
+          "label": "続行",
+          "description": "変更せずに続行"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "どう行ったのですか?",
+      "body": "あなたのスコアは {{correct}}/{{total}} です。",
+      "automaticmarked": "パーセンテージ: {{score}}%。",
+      "table": {
+        "header": {
+          "question": "質問",
+          "mark": "採点"
+        },
+        "body": {
+          "mark": "{{correct}}/{{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "続行",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "フィードバック",
+      "body": "あなたのスコアは {{correct}}/{{total}} です。",
+      "button": {
+        "tryAgain": {
+          "label": "もう一度お試しください",
+          "description": "回答をクリア"
+        },
+        "submit": {
+          "label": "提出",
+          "description": "成績表に送信"
+        },
+        "next": {
+          "label": "続行",
+          "description": "次の画面に移動"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "どう行ったのですか?",
+      "body": "あなたのスコアは <span class=\"checkInfo__score\">{{correct}}/{{total}}</span> です。",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "閉じる"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "了解しました",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "1 文字以上を選択してください"
+    },
+    "imVoiceNoMatch": {
+      "title": "該当する結果が見つかりません",
+      "body": "録音「{{transcript}}」はテキストと一致しませんでした。新しい録音を作成してください。"
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "該当する結果が見つかりません",
+      "body": "録音「{{transcript}}」は利用可能な回答と一致しませんでした。新しい録音を作成してください。"
+    },
+    "micNotFound": {
+      "title": "マイクが見つかりません。",
+      "body": "マイクを有効にしてください。マイクはこのアクティビティに必要です。"
+    },
+    "testRecording": {
+      "title": "テスト録音",
+      "body": "以下でテスト録音を行うことでマイクをテストできます。マイクが正しく動作していることを確認するために、録音を聞き返してください。",
+      "button": {
+        "record": {
+          "label": "録音",
+          "description": "テストを録音"
+        },
+        "stopRecording": {
+          "label": "録音",
+          "description": "録音を停止"
+        },
+        "play": {
+          "label": "再生",
+          "description": "録音を再生"
+        },
+        "stopPlay": {
+          "label": "再生",
+          "description": "再生を停止"
+        }
+      },
+      "discard": "再度表示しないでください。"
+    },
+    "close": {
+      "title": "本当によろしいですか?",
+      "body": "このラーニングオブジェクトを閉じてもよろしいですか?",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "開いたままにする"
+        },
+        "ok": {
+          "label": "閉じる",
+          "description": "はい、閉じたいです"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "フィードバック",
+      "body": "このアクティビティは別のページで採点されます。続行してください。",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "エクスポート形式",
+      "body": "",
+      "filename": "ファイル名",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "ファイル形式を選択",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "エクスポート",
+          "description": "エクスポート形式"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "最初の回答"
+    },
+    "helpText": {
+      "title": "ヘルプ",
+      "body": "このテキストは、[著作者] > [プロジェクトアクティビティ] > [AT を選択] > [編集] > [ヘルプテキスト] で編集できます。",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "hint": {
+      "title": "ヒント",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "infoText": {
+      "title": "情報",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "トランスクリプト"
+      }
+    },
+    "notebook": {
+      "title": "ノートブック"
+    },
+    "offlineCheck": {
+      "title": "接続なし",
+      "body": "現在、インターネットに接続していないようです。<br>オンラインになるまで作業を提出することはできませんので、接続を確認してから再度お試しください。",
+      "button": {
+        "close": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "チーム数",
+      "body": "クイズのチーム数を選択してください。",
+      "button": {
+        "ok": {
+          "label": "開始",
+          "description": "ゲームを開始"
+        }
+      },
+      "teams": "チーム:"
+    },
+    "reallyReload": {
+      "title": "本当によろしいですか?",
+      "body": "このアクティビティのすべての回答をクリアして、最初からやり直しますか?",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "クリア",
+          "description": "回答をクリア"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "本当によろしいですか?",
+      "body": "<strong>すべてのアクティビティの</strong>すべての回答をクリアして、最初からやり直しますか?",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "すべてをクリア",
+          "description": "すべての回答をクリア"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "送信してもよろしいですか?",
+      "body": "すべての質問を完了していません。<br>スコアを今すぐ送信しますか?",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "キャンセルする"
+        },
+        "ok": {
+          "label": "提出",
+          "description": "送信する"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "録音エラー",
+      "body": "技術的なエラーが発生し、この録音が停止しました。もう一度お試しください。"
+    },
+    "recordingSaveAs": {
+      "title": "ダウンロード形式",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "ダウンロード",
+          "description": "音声をダウンロード"
+        }
+      }
+    },
+    "rights": {
+      "title": "著作権情報",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "本当によろしいですか?",
+      "body": "今すぐ解答を見てもよろしいですか? <br>もう一度試すことはできません。",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "続行",
+          "description": "解答を表示"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "本当によろしいですか?",
+      "body": "今すぐ解答を見てもよろしいですか? <br>このアクティビティに付与されるポイントは 0 ポイントになります。",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        },
+        "ok": {
+          "label": "続行",
+          "description": "解答を表示"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "スコアを送信",
+      "body": "すべてのアクティビティで [<q>解答を確認</q>] をクリックしたことを確認してください。",
+      "button": {
+        "cancel": {
+          "label": "続行",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "スコアを送信",
+      "body": "結果は成績表に送られました。",
+      "score": "あなたのスコアは {{correct}}/{{total}} です。"
+    },
+    "specialCharacters": {
+      "title": "特殊文字",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "閉じる",
+          "description": "このダイアログを閉じる"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "終了",
+      "body": "よくやりました! このエクササイズを完了しました。"
+    },
+    "submitInfo": {
+      "title": "提出済み",
+      "body": "<h2>スコア: </h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "回答",
+      "correct": "正解",
+      "score": "スコア",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "試行回数がこれ以上残っていません。",
+            "singular": "試行回数が 1 回残っています。戻って [<q>もう一度試す</q>] を押して練習を続けてましょう。",
+            "plural": "あと{{attemptsLeft}} 回試すことができます。戻って<q>再試行</q>を押してください。"
+          }
+        },
+        "unlimited": "試行回数は {{attempts}} 回です。戻って [<q>もう一度試す</q>] を押して練習を続けてましょう。"
+      },
+      "button": {
+        "close": {
+          "label": "解答を確認",
+          "description": "このダイアログを閉じて解答を確認する"
+        }
+      },
+      "perfectScore": "よくできました!"
+    },
+    "tableOfContents": {
+      "title": "アクティビティを選択してください",
+      "empty": "表示するエントリーはありません。",
+      "button": {
+        "cancel": {
+          "label": "キャンセル",
+          "description": "変更せずに続行"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "最終スコアボード"
+    },
+    "teamsScoreboard": {
+      "title": "スコアボード"
+    },
+    "timeSpentInSections": {
+      "title": "消費時間",
+      "table": {
+        "header": {
+          "section": "セクション",
+          "recommended": "おすすめ",
+          "spent": "消費時間"
+        },
+        "body": {
+          "total": "合計"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "タイムアウト!",
+      "body": "時間になりました!",
+      "button": {
+        "cancel": {
+          "label": "続行",
+          "description": "このダイアログを閉じる"
+        },
+        "submit": {
+          "label": "送信",
+          "description": "成績表に送信"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "サポート対象外",
+      "body": "このアクティビティは、HTTPS 経由でサポートされているデバイスでのみ利用できます。"
+    },
+    "countdown": {
+      "title": "カウントダウンを定義",
+      "titleInProgress": "残り時間",
+      "body": "タイマーを設定し、[スタート] ボタンを押してカウントダウンを開始します",
+      "button": {
+        "close": {
+          "label": "キャンセル",
+          "description": "カウントダウンを閉じる"
+        },
+        "pause": {
+          "label": "停止",
+          "description": "カウントダウンを一時停止"
+        },
+        "play": {
+          "label": "再生",
+          "description": "カウントダウンを再開"
+        },
+        "reset": {
+          "label": "リセット",
+          "description": "カウントダウンをリセット"
+        },
+        "start": {
+          "label": "開始",
+          "description": "カウントダウンを開始"
+        },
+        "resume": {
+          "label": "再開",
+          "description": "カウントダウンを再開"
+        }
+      },
+      "titleEditing": "カウントダウンを編集"
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "名前: ",
+      "class": "クラス: ",
+      "title": "タイトル: "
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "あなたのメモ",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "このアクティビティに対してメモが作成されていません。[<q>新しいメモを追加</q>] をクリックして開始してください。",
+        "confirmation": "このアクティビティのすべてのメモを消去してもよろしいですか?",
+        "button": {
+          "new": {
+            "label": "新しいメモを追加",
+            "description": "新しいメモを作成"
+          },
+          "send": {
+            "label": "すべて送信",
+            "description": "すべてのメモを送信"
+          },
+          "print": {
+            "label": "すべて印刷",
+            "description": "すべてのメモを印刷"
+          },
+          "erase": {
+            "label": "すべて消去",
+            "description": "すべてのメモを消去"
+          },
+          "cancel": {
+            "label": "キャンセル",
+            "description": "変更せずに続行"
+          },
+          "ok": {
+            "label": "すべてを消去",
+            "description": "すべてのメモを消去"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "無題のメモ 1",
+        "lastEdited": "最終編集日: ",
+        "undefined": "未定義",
+        "button": {
+          "toggle": {
+            "label": "オプション",
+            "description": ""
+          },
+          "send": {
+            "label": "送信",
+            "description": "メモを送信"
+          },
+          "print": {
+            "label": "印刷",
+            "description": "印刷メモ"
+          },
+          "erase": {
+            "label": "消去",
+            "description": "メモを消去"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "印刷",
+        "description": "このアクティビティを印刷"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "ヒント",
+          "description": "ヒントパネルを開く"
+        },
+        "toggleTurnOff": {
+          "label": "ヒント",
+          "description": "ヒントパネルを閉じる"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "画像を最大化"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "画像を最小化"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "空",
+            "description": "画像を閉じる"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "エクスポート",
+        "description": "メモをエクスポート"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "項目数"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "展開"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "最小化"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "これらの回答から選んでください",
+      "order": "回答を正しい位置に配置してください"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "ワードプールをドラッグして移動"
+        },
+        "dock": {
+          "label": "ドック",
+          "description": "ポジションをリセット"
+        }
+      }
+    },
+    "carousel": {
+      "button": {
+        "next": {
+          "label": "次へ",
+          "description": "プールを右に移動"
+        },
+        "previous": {
+          "label": "前へ",
+          "description": "プールを左に移動"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "質問 {{-enum}}",
+    "openAlert": {
+      "question": "質問 {{-enum}} に回答しています"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "質問",
+    "question": "質問 {{index}}",
+    "openAlert": {
+      "enumQuestion": "質問に回答しています",
+      "question": "質問 {{index}} に回答しています。"
+    },
+    "heading": "質問"
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "文字数",
+        "description": "入力文字数を表示するカウンター"
+      },
+      "words": {
+        "label": "単語",
+        "description": "入力された単語の数を表示するカウンター"
+      },
+      "minChars": {
+        "label": "文字残されています",
+        "description": "最小文字数に達したら、表示するカウンターを減らす"
+      },
+      "minWords": {
+        "label": "単語残されています",
+        "description": "最小単語数に達したら、表示するカウンターを減らす"
+      },
+      "maxChars": {
+        "label": "文字残されています",
+        "description": "最大文字数に達したら、表示するカウンターを減らす"
+      },
+      "maxWords": {
+        "label": "語残されています",
+        "description": "最大単語数に達したら、表示するカウンターを減らす"
+      }
+    },
+    "input": {
+      "text": {
+        "label": "テキスト入力 {{order}}"
+      },
+      "textarea": {
+        "label": "テキストエディタ {{order}}"
+      },
+      "richtext": {
+        "label": "リッチテキストエディタ {{order}}"
+      }
+    },
+    "questionInput": {
+      "text": {
+        "label": "テキストを入力して {{order}} 選択した質問に回答する"
+      },
+      "textarea": {
+        "label": "テキストエディタ {{order}} で選択した質問に回答する"
+      },
+      "richtext": {
+        "label": "リッチテキストエディタ {{order}} で選択した質問に回答する"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "テストタイプ:",
+      "number": "質問数:"
+    },
+    "button": {
+      "continue": {
+        "label": "確認",
+        "description": "アクティビティを開始"
+      }
+    }
+  }
+}

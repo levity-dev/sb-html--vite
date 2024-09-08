@@ -1,0 +1,1616 @@
+{
+  "annotations": {
+    "toolbar": {
+      "label": "Annotations",
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Open tools"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Close tools"
+        },
+        "pointer": {
+          "label": "Select",
+          "description": "Pointer"
+        },
+        "pen": {
+          "label": "Draw",
+          "description": "Pencil"
+        },
+        "brush": {
+          "label": "Highlight",
+          "description": "Highlighter"
+        },
+        "eraser": {
+          "label": "Erase",
+          "description": "Eraser"
+        },
+        "straightLine": {
+          "label": "Add line",
+          "description": "Straight Line"
+        },
+        "shapes": {
+          "label": "Add shape",
+          "description": "Shapes"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "Sticky Notes"
+        },
+        "undo": {
+          "label": "Undo",
+          "description": "Undo"
+        },
+        "redo": {
+          "label": "Redo",
+          "description": "Redo"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "Hide annotations"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "Show annotations"
+        },
+        "richText": {
+          "label": "Add Note",
+          "description": "Add notes"
+        },
+        "textHighlighter": {
+          "label": "Highlight",
+          "description": "Highlighter"
+        }
+      }
+    },
+    "richText": {
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close note"
+        },
+        "delete": {
+          "label": "Delete",
+          "description": "Delete note"
+        },
+        "expand": {
+          "label": "Expand",
+          "description": "Expand note"
+        }
+      },
+      "control": {
+        "handle": {
+          "label": "Drag",
+          "description": "Drag to move note"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Collapse"
+        },
+        "expand": {
+          "label": "",
+          "description": "Expand note"
+        },
+        "delete": {
+          "label": "",
+          "description": "Delete note"
+        }
+      }
+    },
+    "timer": {
+      "title": "Timer",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "display": "Minutes:Seconds",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close timer"
+        },
+        "start": {
+          "label": "Start",
+          "description": "Start timer"
+        },
+        "stop": {
+          "label": "Stop",
+          "description": "Stop timer"
+        }
+      }
+    }
+  },
+  "body": {
+    "ebook": {
+      "page": "page",
+      "pages": "pages"
+    },
+    "figure": {
+      "button": {
+        "label": "Description",
+        "description": "Description"
+      }
+    },
+    "brand": "Avallain",
+    "timer": {
+      "label": "Time remaining:",
+      "negative": "-",
+      "days": "day",
+      "days_plural": "days",
+      "hours": "hour",
+      "hours_plural": "hours",
+      "minutes": "minute",
+      "minutes_plural": "minutes",
+      "seconds": "second",
+      "seconds_plural": "seconds",
+      "extra": "extra",
+      "extra_plural": "extra",
+      "left": "left",
+      "left_plural": "left",
+      "and": "and",
+      "remaining": "remaining"
+    },
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Options",
+          "description": "Open contextual menu"
+        },
+        "toggleTurnOff": {
+          "label": "Options",
+          "description": "Close contextual menu"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "Close"
+      }
+    },
+    "error": {
+      "title": "Error",
+      "code_LO_START": "There was an error loading previously saved data. Please close and try again.",
+      "code_LO_CLOSE": "Error while closing the learning object.",
+      "code_LO_SUBMIT": "Error while submitting the learning object.",
+      "code_LO_SUBMIT_NO_ATTEMPTS": "No more available attempts. Cannot submit the learning object.",
+      "code_LO_SUBMIT_OFFLINE": "Cannot submit learning object while offline. Please check your Internet connection and try again.",
+      "code_LO_SEND_SCORES": "Error while sending scores from the learning object.",
+      "code_LO_SEND_SCORES_NO_ATTEMPTS": "No more available attempts. Cannot send scores.",
+      "unexpected": "There was an unexpected error. Please close and try again."
+    }
+  },
+  "contentElements": {
+    "icTextCorrectionDialog": {
+      "titlePrefix": "Replace: ",
+      "placeholder": "Type correct word(s)",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        },
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "OK",
+          "description": "Apply changes"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "Highlighter color"
+        }
+      }
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "Language",
+          "description": "Language switcher"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "volumeStair": {
+        "prefix": "Volume ",
+        "suffix": ""
+      },
+      "button": {
+        "play": {
+          "label": "Play",
+          "description": "Play {{title}}"
+        },
+        "pause": {
+          "label": "Pause",
+          "description": "Pause"
+        },
+        "skipForward": {
+          "description": "Skip forward"
+        },
+        "skipBack": {
+          "description": "Skip back"
+        },
+        "volume": {
+          "label": "",
+          "description": "Adjust volume"
+        },
+        "mute": {
+          "label": "",
+          "description": "Mute sound"
+        },
+        "speed": {
+          "label": "",
+          "description": "Playback speed"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "Show transcript"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "Hide transcript"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "Show subtitles"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "Hide subtitles"
+        },
+        "quality": {
+          "label": "",
+          "description": "Quality"
+        },
+        "qualityAuto": {
+          "label": "Auto",
+          "description": "Auto"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "Toggle fullscreen"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "Exit fullscreen"
+        },
+        "playbackSpeed1": {
+          "label": "0.5x",
+          "description": "0.5"
+        },
+        "playbackSpeed2": {
+          "label": "0.75x",
+          "description": "0.75"
+        },
+        "playbackSpeed3": {
+          "label": "1.0x",
+          "description": "Normal"
+        },
+        "playbackSpeed4": {
+          "label": "1.25x",
+          "description": "1.25"
+        },
+        "playbackSpeed5": {
+          "label": "1.5x",
+          "description": "1.5"
+        },
+        "playbackSpeed6": {
+          "label": "2.0x",
+          "description": "2"
+        }
+      },
+      "audio": {
+        "description": "Audio: {{title}}"
+      },
+      "video": {
+        "description": "Video: {{title}}"
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "Show all",
+          "description": ""
+        }
+      }
+    }
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "Page ",
+          "conjunction": " of ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "Current page"
+        }
+      },
+      "runningScore": {
+        "prefix": "Score",
+        "conjunction": "/",
+        "suffix": "points"
+      },
+      "resizeTextMenu": {
+        "small": {
+          "label": "Small",
+          "description": "Small"
+        },
+        "medium": {
+          "label": "Medium",
+          "description": "Medium"
+        },
+        "large": {
+          "label": "Large",
+          "description": "Large"
+        },
+        "extraLarge": {
+          "label": "Extra Large",
+          "description": "Extra Large"
+        },
+        "custom": {
+          "label": "Custom",
+          "description": "Custom"
+        }
+      },
+      "button": {
+        "resizeText": {
+          "label": "Resize",
+          "description": "Resize text"
+        },
+        "previous": {
+          "label": "Back",
+          "description": "Go to previous screen"
+        },
+        "forward": {
+          "label": "Continue",
+          "description": "Go to next screen"
+        },
+        "previousLO": {
+          "label": "Previous Activity",
+          "description": "Go to the previous activity"
+        },
+        "forwardLO": {
+          "label": "Next Activity",
+          "description": "Go to the next activity"
+        },
+        "rights": {
+          "label": "Rights",
+          "description": "Open the Rights information"
+        },
+        "signalShow": {
+          "label": "Show incorrect words",
+          "description": "Show incorrect words"
+        },
+        "signalHide": {
+          "label": "Hide incorrect words",
+          "description": "Hide incorrect words"
+        },
+        "answerNext": {
+          "label": "Next answer",
+          "description": "Show next answer"
+        },
+        "answerAll": {
+          "label": "All answers",
+          "description": "Show all answers"
+        },
+        "solutionHint": {
+          "label": "Solution hint",
+          "description": "Show solution hint"
+        },
+        "retry": {
+          "label": "Try again",
+          "description": "Clear answers"
+        },
+        "reveal": {
+          "label": "Reveal",
+          "description": "Reveal hidden item"
+        },
+        "hide": {
+          "label": "Hide",
+          "description": "Hide revealed items"
+        },
+        "save": {
+          "label": "Save",
+          "description": "Save your work"
+        },
+        "boxdrop": {
+          "label": "Drop!",
+          "description": "Drop the current box"
+        },
+        "boxdropPause": {
+          "label": "Pause",
+          "description": "Pause the activity"
+        },
+        "boxdropResume": {
+          "label": "Resume",
+          "description": "Resume the activity"
+        },
+        "quizNew": {
+          "label": "New game",
+          "description": "Restart the game with new questions"
+        },
+        "quizRestart": {
+          "label": "Restart game",
+          "description": "Restart the game with the same questions"
+        },
+        "quizSkip": {
+          "label": "Skip question",
+          "description": "Skip the question and end turn"
+        },
+        "quizBack": {
+          "label": "Back",
+          "description": "Go to game board"
+        },
+        "loNotes": {
+          "label": "Notes",
+          "description": "Show notes"
+        },
+        "micSettings": {
+          "label": "Mic settings",
+          "description": "Open the microphone settings"
+        },
+        "specialChars": {
+          "label": "Special characters",
+          "description": "Open the special characters selector"
+        },
+        "export": {
+          "label": "Export",
+          "description": "Export activity"
+        },
+        "imProofingHint": {
+          "label": "Hint",
+          "description": "Give me a hint"
+        },
+        "hints": {
+          "label": "First Hint",
+          "description": "Give me a hint",
+          "title": "Click to show hints"
+        },
+        "hintsSecond": {
+          "label": "Second Hint"
+        },
+        "hintsThird": {
+          "label": "Third Hint"
+        },
+        "help": {
+          "label": "Help",
+          "description": "Show activity help"
+        },
+        "answers": {
+          "label": "See answers",
+          "description": "Show correct answers"
+        },
+        "check": {
+          "label": "Check answers",
+          "description": "Submit answers for marking"
+        },
+        "reset": {
+          "label": "Reset Slide",
+          "description": "Clear your answers"
+        },
+        "resetAll": {
+          "label": "Clear all",
+          "description": "Clear all your answers"
+        },
+        "fullscreenTurnOn": {
+          "label": "Fullscreen",
+          "description": "Toggle fullscreen",
+          "title": "Full Screen View"
+        },
+        "fullscreenTurnOff": {
+          "label": "Fullscreen",
+          "description": "Exit fullscreen",
+          "title": "Exit Full Screen View"
+        },
+        "toc": {
+          "label": "Table of contents",
+          "description": "Toggle the Table of contents"
+        },
+        "results": {
+          "label": "Results",
+          "description": "Show results"
+        },
+        "sectionTimes": {
+          "label": "Time spent",
+          "description": "See time recommended and spent on each section"
+        },
+        "sendscores": {
+          "label": "Send scores",
+          "description": "Send scores"
+        },
+        "exercises": {
+          "label": "Review",
+          "description": "Review your anwsers"
+        },
+        "submit": {
+          "label": "Submit",
+          "description": "Submit to Gradebook"
+        },
+        "countdown": {
+          "label": "Timer",
+          "description": "Timer tool"
+        },
+        "annotationsOnOff": {
+          "label": "Show Annotations",
+          "description": "Toggle annotations visibiliy"
+        },
+        "contenZoneToggle": {
+          "label": "Content zone toggle",
+          "hidden": {
+            "description": "Show Right Column"
+          },
+          "shown": {
+            "description": "Hide Right Column"
+          }
+        },
+        "richText": {
+          "label": "Notes",
+          "description": "Add note"
+        }
+      }
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "Correct answer"
+    },
+    "wrong": {
+      "description": "Incorrect answer"
+    },
+    "revealed": {
+      "description": "Empty answer"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "Are you sure?",
+      "results": "How did you do?",
+      "feedback": "Feedback",
+      "score": {
+        "prefix": "You scored",
+        "conjunction": "out of"
+      },
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        },
+        "ok": {
+          "label": "Apply",
+          "description": "Apply changes"
+        },
+        "continue": {
+          "label": "Continue",
+          "description": "Continue without changes"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "How did you do?",
+      "body": "You scored {{correct}} out of {{total}}.",
+      "automaticmarked": "Percentage: {{score}}%.",
+      "table": {
+        "header": {
+          "question": "Question",
+          "mark": "Mark"
+        },
+        "body": {
+          "mark": "{{correct}} out of {{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "Continue",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "Feedback",
+      "body": "You scored {{correct}} out of {{total}}.",
+      "button": {
+        "tryAgain": {
+          "label": "Try again",
+          "description": "Clear answers"
+        },
+        "submit": {
+          "label": "Submit",
+          "description": "Submit to Gradebook"
+        },
+        "next": {
+          "label": "Continue",
+          "description": "Go to next screen"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "How did you do?",
+      "body": "You scored <span class=\"checkInfo__score\">{{correct}} out of {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "Understood",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "Select one letter or more"
+    },
+    "imVoiceNoMatch": {
+      "title": "No match found",
+      "body": "Your recording \\\"{{transcript}}\\\" did not match any of the text. Please make a new recording."
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "No match found",
+      "body": "Your recording \\\"{{transcript}}\\\" did not match any of the available answers. Please make a new recording."
+    },
+    "micNotFound": {
+      "title": "Microphone not found",
+      "body": "Please enable a microphone. It is required for this activity."
+    },
+    "testRecording": {
+      "title": "Test recording",
+      "body": "You can test your microphone by making a test recording below. Listen back to your recording to ensure your microphone is working correctly.",
+      "button": {
+        "record": {
+          "label": "Record",
+          "description": "Record a test"
+        },
+        "stopRecording": {
+          "label": "Record",
+          "description": "Stop recording"
+        },
+        "play": {
+          "label": "Playback",
+          "description": "Play back your recording"
+        },
+        "stopPlay": {
+          "label": "Playback",
+          "description": "Stop playback"
+        }
+      },
+      "discard": "Please do not display again."
+    },
+    "close": {
+      "title": "Are you sure?",
+      "body": "Do you really want to close this Learning Object?",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Keep it open"
+        },
+        "ok": {
+          "label": "Close",
+          "description": "Yes, I want to close it"
+        }
+      }
+    },
+    "countdown": {
+      "title": "Timer",
+      "titleInProgress": "Remaining time",
+      "body": "Set up the timer and press <strong>Start</strong> button to launch the countdown",
+      "hours": "Hou",
+      "minutes": "Min",
+      "seconds": "Sec",
+      "button": {
+        "pause": {
+          "label": "Pause",
+          "description": "Pause the countdown"
+        },
+        "play": {
+          "label": "Play",
+          "description": "Resume the countdown"
+        },
+        "reset": {
+          "label": "Reset",
+          "description": "Reset countdown"
+        },
+        "start": {
+          "label": "Start",
+          "description": "Start countdown"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "Feedback",
+      "body": "This activity will be marked on another page. Please continue.",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "Export as",
+      "body": "",
+      "filename": "File name",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "Select the file format",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Export",
+          "description": "Export as"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "First answer"
+    },
+    "helpText": {
+      "title": "Help",
+      "body": "You can edit this text in Author > Project activities > Choose an AT > Edit > Help text.",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "hint": {
+      "title": "Hint",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "infoText": {
+      "title": "Info",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "Transcript"
+      }
+    },
+    "notebook": {
+      "title": "Notebook"
+    },
+    "offlineCheck": {
+      "title": "No connection",
+      "body": "It looks like you do not have an Internet connection at the moment.<br>You cannot submit your work until you are online, so please check your connection and then try again.",
+      "button": {
+        "close": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "Number of teams",
+      "body": "Choose the number of teams for your quiz.",
+      "button": {
+        "ok": {
+          "label": "Start",
+          "description": "Start game"
+        }
+      },
+      "teams": "Teams:"
+    },
+    "reallyReload": {
+      "title": "Are you sure?",
+      "body": "Click Yes to reset this screen",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Yes",
+          "description": "Clear your answers"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "Are you sure?",
+      "body": "Do you want to clear all your answers <strong>in every activity</strong> and start all over again?",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Clear all",
+          "description": "Clear all your answers"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "Are you sure you want to submit?",
+      "body": "You have not completed all the questions.<br>Are you sure you want to submit your scores now?",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without submit"
+        },
+        "ok": {
+          "label": "Submit",
+          "description": "Submit your results"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "Recording error",
+      "body": "A technical error occurred and stopped this recording. Please try again."
+    },
+    "recordingSaveAs": {
+      "title": "Download as",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Download",
+          "description": "Download audio"
+        }
+      }
+    },
+    "rights": {
+      "title": "Rights",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "Are you sure?",
+      "body": "Are you sure you want to see the answers now?<br>You will not be able to have another go.",
+      "button": {
+        "cancel": {
+          "label": "No",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Yes",
+          "description": "See answers"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "Are you sure?",
+      "body": "Are you sure you want to see the answers now?<br>You will receive 0 points for this activity.",
+      "button": {
+        "cancel": {
+          "label": "No",
+          "description": "Continue without changes"
+        },
+        "ok": {
+          "label": "Yes",
+          "description": "See answers"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "Send scores",
+      "body": "Make sure you have clicked <q>Check answers</q> on every activity.",
+      "button": {
+        "cancel": {
+          "label": "Continue",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "Send scores",
+      "body": "Your results have been sent to the markbook.",
+      "score": "You scored {{correct}} out of {{total}}."
+    },
+    "specialCharacters": {
+      "title": "Special characters",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "Close",
+          "description": "Close this dialog"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "Finished",
+      "body": "Well done! You have completed this exercise."
+    },
+    "submitInfo": {
+      "title": "Submitted",
+      "body": "<h2>You scored</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "Answers",
+      "correct": "Correct",
+      "score": "Score",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "You have no more attempts left.",
+            "singular": "You can do better, you have one attempt left. Please go back and press <q>Try again</q>",
+            "plural": "You have {{attemptsLeft}} attempts left. Please go back and press <q>Try again</q> to keep practising."
+          }
+        },
+        "unlimited": "This is your attempt number {{attempts}}. Go back and press <q>Try again</q> to keep practising."
+      },
+      "button": {
+        "close": {
+          "label": "Review answers",
+          "description": "Close this dialog and review answers"
+        }
+      },
+      "perfectScore": "Good job!"
+    },
+    "tableOfContents": {
+      "title": "Choose an activity",
+      "empty": "There are no entries to display.",
+      "button": {
+        "cancel": {
+          "label": "Cancel",
+          "description": "Continue without changes"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "Final scoreboard"
+    },
+    "teamsScoreboard": {
+      "title": "Scoreboard"
+    },
+    "timeSpentInSections": {
+      "title": "Time spent",
+      "table": {
+        "header": {
+          "section": "Section",
+          "recommended": "Recommended",
+          "spent": "Time spent"
+        },
+        "body": {
+          "total": "Total"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "Time out!",
+      "body": "Your time is up!",
+      "button": {
+        "cancel": {
+          "label": "Continue",
+          "description": "Close this dialog"
+        },
+        "submit": {
+          "label": "Submit",
+          "description": "Submit to Gradebook"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "Unsupported",
+      "body": "This activity is only available on supported devices over HTTPS."
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "Name: ",
+      "class": "Class: ",
+      "title": "Title: "
+    }
+  },
+  "interaction": {
+    "shared": {
+      "answerCheckTooltipPrefix": "Your answer: ",
+      "prefilled": "Prefilled answer",
+      "toolbar": {
+        "accessibilityToolbar": {
+          "label": "Accessibility"
+        },
+        "button": {
+          "eraserOn": {
+            "label": "Eraser",
+            "description": "Select erase marker"
+          },
+          "eraserOff": {
+            "label": "Eraser",
+            "description": "Disabled erase marker"
+          },
+          "selected": "Selected",
+          "option": "Option"
+        }
+      },
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span> errors"
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "Options",
+          "description": "Dialog options"
+        },
+        "hideTurnOn": {
+          "label": "Hide my lines",
+          "description": "Hide my lines"
+        },
+        "hideTurnOff": {
+          "label": "Hide my lines",
+          "description": "Show my lines"
+        },
+        "hideAllTurnOn": {
+          "label": "Hide all lines",
+          "description": "Hide all lines"
+        },
+        "hideAllTurnOff": {
+          "label": "Hide all lines",
+          "description": "Show all lines"
+        },
+        "download": {
+          "label": "Download",
+          "description": "Download all"
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "Blank input"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "Insert",
+          "spelling": "Spelling",
+          "grammar": "Grammar"
+        },
+        "placeholder": "Type what to insert",
+        "button": {
+          "close": {
+            "label": "Close",
+            "description": "Close this dialog"
+          },
+          "ok": {
+            "label": "Ok",
+            "description": "Apply changes"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "Proofreading marks",
+            "description": "Proofreading marks"
+          },
+          "eraser": {
+            "label": "Eraser",
+            "description": "Erase marker"
+          },
+          "capitalize": {
+            "label": "Capitalize",
+            "description": "Capitalize"
+          },
+          "lowercase": {
+            "label": "Lowercase",
+            "description": "Lowercase"
+          },
+          "fullStop": {
+            "label": "Add period",
+            "description": "Add period"
+          },
+          "insert": {
+            "label": "Insert",
+            "description": "Insert"
+          },
+          "remove": {
+            "label": "Remove",
+            "description": "Remove"
+          },
+          "newParagraph": {
+            "label": "New paragraph",
+            "description": "New paragraph"
+          },
+          "spelling": {
+            "label": "Spelling",
+            "description": "Spelling"
+          },
+          "grammar": {
+            "label": "Grammar",
+            "description": "Grammar"
+          },
+          "indent": {
+            "label": "Indent",
+            "description": "Indent"
+          }
+        }
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "prefiled": "Prefilled",
+          "correct": "Correct",
+          "wrong": "Wrong",
+          "missing": "Missing"
+        },
+        "checkbox": "Do not display again",
+        "button": {
+          "close": {
+            "label": "Close",
+            "description": "Close key table"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "Team {{label}}",
+        "points": "pts",
+        "categories": "Categories"
+      },
+      "gameOver": {
+        "team": "Team {{label}}",
+        "winners": {
+          "conjunction": "and",
+          "suffix": "wins.",
+          "suffix_plural": "win."
+        },
+        "greeting": "Well done"
+      },
+      "team": {
+        "team": "Team {{label}}"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "Listen"
+        },
+        "pause": {
+          "label": "",
+          "description": "Pause listening"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "Stop listening"
+        },
+        "record": {
+          "label": "Record",
+          "description": "Record audio"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "Pause recording"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "Stop recording"
+        },
+        "speak": {
+          "label": "Speak",
+          "description": "Record audio"
+        },
+        "stopSpeaking": {
+          "label": "Speak",
+          "description": "Stop recording"
+        },
+        "finish": {
+          "label": "",
+          "description": "Finish recording"
+        },
+        "play": {
+          "label": "Play",
+          "description": "Play recording"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "Stop playing"
+        },
+        "download": {
+          "label": "",
+          "description": "Download recording"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "Play dialogue",
+            "description": ""
+          },
+          "pause": {
+            "label": "Play dialogue",
+            "description": "Pause"
+          },
+          "stop": {
+            "label": "",
+            "description": "Stop"
+          },
+          "prev": {
+            "label": "",
+            "description": "Previous"
+          },
+          "next": {
+            "label": "",
+            "description": "Next"
+          }
+        }
+      }
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "Clues",
+        "subtitle_horizontal": "Across",
+        "subtitle_vertical": "Down"
+      },
+      "cell": {
+        "description_horizontal": "Letter {{letterPosition}} of word {{wordReference}}, across",
+        "description_vertical": "Letter {{letterPosition}} of word {{wordReference}}, down"
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "Reset",
+          "description": "Reset this sentence"
+        }
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "Game Over!",
+        "body": "The game has ended.<br>Click <q>Continue</q> to proceed.",
+        "button": {
+          "ok": {
+            "label": "Continue",
+            "description": "Close this dialog"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "Time: ",
+        "points": "Points: "
+      },
+      "timeUp": {
+        "title": "Time out!",
+        "body": "You ran out of time!<br>Click <q>Continue</q> to proceed.",
+        "button": {
+          "ok": {
+            "label": "Continue",
+            "description": "Close this dialog"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "possible answers"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "possible answers"
+      }
+    },
+    "ppSlideshowToolbar": {
+      "button": {
+        "previous": {
+          "label": "Go previous",
+          "description": "Go previous"
+        },
+        "next": {
+          "label": "Go next",
+          "description": "Go next"
+        },
+        "first": {
+          "label": "Go first",
+          "description": "Go first"
+        },
+        "last": {
+          "label": "Go last",
+          "description": "Go last"
+        },
+        "play": {
+          "label": "Play",
+          "description": "Play"
+        },
+        "pause": {
+          "label": "Pause",
+          "description": "Pause"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "Decrease delay"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "Increase delay"
+        },
+        "shuffleOrder": {
+          "label": "Shuffle",
+          "description": "Shuffle"
+        },
+        "defaultOrder": {
+          "label": "Default order",
+          "description": "Default order"
+        },
+        "show": {
+          "label": "Show",
+          "description": "Show decode"
+        },
+        "hide": {
+          "label": "Hide",
+          "description": "Hide decode"
+        }
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "Your answer: "
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "label": "{{count}} attempt left",
+        "label_plural": "{{count}} attempts left",
+        "description": "{{count}} remaining attempt out of {{total}}",
+        "description_plural": "{{count}} remaining attempts out of {{total}}"
+      }
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "Your Notes",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "You haven't made any notes for this activity. Click <q>Add new note</q> to get started.",
+        "confirmation": "Are you sure you want to erase all notes for this activity?",
+        "button": {
+          "new": {
+            "label": "Add new note",
+            "description": "Create new note"
+          },
+          "send": {
+            "label": "Send all",
+            "description": "Send all notes"
+          },
+          "print": {
+            "label": "Print all",
+            "description": "Print all notes"
+          },
+          "erase": {
+            "label": "Erase all",
+            "description": "Erase all notes"
+          },
+          "cancel": {
+            "label": "Cancel",
+            "description": "Continue without changes"
+          },
+          "ok": {
+            "label": "Erase all",
+            "description": "Erase all notes"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "Untitled note 1",
+        "lastEdited": "last edited: ",
+        "undefined": "undefined",
+        "button": {
+          "toggle": {
+            "label": "Options",
+            "description": ""
+          },
+          "send": {
+            "label": "Send",
+            "description": "Send note"
+          },
+          "print": {
+            "label": "Print",
+            "description": "Print note"
+          },
+          "erase": {
+            "label": "Erase",
+            "description": "Erase note"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "Print",
+        "description": "Print this activity"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Clues",
+          "description": "Open clues panel"
+        },
+        "toggleTurnOff": {
+          "label": "Clues",
+          "description": "Close clues panel"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "Maximize image"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "Minimise image"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "Close",
+            "description": "Close this dialog"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "Export",
+        "description": "Export notes"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "Item count"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Expand"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Minimise"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "Choose from these answers",
+      "order": "Place these answers in their correct position"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "Drag to move the wordpool"
+        },
+        "dock": {
+          "label": "Dock",
+          "description": "Reset position"
+        }
+      }
+    },
+    "carousel": {
+      "button": {
+        "next": {
+          "label": "Next",
+          "description": "Move pool right"
+        },
+        "previous": {
+          "label": "Previous",
+          "description": "Move pool left"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "Question {{-enum}}",
+    "openAlert": {
+      "question": "You are answering question {{-enum}}"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "Question ",
+    "question": "Question {{index}}",
+    "openAlert": {
+      "enumQuestion": "You are answering question",
+      "question": "You are answering question {{index}}."
+    }
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "characters",
+        "description": "Counter displaying number of characters input"
+      },
+      "words": {
+        "label": "words",
+        "description": "Counter displaying number of words input"
+      },
+      "minChars": {
+        "label": "characters left",
+        "description": "Decreasing counter to show when minimum character count is reached"
+      },
+      "minWords": {
+        "label": "words left",
+        "description": "Decreasing counter to show when minimum word count is reached"
+      },
+      "maxChars": {
+        "label": "characters left",
+        "description": "Decreasing counter to show when maximum character count is reached"
+      },
+      "maxWords": {
+        "label": "words left",
+        "description": "Decreasing counter to show when maximum word count is reached"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "Test type:",
+      "number": "Number of questions:"
+    },
+    "button": {
+      "continue": {
+        "label": "Confirm",
+        "description": "Start activities"
+      }
+    }
+  },
+  "attachment": {
+    "label": "Attachment",
+    "title": "Show Reference"
+  },
+  "attachmentFullScreenButton": {
+    "expand": {
+      "label": "Expand",
+      "description": "Expand"
+    },
+    "shrink": {
+      "label": "Shrink",
+      "description": "Shrink"
+    }
+  }
+}
