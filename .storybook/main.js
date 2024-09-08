@@ -15,7 +15,7 @@ const config = {
     options: {},
   },
   features: {
-    buildStoriesJson: true
+    buildStoriesJson: true,
   },
 };
 export default config;
