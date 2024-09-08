@@ -12,7 +12,7 @@ export const HangingIndentWNumberBubble = ({
   // HTML template as a string
   return `
     <p style="text-indent:calc(-${bubbleSize} - .5em); margin-left: calc(${bubbleSize} + .5em);"><span style="${spanStyle}">
-    <strong>2</strong></span><strong>${strongText}</strong>${additionalText}</span>
+    <strong>2</strong></span><strong>${strongText}</strong> ${additionalText}</span>
     </p>
   `;
 };
