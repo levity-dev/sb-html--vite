@@ -1,0 +1,11 @@
+/* doc-modify.css */
+/* hide 3rd column, increase size of 4th column in docs */
+
+.docblock-argstable tr th:nth-child(3), .docblock-argstable tr td:nth-child(3) {
+    display: none;
+}
+
+.docblock-argstable tr th:nth-child(4),
+.docblock-argstable tr td:nth-child(4) {
+    width: 40% !important;
+}

@@ -1,4 +1,6 @@
 // HangingIndentWNumberBubble.stories.js
+import "../doc-modify.css";
+
 import { HangingIndentWNumberBubble } from "./HangingIndentWNumberBubble";
 
 // Storybook configuration for HTML
