@@ -1,0 +1,46 @@
+/* annotatedskillbox.css */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans+Mono:wght@100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap");
+
+.noto-mono {
+  font-family: "Noto Sans Mono", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 80;
+  margin: 0 !important;
+  font-size: 18px;
+  padding: 0 !important;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+p {
+  margin: 0.5em 0;
+}
+.mono {
+  font-family: "Noto Sans Mono";
+  /*font-family: "Inconsolata";*/
+  /*font-family: "Reddit Mono";*/
+  /*font-family: "Roboto Mono";*/
+  /*font-family: "Source Code Pro";*/
+  /*font-family: "Spline Sans Mono";*/
+  margin: 0;
+}
+
+.left {
+  float: left;
+  width: auto;
+  display: inline-block;
+}
+
+.right {
+  flot: left;
+  width: auto;
+  display: inline-block;
+}
