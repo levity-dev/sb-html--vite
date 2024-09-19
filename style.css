@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    --lo-font-size-factor-1: 0.01375;
+      --lo-font-size-factor-2: 0.0175;
+      --lo-font-size-factor-3: 0.02;
+      --lo-font-size-factor-4: 0.02375;
 }
 
 a {

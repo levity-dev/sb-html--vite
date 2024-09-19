@@ -9,8 +9,8 @@ const preview = {
     },
     options: {
       storySort: {
-        method: 'alphabetical',
-        order: ["Global", "Our World", "Voices", "Pathways", '*'],
+        method: "alphabetical",
+        order: ["Global", "Our World", "Voices", "Pathways", "*"],
       },
     },
   },
@@ -22,10 +22,12 @@ const preview = {
       // Wrap the story content in a container with the `learningObject` class
       // This is done dynamically after the content is rendered
       setTimeout(() => {
-        const storyElement = document.querySelector("#storybook-root"); // Target the Storybook story container
+        const storyElement =
+          document.querySelector(".docs-story") ||
+          document.querySelector("#storybook-root"); // Target the Storybook story container
         if (storyElement) {
           const wrapper = document.createElement("div");
-          wrapper.className = "learningObject";
+          wrapper.className = "lo-fontsize-1 activity__content";
 
           // Move the existing content into the new wrapper
           while (storyElement.firstChild) {
@@ -36,7 +38,15 @@ const preview = {
           storyElement.appendChild(wrapper);
         }
       }, 0);
+      document.addEventListener("DOMContentLoaded", function () {
+        // Select the figure element
+        const figureElement = document.querySelector("figure");
 
+        // Add the class 'figure-texts' to the figure element
+        if (figureElement) {
+          figureElement.classList.add("figure-texts");
+        }
+      });
       return storyContent;
     },
   ],

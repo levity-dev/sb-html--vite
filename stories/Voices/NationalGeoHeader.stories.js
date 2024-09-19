@@ -1,4 +1,4 @@
-// NationalGeoHeader.Stories.js
+// NationalGeoHeader.stories.js
 import { NationalGeoHeader } from './NationalGeoHeader'
 
 export default {
