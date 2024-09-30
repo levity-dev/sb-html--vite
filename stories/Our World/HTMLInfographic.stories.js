@@ -3,7 +3,7 @@ import { HTMLInfographic } from './HTMLInfographic'
 
 export default {
     title: 'Our World/Full HTML Infographic Demo',
-    tags: ['autodocs'],
+    tags: [''],
 };
 
 const Template = (args) => {

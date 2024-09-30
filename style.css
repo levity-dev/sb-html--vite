@@ -111,3 +111,7 @@ body {
 .prismjs div.language-html:first-child {
   text-wrap: wrap !important;
 }
+
+.language-css {
+  text-wrap: wrap !important;
+}
